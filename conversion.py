@@ -1,5 +1,3 @@
-from json import dump, loads
-
 def convert(word, ctype='CYRtoLAT', direction=""):
     if ctype == 'LATtoASC':
         dic = {
@@ -312,11 +310,3 @@ def convert(word, ctype='CYRtoLAT', direction=""):
             word = word.replace(key, dic[key])
 
     return word
-
-
-
-with open("old.json", "r", encoding="utf-8")as of, open("prevedno.jsonl", "w", encoding="utf-8") as f:
-    json = loads(of.read())
-    for x in json:
-        json[x] = convert(json[x] ,"ASCtoCYR")
-    dump(json, f, ensure_ascii=False)
