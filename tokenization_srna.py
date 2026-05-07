@@ -58,7 +58,7 @@ class SrnaTokenizer():
         self.PRETOKENIZE_REGEX = r"""(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\r\n\p{L}\p{N}]?[\p{L}\p{M}]+|\p{N}| ?[^\s\p{L}\p{M}\p{N}]+[\r\n]*|\s*[\r\n]+|\s+(?!\S)|\s+"""
         self.CYRILLIC_REGEX = r"\s?\p{Cyrillic}[^\p{Latin}]*"
         self.CLEANUP_FIND = rf"(\s+){regex.escape(self.eoc_token)}"
-        self.CLEANUP_REPLACE = rf"{regex.escape(self.eoc_token)}\1"
+        self.CLEANUP_REPLACE = rf"{self.eoc_token}\1"
         self.CAPITAL_REGEX = r"\s?\b\p{Lu}\p{Ll}+\b"
         self.UPPER_REGEX = r"\s?\b\p{Lu}{2,}\b"
         self.UP_FIND = rf"{regex.escape(self.up_token)}(\s?\w+)"
