@@ -12,11 +12,11 @@ latin = True
 base_bpe= False
 srna = False
 original_bpe = True
-tanja_bpe = True
+MiRe_bpe = True
 end_suffix = "Ġ"
 initial_alphabet=pre_tokenizers.ByteLevel.alphabet()
 special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"]
-tanja_cutoff = 750
+MiRe_cutoff = 768
 
 
 def get_dataset(latin, test=False):
@@ -102,7 +102,7 @@ def train_original_bpe(dataset, latin=True):
         tokenizer.save("tokenizers/original_bpe_c.json")
 
 
-def train_tanja_bpe(dataset, latin=True):
+def train_MiRe_bpe(dataset, latin=True):
     if latin:
         with open("tokenizers/original_bpe.json", "r", encoding="utf-8") as f:
             data = load(f)
@@ -112,7 +112,7 @@ def train_tanja_bpe(dataset, latin=True):
 
     original_vocab = data["model"]["vocab"]
     sorted_vocab = sorted(original_vocab.items(), key=lambda x: x[1])
-    new_vocab = {token: idx for token, idx in sorted_vocab[:tanja_cutoff]}
+    new_vocab = {token: idx for token, idx in sorted_vocab[:MiRe_cutoff]}
     data["model"]["vocab"] = new_vocab
 
     if "merges" in data["model"]:
@@ -146,7 +146,7 @@ def train_tanja_bpe(dataset, latin=True):
             counter["".join(seq)] += 1
 
     scores = {seq: freq * len(seq) for seq, freq in counter.items()}
-    top_sequences = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:vocab_size-tanja_cutoff]
+    top_sequences = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:vocab_size-MiRe_cutoff]
     new_tokens = [seq for seq, _ in top_sequences]
 
     for token in new_tokens:
@@ -161,15 +161,15 @@ def train_tanja_bpe(dataset, latin=True):
     tokenizer = Tokenizer.from_file("temp.json")
 
     if latin:
-        tokenizer.save("tokenizers/tanja_bpe.json")
+        tokenizer.save("tokenizers/MiRe_bpe.json")
     else:
-        tokenizer.save("tokenizers/tanja_bpe_c.json")
+        tokenizer.save("tokenizers/MiRe_bpe_c.json")
 
 for x in [True, False]:
     dataset = get_dataset(x)
     #dataset = dataset.select(range(1000))
 
-    train_bpe(dataset, x)
-    train_srna(dataset, x)
-    train_original_bpe(dataset, x)
-    train_tanja_bpe(dataset, x)
+    #train_bpe(dataset, x)
+    #train_srna(dataset, x)
+    #train_original_bpe(dataset, x)
+    train_MiRe_bpe(dataset, x)
