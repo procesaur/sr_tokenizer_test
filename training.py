@@ -4,6 +4,7 @@ from collections import Counter
 from tokenization_srna import SrnaTokenizer
 from tqdm import tqdm
 from json import load, dump
+from multiprocessing import Pool
 
 
 vocab_size = 30000
@@ -17,6 +18,8 @@ end_suffix = "Ġ"
 initial_alphabet=pre_tokenizers.ByteLevel.alphabet()
 special_tokens=["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"]
 MiRe_cutoff = 768
+
+tokenizer = None
 
 
 def get_dataset(latin, test=False):
@@ -102,7 +105,35 @@ def train_original_bpe(dataset, latin=True):
         tokenizer.save("tokenizers/original_bpe_c.json")
 
 
+def process_example(example):
+    local_counter = Counter()
+    whitespace_list = example["text"].split(" ")
+    for item in whitespace_list:
+        encoded = tokenizer.encode(item)
+        tokens = encoded.tokens
+        seq = []
+        for tok in tokens:
+            if len(tok) == 1 and tok != end_suffix:
+                seq.append(tok)
+            else:
+                if tok == end_suffix:
+                    seq.append(tok)
+                if len(seq) > 1:
+                    local_counter["".join(seq)] += 1
+                seq = []
+        if len(seq) > 1:
+            local_counter["".join(seq)] += 1
+    return local_counter
+
+
+def init_worker(tokenizerx, suffix):
+    global tokenizer, end_suffix
+    tokenizer = tokenizerx
+    end_suffix = suffix
+
+
 def train_MiRe_bpe(dataset, latin=True):
+    global tokenizer
     if latin:
         with open("tokenizers/original_bpe.json", "r", encoding="utf-8") as f:
             data = load(f)
@@ -123,27 +154,12 @@ def train_MiRe_bpe(dataset, latin=True):
 
     tokenizer = Tokenizer.from_file("temp.json")
     current_id = tokenizer.get_vocab_size()
-    print(f"New Vocab Size: {current_id}")
 
+    with Pool(processes=28, initializer=init_worker, initargs=(tokenizer, end_suffix)) as pool:
+        results = list(tqdm(pool.imap(process_example, dataset), total=len(dataset)))
     counter = Counter()
-    for example in tqdm(dataset, total=len(dataset)):
-        encoded = tokenizer.encode(example["text"])
-        tokens = encoded.tokens
-        
-        # Look for sequences of single characters (unmerged)
-        seq = []
-        for tok in tokens:
-            if len(tok) == 1 and tok != end_suffix:  # raw char
-                seq.append(tok)
-            else:
-                if tok == end_suffix:
-                    seq.append(tok)
-                if len(seq) > 1 :
-                    counter["".join(seq)] += 1
-                seq = []
-        # handle trailing sequence
-        if len(seq) > 1:
-            counter["".join(seq)] += 1
+    for c in results:
+        counter.update(c)
 
     scores = {seq: freq * len(seq) for seq, freq in counter.items()}
     top_sequences = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:vocab_size-MiRe_cutoff]
@@ -165,11 +181,13 @@ def train_MiRe_bpe(dataset, latin=True):
     else:
         tokenizer.save("tokenizers/MiRe_bpe_c.json")
 
-for x in [True, False]:
-    dataset = get_dataset(x)
-    #dataset = dataset.select(range(1000))
 
-    #train_bpe(dataset, x)
-    #train_srna(dataset, x)
-    #train_original_bpe(dataset, x)
-    train_MiRe_bpe(dataset, x)
+if __name__ == "__main__":
+    for x in [True, False]:
+        dataset = get_dataset(latin=x)
+        #dataset = dataset.select(range(1000))
+
+        train_bpe(dataset, latin=x)
+        train_srna(dataset, latin=x)
+        train_original_bpe(dataset, latin=x)
+        train_MiRe_bpe(dataset, latin=x)
