@@ -1,0 +1,5 @@
+{
+  "method": "bytes",
+  "byte_counting": "hf_bytelevel",
+  "include_empty_splits": false
+}

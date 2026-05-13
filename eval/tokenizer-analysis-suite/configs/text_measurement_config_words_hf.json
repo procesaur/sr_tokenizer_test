@@ -1,0 +1,5 @@
+{
+  "method": "words",
+  "word_counting": "hf_whitespace",
+  "include_empty_splits": false
+}

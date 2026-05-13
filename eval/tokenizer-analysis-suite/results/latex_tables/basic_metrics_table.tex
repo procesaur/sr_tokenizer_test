@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\caption{Basic Tokenization Metrics}
+\label{tab:basic_metrics}
+% Requires \usepackage{makecell} in preamble
+\begin{tabular}{lccccc}
+\toprule
+Tokenizer & Fertility & \makecell{Vocab \\ Utilization} & \makecell{Type-Token \\ Ratio} & Token Length & Tokens per Line \\
+\midrule
+bpe & 0.884 & 2.8\% & 0.0009 & 0.62 & 225.7 \\
+bpe\_c & \textbf{0.230} & \textbf{13.8\%} & \textbf{0.0177} & \textbf{2.40} & 58.4 \\
+original\_bpe & 0.884 & 2.9\% & 0.0009 & 0.62 & 225.6 \\
+original\_bpe\_c & 0.230 & 13.1\% & 0.0168 & 2.39 & 58.5 \\
+MiRe\_bpe & 0.926 & 1.2\% & 0.0004 & 0.59 & \textbf{236.4} \\
+MiRe\_bpe\_c & 0.916 & 1.2\% & 0.0004 & 0.60 & 233.9 \\
+\bottomrule
+\end{tabular}
+\end{table}

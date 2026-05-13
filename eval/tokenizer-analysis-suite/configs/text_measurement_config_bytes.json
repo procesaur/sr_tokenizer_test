@@ -1,0 +1,5 @@
+{
+  "method": "bytes",
+  "byte_counting": "utf8",
+  "include_empty_splits": false
+}

@@ -1,0 +1,5 @@
+{
+  "method": "lines",
+  "line_counting": "single",
+  "include_empty_splits": false
+}

@@ -1,0 +1,1934 @@
+{
+  "fertility": {
+    "per_tokenizer": {
+      "bpe": {
+        "global": {
+          "mean": 0.883741536576644,
+          "median": 0.8863190730837789,
+          "std": 0.0207209091714486,
+          "count": 4000
+        },
+        "per_language": {
+          "srp_Latn": {
+            "mean": 0.883741536576644,
+            "median": 0.8863190730837789,
+            "std": 0.0207209091714486,
+            "std_err": 0.00046344949148886984,
+            "min": 0.7434782608695653,
+            "max": 0.9454545454545454,
+            "count": 2000,
+            "sum": 1767.4830731532877
+          },
+          "srp_Cyrl": {
+            "mean": 0.883741536576644,
+            "median": 0.8863190730837789,
+            "std": 0.0207209091714486,
+            "std_err": 0.00046344949148886984,
+            "min": 0.7434782608695653,
+            "max": 0.9454545454545454,
+            "count": 2000,
+            "sum": 1767.4830731532877
+          }
+        }
+      },
+      "bpe_c": {
+        "global": {
+          "mean": 0.2301838251871107,
+          "median": 0.22897873493159962,
+          "std": 0.021832434571654166,
+          "count": 4000
+        },
+        "per_language": {
+          "srp_Latn": {
+            "mean": 0.2301838251871107,
+            "median": 0.22897873493159962,
+            "std": 0.021832434571654166,
+            "std_err": 0.0004883101709716041,
+            "min": 0.16535433070866143,
+            "max": 0.3269230769230769,
+            "count": 2000,
+            "sum": 460.36765037422134
+          },
+          "srp_Cyrl": {
+            "mean": 0.2301838251871107,
+            "median": 0.22897873493159962,
+            "std": 0.021832434571654166,
+            "std_err": 0.0004883101709716041,
+            "min": 0.16535433070866143,
+            "max": 0.3269230769230769,
+            "count": 2000,
+            "sum": 460.36765037422134
+          }
+        }
+      },
+      "original_bpe": {
+        "global": {
+          "mean": 0.8835234288855197,
+          "median": 0.8858878027429239,
+          "std": 0.02081850018648251,
+          "count": 4000
+        },
+        "per_language": {
+          "srp_Latn": {
+            "mean": 0.8835234288855197,
+            "median": 0.8858878027429239,
+            "std": 0.02081850018648251,
+            "std_err": 0.0004656322386799857,
+            "min": 0.7347826086956522,
+            "max": 0.9454545454545454,
+            "count": 2000,
+            "sum": 1767.0468577710394
+          },
+          "srp_Cyrl": {
+            "mean": 0.8835234288855197,
+            "median": 0.8858878027429239,
+            "std": 0.02081850018648251,
+            "std_err": 0.0004656322386799857,
+            "min": 0.7347826086956522,
+            "max": 0.9454545454545454,
+            "count": 2000,
+            "sum": 1767.0468577710394
+          }
+        }
+      },
+      "original_bpe_c": {
+        "global": {
+          "mean": 0.23023721503337066,
+          "median": 0.22900763358778625,
+          "std": 0.02154872800989969,
+          "count": 4000
+        },
+        "per_language": {
+          "srp_Latn": {
+            "mean": 0.23023721503337066,
+            "median": 0.22900763358778625,
+            "std": 0.02154872800989969,
+            "std_err": 0.0004819647128312662,
+            "min": 0.16751269035532995,
+            "max": 0.33653846153846156,
+            "count": 2000,
+            "sum": 460.4744300667413
+          },
+          "srp_Cyrl": {
+            "mean": 0.23023721503337066,
+            "median": 0.22900763358778625,
+            "std": 0.02154872800989969,
+            "std_err": 0.0004819647128312662,
+            "min": 0.16751269035532995,
+            "max": 0.33653846153846156,
+            "count": 2000,
+            "sum": 460.4744300667413
+          }
+        }
+      },
+      "MiRe_bpe": {
+        "global": {
+          "mean": 0.9255656460182256,
+          "median": 0.9275085739572961,
+          "std": 0.01287300199880609,
+          "count": 4000
+        },
+        "per_language": {
+          "srp_Latn": {
+            "mean": 0.9255656460182256,
+            "median": 0.9275085739572961,
+            "std": 0.01287300199880609,
+            "std_err": 0.0002879210647041702,
+            "min": 0.8526315789473684,
+            "max": 0.9636363636363636,
+            "count": 2000,
+            "sum": 1851.1312920364512
+          },
+          "srp_Cyrl": {
+            "mean": 0.9255656460182256,
+            "median": 0.9275085739572961,
+            "std": 0.01287300199880609,
+            "std_err": 0.0002879210647041702,
+            "min": 0.8526315789473684,
+            "max": 0.9636363636363636,
+            "count": 2000,
+            "sum": 1851.1312920364512
+          }
+        }
+      },
+      "MiRe_bpe_c": {
+        "global": {
+          "mean": 0.9155920138067423,
+          "median": 0.9177560378218272,
+          "std": 0.01749904977304048,
+          "count": 4000
+        },
+        "per_language": {
+          "srp_Latn": {
+            "mean": 0.9155920138067423,
+            "median": 0.9177560378218272,
+            "std": 0.01749904977304048,
+            "std_err": 0.00039138850770258305,
+            "min": 0.7926829268292683,
+            "max": 0.9636363636363636,
+            "count": 2000,
+            "sum": 1831.1840276134844
+          },
+          "srp_Cyrl": {
+            "mean": 0.9155920138067423,
+            "median": 0.9177560378218272,
+            "std": 0.01749904977304048,
+            "std_err": 0.00039138850770258305,
+            "min": 0.7926829268292683,
+            "max": 0.9636363636363636,
+            "count": 2000,
+            "sum": 1831.1840276134844
+          }
+        }
+      }
+    },
+    "pairwise_comparisons": {
+      "bpe_vs_bpe_c": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "bpe_c",
+        "value_1": 0.883741536576644,
+        "value_2": 0.2301838251871107,
+        "difference": 0.6535577113895333,
+        "ratio": 3.839285996130582,
+        "percent_difference": 117.34317824575075
+      },
+      "bpe_vs_original_bpe": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "original_bpe",
+        "value_1": 0.883741536576644,
+        "value_2": 0.8835234288855197,
+        "difference": 0.00021810769112429185,
+        "ratio": 1.0002468612421511,
+        "percent_difference": 0.024683077567517298
+      },
+      "bpe_vs_original_bpe_c": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.883741536576644,
+        "value_2": 0.23023721503337066,
+        "difference": 0.6535043215432733,
+        "ratio": 3.8383957017919723,
+        "percent_difference": 117.32796888608057
+      },
+      "bpe_vs_MiRe_bpe": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "MiRe_bpe",
+        "value_1": 0.883741536576644,
+        "value_2": 0.9255656460182256,
+        "difference": -0.04182410944158155,
+        "ratio": 0.9548123791958912,
+        "percent_difference": 4.623218195773513
+      },
+      "bpe_vs_MiRe_bpe_c": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.883741536576644,
+        "value_2": 0.9155920138067423,
+        "difference": -0.03185047723009826,
+        "ratio": 0.9652132426344852,
+        "percent_difference": 3.540252692260625
+      },
+      "bpe_c_vs_original_bpe": {
+        "tokenizer_1": "bpe_c",
+        "tokenizer_2": "original_bpe",
+        "value_1": 0.2301838251871107,
+        "value_2": 0.8835234288855197,
+        "difference": -0.653339603698409,
+        "ratio": 0.26052939589555146,
+        "percent_difference": 117.32699078851496
+      },
+      "bpe_c_vs_original_bpe_c": {
+        "tokenizer_1": "bpe_c",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.2301838251871107,
+        "value_2": 0.23023721503337066,
+        "difference": -5.338984625996579e-05,
+        "ratio": 0.9997681093985947,
+        "percent_difference": 0.023191749114853243
+      },
+      "bpe_c_vs_MiRe_bpe": {
+        "tokenizer_1": "bpe_c",
+        "tokenizer_2": "MiRe_bpe",
+        "value_1": 0.2301838251871107,
+        "value_2": 0.9255656460182256,
+        "difference": -0.6953818208311149,
+        "ratio": 0.2486952991150431,
+        "percent_difference": 120.33435241045763
+      },
+      "bpe_c_vs_MiRe_bpe_c": {
+        "tokenizer_1": "bpe_c",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.2301838251871107,
+        "value_2": 0.9155920138067423,
+        "difference": -0.6854081886196316,
+        "ratio": 0.2514043610211049,
+        "percent_difference": 119.64088703799396
+      },
+      "original_bpe_vs_original_bpe_c": {
+        "tokenizer_1": "original_bpe",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.8835234288855197,
+        "value_2": 0.23023721503337066,
+        "difference": 0.653286213852149,
+        "ratio": 3.8374483845170797,
+        "percent_difference": 117.31177922636753
+      },
+      "original_bpe_vs_MiRe_bpe": {
+        "tokenizer_1": "original_bpe",
+        "tokenizer_2": "MiRe_bpe",
+        "value_1": 0.8835234288855197,
+        "value_2": 0.9255656460182256,
+        "difference": -0.04204221713270584,
+        "ratio": 0.9545767311982991,
+        "percent_difference": 4.647888013468076
+      },
+      "original_bpe_vs_MiRe_bpe_c": {
+        "tokenizer_1": "original_bpe",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.8835234288855197,
+        "value_2": 0.9155920138067423,
+        "difference": -0.032068584921222554,
+        "ratio": 0.9649750277005023,
+        "percent_difference": 3.564927981856901
+      },
+      "original_bpe_c_vs_MiRe_bpe": {
+        "tokenizer_1": "original_bpe_c",
+        "tokenizer_2": "MiRe_bpe",
+        "value_1": 0.23023721503337066,
+        "value_2": 0.9255656460182256,
+        "difference": -0.6953284309848549,
+        "ratio": 0.24875298259377812,
+        "percent_difference": 120.31955524875875
+      },
+      "original_bpe_c_vs_MiRe_bpe_c": {
+        "tokenizer_1": "original_bpe_c",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.23023721503337066,
+        "value_2": 0.9155920138067423,
+        "difference": -0.6853547987733716,
+        "ratio": 0.25146267285154345,
+        "percent_difference": 119.62599338945732
+      },
+      "MiRe_bpe_vs_MiRe_bpe_c": {
+        "tokenizer_1": "MiRe_bpe",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.9255656460182256,
+        "value_2": 0.9155920138067423,
+        "difference": 0.009973632211483285,
+        "ratio": 1.0108930965551086,
+        "percent_difference": 1.083408817084295
+      }
+    },
+    "per_language": {}
+  },
+  "token_length": {
+    "per_tokenizer": {
+      "bpe": {},
+      "bpe_c": {},
+      "original_bpe": {},
+      "original_bpe_c": {},
+      "MiRe_bpe": {},
+      "MiRe_bpe_c": {}
+    }
+  },
+  "vocabulary_utilization": {
+    "per_tokenizer": {
+      "bpe": {
+        "global_utilization": 0.027766666666666665,
+        "per_language": {
+          "srp_Latn": {
+            "utilization": 0.027766666666666665,
+            "used_tokens": 833,
+            "vocab_size": 30000,
+            "unused_tokens": 29167
+          },
+          "srp_Cyrl": {
+            "utilization": 0.027766666666666665,
+            "used_tokens": 833,
+            "vocab_size": 30000,
+            "unused_tokens": 29167
+          }
+        }
+      },
+      "bpe_c": {
+        "global_utilization": 0.13793333333333332,
+        "per_language": {
+          "srp_Latn": {
+            "utilization": 0.13793333333333332,
+            "used_tokens": 4138,
+            "vocab_size": 30000,
+            "unused_tokens": 25862
+          },
+          "srp_Cyrl": {
+            "utilization": 0.13793333333333332,
+            "used_tokens": 4138,
+            "vocab_size": 30000,
+            "unused_tokens": 25862
+          }
+        }
+      },
+      "original_bpe": {
+        "global_utilization": 0.028566666666666667,
+        "per_language": {
+          "srp_Latn": {
+            "utilization": 0.028566666666666667,
+            "used_tokens": 857,
+            "vocab_size": 30000,
+            "unused_tokens": 29143
+          },
+          "srp_Cyrl": {
+            "utilization": 0.028566666666666667,
+            "used_tokens": 857,
+            "vocab_size": 30000,
+            "unused_tokens": 29143
+          }
+        }
+      },
+      "original_bpe_c": {
+        "global_utilization": 0.13126666666666667,
+        "per_language": {
+          "srp_Latn": {
+            "utilization": 0.13126666666666667,
+            "used_tokens": 3938,
+            "vocab_size": 30000,
+            "unused_tokens": 26062
+          },
+          "srp_Cyrl": {
+            "utilization": 0.13126666666666667,
+            "used_tokens": 3938,
+            "vocab_size": 30000,
+            "unused_tokens": 26062
+          }
+        }
+      },
+      "MiRe_bpe": {
+        "global_utilization": 0.011996916993398344,
+        "per_language": {
+          "srp_Latn": {
+            "utilization": 0.011996916993398344,
+            "used_tokens": 358,
+            "vocab_size": 29841,
+            "unused_tokens": 29483
+          },
+          "srp_Cyrl": {
+            "utilization": 0.011996916993398344,
+            "used_tokens": 358,
+            "vocab_size": 29841,
+            "unused_tokens": 29483
+          }
+        }
+      },
+      "MiRe_bpe_c": {
+        "global_utilization": 0.012072367321004581,
+        "per_language": {
+          "srp_Latn": {
+            "utilization": 0.012072367321004581,
+            "used_tokens": 361,
+            "vocab_size": 29903,
+            "unused_tokens": 29542
+          },
+          "srp_Cyrl": {
+            "utilization": 0.012072367321004581,
+            "used_tokens": 361,
+            "vocab_size": 29903,
+            "unused_tokens": 29542
+          }
+        }
+      }
+    }
+  },
+  "type_token_ratio": {
+    "per_tokenizer": {
+      "bpe": {
+        "global_ttr": 0.0009227667493796526
+      },
+      "bpe_c": {
+        "global_ttr": 0.017701765043078
+      },
+      "original_bpe": {
+        "global_ttr": 0.0009495971137566372
+      },
+      "original_bpe_c": {
+        "global_ttr": 0.01683438352299445
+      },
+      "MiRe_bpe": {
+        "global_ttr": 0.00037863243885826456
+      },
+      "MiRe_bpe_c": {
+        "global_ttr": 0.0003858709245723887
+      }
+    },
+    "per_language": {
+      "srp_Latn": {
+        "bpe": 0.0018455334987593052,
+        "bpe_c": 0.035403530086156,
+        "original_bpe": 0.0018991942275132744,
+        "original_bpe_c": 0.0336687670459889,
+        "MiRe_bpe": 0.0007572648777165291,
+        "MiRe_bpe_c": 0.0007717418491447774
+      },
+      "srp_Cyrl": {
+        "bpe": 0.0018455334987593052,
+        "bpe_c": 0.035403530086156,
+        "original_bpe": 0.0018991942275132744,
+        "original_bpe_c": 0.0336687670459889,
+        "MiRe_bpe": 0.0007572648777165291,
+        "MiRe_bpe_c": 0.0007717418491447774
+      }
+    }
+  },
+  "avg_tokens_per_line": {
+    "per_tokenizer": {
+      "bpe": {
+        "global_avg": 225.68
+      },
+      "bpe_c": {
+        "global_avg": 58.4405
+      },
+      "original_bpe": {
+        "global_avg": 225.622
+      },
+      "original_bpe_c": {
+        "global_avg": 58.4815
+      },
+      "MiRe_bpe": {
+        "global_avg": 236.377
+      },
+      "MiRe_bpe_c": {
+        "global_avg": 233.8865
+      }
+    }
+  },
+  "compression_ratio": {
+    "per_tokenizer": {
+      "bpe": {
+        "global": {
+          "mean": 0.00510833779345398,
+          "median": 0.004608294930875576,
+          "std": 0.0022152022665429677,
+          "count": 4000
+        },
+        "per_language": {
+          "srp_Latn": 0.00510833779345398,
+          "srp_Cyrl": 0.00510833779345398
+        }
+      },
+      "bpe_c": {
+        "global": {
+          "mean": 0.019660326376130074,
+          "median": 0.017857142857142856,
+          "std": 0.00846937231814272,
+          "count": 4000
+        },
+        "per_language": {
+          "srp_Latn": 0.019660326376130074,
+          "srp_Cyrl": 0.019660326376130074
+        }
+      },
+      "original_bpe": {
+        "global": {
+          "mean": 0.005109514687514569,
+          "median": 0.004608294930875576,
+          "std": 0.002215126437233247,
+          "count": 4000
+        },
+        "per_language": {
+          "srp_Latn": 0.005109514687514569,
+          "srp_Cyrl": 0.005109514687514569
+        }
+      },
+      "original_bpe_c": {
+        "global": {
+          "mean": 0.01966749131856578,
+          "median": 0.017857142857142856,
+          "std": 0.008531036124512743,
+          "count": 4000
+        },
+        "per_language": {
+          "srp_Latn": 0.01966749131856578,
+          "srp_Cyrl": 0.01966749131856578
+        }
+      },
+      "MiRe_bpe": {
+        "global": {
+          "mean": 0.004876663496772453,
+          "median": 0.004395625627946518,
+          "std": 0.0021205471059267448,
+          "count": 4000
+        },
+        "per_language": {
+          "srp_Latn": 0.004876663496772453,
+          "srp_Cyrl": 0.004876663496772453
+        }
+      },
+      "MiRe_bpe_c": {
+        "global": {
+          "mean": 0.004932802380659719,
+          "median": 0.004424778761061947,
+          "std": 0.0021555064208070088,
+          "count": 4000
+        },
+        "per_language": {
+          "srp_Latn": 0.004932802380659719,
+          "srp_Cyrl": 0.004932802380659719
+        }
+      }
+    },
+    "pairwise_comparisons": {
+      "bpe_vs_bpe_c": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "bpe_c",
+        "value_1": 0.00510833779345398,
+        "value_2": 0.019660326376130074,
+        "difference": -0.014551988582676093,
+        "ratio": 0.2598297554030485,
+        "percent_difference": 117.50321683109539
+      },
+      "bpe_vs_original_bpe": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "original_bpe",
+        "value_1": 0.00510833779345398,
+        "value_2": 0.005109514687514569,
+        "difference": -1.1768940605888858e-06,
+        "ratio": 0.9997696661752505,
+        "percent_difference": 0.023036035464025963
+      },
+      "bpe_vs_original_bpe_c": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.00510833779345398,
+        "value_2": 0.01966749131856578,
+        "difference": -0.0145591535251118,
+        "ratio": 0.25973509842771836,
+        "percent_difference": 117.52707414379574
+      },
+      "bpe_vs_MiRe_bpe": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "MiRe_bpe",
+        "value_1": 0.00510833779345398,
+        "value_2": 0.004876663496772453,
+        "difference": 0.00023167429668152686,
+        "ratio": 1.047506721928806,
+        "percent_difference": 4.640446003913798
+      },
+      "bpe_vs_MiRe_bpe_c": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.00510833779345398,
+        "value_2": 0.004932802380659719,
+        "difference": 0.00017553541279426068,
+        "ratio": 1.0355853324841253,
+        "percent_difference": 3.4963243167702247
+      },
+      "bpe_c_vs_original_bpe": {
+        "tokenizer_1": "bpe_c",
+        "tokenizer_2": "original_bpe",
+        "value_1": 0.019660326376130074,
+        "value_2": 0.005109514687514569,
+        "difference": 0.014550811688615505,
+        "ratio": 3.847787427673192,
+        "percent_difference": 117.48813124176336
+      },
+      "bpe_c_vs_original_bpe_c": {
+        "tokenizer_1": "bpe_c",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.019660326376130074,
+        "value_2": 0.01966749131856578,
+        "difference": -7.16494243570634e-06,
+        "ratio": 0.9996356961688885,
+        "percent_difference": 0.036437020184177035
+      },
+      "bpe_c_vs_MiRe_bpe": {
+        "tokenizer_1": "bpe_c",
+        "tokenizer_2": "MiRe_bpe",
+        "value_1": 0.019660326376130074,
+        "value_2": 0.004876663496772453,
+        "difference": 0.014783662879357621,
+        "ratio": 4.031511788570601,
+        "percent_difference": 120.50103094091413
+      },
+      "bpe_c_vs_MiRe_bpe_c": {
+        "tokenizer_1": "bpe_c",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.019660326376130074,
+        "value_2": 0.004932802380659719,
+        "difference": 0.014727523995470355,
+        "ratio": 3.9856302480742554,
+        "percent_difference": 119.76942129743703
+      },
+      "original_bpe_vs_original_bpe_c": {
+        "tokenizer_1": "original_bpe",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.005109514687514569,
+        "value_2": 0.01966749131856578,
+        "difference": -0.014557976631051212,
+        "ratio": 0.25979493798943604,
+        "percent_difference": 117.51199178366136
+      },
+      "original_bpe_vs_MiRe_bpe": {
+        "tokenizer_1": "original_bpe",
+        "tokenizer_2": "MiRe_bpe",
+        "value_1": 0.005109514687514569,
+        "value_2": 0.004876663496772453,
+        "difference": 0.00023285119074211574,
+        "ratio": 1.047748053745399,
+        "percent_difference": 4.66346957654933
+      },
+      "original_bpe_vs_MiRe_bpe_c": {
+        "tokenizer_1": "original_bpe",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.005109514687514569,
+        "value_2": 0.004932802380659719,
+        "difference": 0.00017671230685484957,
+        "ratio": 1.035823917768872,
+        "percent_difference": 3.5193532658887894
+      },
+      "original_bpe_c_vs_MiRe_bpe": {
+        "tokenizer_1": "original_bpe_c",
+        "tokenizer_2": "MiRe_bpe",
+        "value_1": 0.01966749131856578,
+        "value_2": 0.004876663496772453,
+        "difference": 0.014790827821793327,
+        "ratio": 4.032981019006625,
+        "percent_difference": 120.52423832129826
+      },
+      "original_bpe_c_vs_MiRe_bpe_c": {
+        "tokenizer_1": "original_bpe_c",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.01966749131856578,
+        "value_2": 0.004932802380659719,
+        "difference": 0.014734688937906061,
+        "ratio": 3.987082757597807,
+        "percent_difference": 119.79278880211059
+      },
+      "MiRe_bpe_vs_MiRe_bpe_c": {
+        "tokenizer_1": "MiRe_bpe",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.004876663496772453,
+        "value_2": 0.004932802380659719,
+        "difference": -5.613888388726618e-05,
+        "ratio": 0.9886192716522817,
+        "percent_difference": 1.144585945630746
+      }
+    },
+    "per_language": {}
+  },
+  "renyi_efficiency": {
+    "per_tokenizer": {
+      "bpe": {
+        "renyi_1.0": {
+          "overall": 4.255852452441277
+        },
+        "renyi_2.0": {
+          "overall": 3.1595056972947417
+        },
+        "renyi_2.5": {
+          "overall": 2.8474592252855535
+        },
+        "renyi_3.0": {
+          "overall": 2.6333505299324105
+        }
+      },
+      "bpe_c": {
+        "renyi_1.0": {
+          "overall": 9.150256707578274
+        },
+        "renyi_2.0": {
+          "overall": 7.3783351569877285
+        },
+        "renyi_2.5": {
+          "overall": 6.91121106898183
+        },
+        "renyi_3.0": {
+          "overall": 6.5887043193009065
+        }
+      },
+      "original_bpe": {
+        "renyi_1.0": {
+          "overall": 4.214717974928147
+        },
+        "renyi_2.0": {
+          "overall": 2.754772376044468
+        },
+        "renyi_2.5": {
+          "overall": 2.429640296282062
+        },
+        "renyi_3.0": {
+          "overall": 2.22809252745603
+        }
+      },
+      "original_bpe_c": {
+        "renyi_1.0": {
+          "overall": 9.157863482893893
+        },
+        "renyi_2.0": {
+          "overall": 7.59770770058714
+        },
+        "renyi_2.5": {
+          "overall": 7.18161107528738
+        },
+        "renyi_3.0": {
+          "overall": 6.880844781310735
+        }
+      },
+      "MiRe_bpe": {
+        "renyi_1.0": {
+          "overall": 4.178232470586123
+        },
+        "renyi_2.0": {
+          "overall": 2.7539653438394804
+        },
+        "renyi_2.5": {
+          "overall": 2.4504111561436943
+        },
+        "renyi_3.0": {
+          "overall": 2.262106421767475
+        }
+      },
+      "MiRe_bpe_c": {
+        "renyi_1.0": {
+          "overall": 4.227531523029498
+        },
+        "renyi_2.0": {
+          "overall": 2.7845707695733557
+        },
+        "renyi_2.5": {
+          "overall": 2.4791603832537286
+        },
+        "renyi_3.0": {
+          "overall": 2.289557930401231
+        }
+      }
+    },
+    "pairwise_comparisons": {
+      "shannon": {
+        "bpe_vs_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "bpe_c",
+          "value_1": 4.255852452441277,
+          "value_2": 9.150256707578274,
+          "difference": -4.894404255136997,
+          "ratio": 0.46510743779642444,
+          "percent_difference": 73.01752054553403
+        },
+        "bpe_vs_original_bpe": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "original_bpe",
+          "value_1": 4.255852452441277,
+          "value_2": 4.214717974928147,
+          "difference": 0.04113447751312993,
+          "ratio": 1.0097597224198214,
+          "percent_difference": 0.9712327609063853
+        },
+        "bpe_vs_original_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 4.255852452441277,
+          "value_2": 9.157863482893893,
+          "difference": -4.902011030452615,
+          "ratio": 0.46472110666323496,
+          "percent_difference": 73.08953095598902
+        },
+        "bpe_vs_MiRe_bpe": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 4.255852452441277,
+          "value_2": 4.178232470586123,
+          "difference": 0.07761998185515395,
+          "ratio": 1.0185772291038333,
+          "percent_difference": 1.8406260445215528
+        },
+        "bpe_vs_MiRe_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 4.255852452441277,
+          "value_2": 4.227531523029498,
+          "difference": 0.02832092941177944,
+          "ratio": 1.0066991645733452,
+          "percent_difference": 0.6676800082058717
+        },
+        "bpe_c_vs_original_bpe": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "original_bpe",
+          "value_1": 9.150256707578274,
+          "value_2": 4.214717974928147,
+          "difference": 4.9355387326501265,
+          "ratio": 2.171024671641112,
+          "percent_difference": 73.85780893562504
+        },
+        "bpe_c_vs_original_bpe_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 9.150256707578274,
+          "value_2": 9.157863482893893,
+          "difference": -0.007606775315618819,
+          "ratio": 0.9991693722744581,
+          "percent_difference": 0.08309728400819112
+        },
+        "bpe_c_vs_MiRe_bpe": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 9.150256707578274,
+          "value_2": 4.178232470586123,
+          "difference": 4.972024236992151,
+          "ratio": 2.189982671379382,
+          "percent_difference": 74.60746931674215
+        },
+        "bpe_c_vs_MiRe_bpe_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 9.150256707578274,
+          "value_2": 4.227531523029498,
+          "difference": 4.922725184548776,
+          "ratio": 2.164444347187527,
+          "percent_difference": 73.59550173302645
+        },
+        "original_bpe_vs_original_bpe_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 4.214717974928147,
+          "value_2": 9.157863482893893,
+          "difference": -4.943145507965745,
+          "ratio": 0.4602293955135803,
+          "percent_difference": 73.92956286797335
+        },
+        "original_bpe_vs_MiRe_bpe": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 4.214717974928147,
+          "value_2": 4.178232470586123,
+          "difference": 0.03648550434202402,
+          "ratio": 1.0087322820352564,
+          "percent_difference": 0.8694321401962813
+        },
+        "original_bpe_vs_MiRe_bpe_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 4.214717974928147,
+          "value_2": 4.227531523029498,
+          "difference": -0.012813548101350491,
+          "ratio": 0.9969690236414445,
+          "percent_difference": 0.303557673922107
+        },
+        "original_bpe_c_vs_MiRe_bpe": {
+          "tokenizer_1": "original_bpe_c",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 9.157863482893893,
+          "value_2": 4.178232470586123,
+          "difference": 4.979631012307769,
+          "ratio": 2.191803243922717,
+          "percent_difference": 74.67899195803776
+        },
+        "original_bpe_c_vs_MiRe_bpe_c": {
+          "tokenizer_1": "original_bpe_c",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 9.157863482893893,
+          "value_2": 4.227531523029498,
+          "difference": 4.930331959864395,
+          "ratio": 2.1662436892561034,
+          "percent_difference": 73.66733604324105
+        },
+        "MiRe_bpe_vs_MiRe_bpe_c": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 4.178232470586123,
+          "value_2": 4.227531523029498,
+          "difference": -0.049299052443374514,
+          "ratio": 0.9883385724802245,
+          "percent_difference": 1.172982074700606
+        }
+      }
+    },
+    "per_language": {
+      "renyi_1.0": {
+        "srp_Latn": {
+          "bpe": 4.255852452441277,
+          "bpe_c": 9.150256707578274,
+          "original_bpe": 4.214717974928147,
+          "original_bpe_c": 9.157863482893893,
+          "MiRe_bpe": 4.178232470586123,
+          "MiRe_bpe_c": 4.227531523029498
+        },
+        "srp_Cyrl": {
+          "bpe": 4.255852452441277,
+          "bpe_c": 9.150256707578274,
+          "original_bpe": 4.214717974928147,
+          "original_bpe_c": 9.157863482893893,
+          "MiRe_bpe": 4.178232470586123,
+          "MiRe_bpe_c": 4.227531523029498
+        }
+      },
+      "renyi_2.0": {
+        "srp_Latn": {
+          "bpe": 3.1595056972947417,
+          "bpe_c": 7.3783351569877285,
+          "original_bpe": 2.754772376044468,
+          "original_bpe_c": 7.59770770058714,
+          "MiRe_bpe": 2.7539653438394804,
+          "MiRe_bpe_c": 2.7845707695733557
+        },
+        "srp_Cyrl": {
+          "bpe": 3.1595056972947417,
+          "bpe_c": 7.3783351569877285,
+          "original_bpe": 2.754772376044468,
+          "original_bpe_c": 7.59770770058714,
+          "MiRe_bpe": 2.7539653438394804,
+          "MiRe_bpe_c": 2.7845707695733557
+        }
+      },
+      "renyi_2.5": {
+        "srp_Latn": {
+          "bpe": 2.8474592252855535,
+          "bpe_c": 6.91121106898183,
+          "original_bpe": 2.429640296282062,
+          "original_bpe_c": 7.18161107528738,
+          "MiRe_bpe": 2.4504111561436943,
+          "MiRe_bpe_c": 2.4791603832537286
+        },
+        "srp_Cyrl": {
+          "bpe": 2.8474592252855535,
+          "bpe_c": 6.91121106898183,
+          "original_bpe": 2.429640296282062,
+          "original_bpe_c": 7.18161107528738,
+          "MiRe_bpe": 2.4504111561436943,
+          "MiRe_bpe_c": 2.4791603832537286
+        }
+      },
+      "renyi_3.0": {
+        "srp_Latn": {
+          "bpe": 2.6333505299324105,
+          "bpe_c": 6.5887043193009065,
+          "original_bpe": 2.22809252745603,
+          "original_bpe_c": 6.880844781310735,
+          "MiRe_bpe": 2.262106421767475,
+          "MiRe_bpe_c": 2.289557930401231
+        },
+        "srp_Cyrl": {
+          "bpe": 2.6333505299324105,
+          "bpe_c": 6.5887043193009065,
+          "original_bpe": 2.22809252745603,
+          "original_bpe_c": 6.880844781310735,
+          "MiRe_bpe": 2.262106421767475,
+          "MiRe_bpe_c": 2.289557930401231
+        }
+      }
+    }
+  },
+  "unigram_distribution_metrics": {
+    "per_tokenizer": {
+      "bpe": {
+        "per_language": {
+          "srp_Latn": {
+            "unigram_entropy": 4.255852452441277,
+            "avg_token_rank": 9.35395249911379,
+            "total_tokens": 451360,
+            "unique_tokens": 833
+          },
+          "srp_Cyrl": {
+            "unigram_entropy": 4.255852452441277,
+            "avg_token_rank": 9.35395249911379,
+            "total_tokens": 451360,
+            "unique_tokens": 833
+          }
+        }
+      },
+      "bpe_c": {
+        "per_language": {
+          "srp_Latn": {
+            "unigram_entropy": 9.150256707578274,
+            "avg_token_rank": 323.6192623266399,
+            "total_tokens": 116881,
+            "unique_tokens": 4138
+          },
+          "srp_Cyrl": {
+            "unigram_entropy": 9.150256707578274,
+            "avg_token_rank": 323.6192623266399,
+            "total_tokens": 116881,
+            "unique_tokens": 4138
+          }
+        }
+      },
+      "original_bpe": {
+        "per_language": {
+          "srp_Latn": {
+            "unigram_entropy": 4.214717974928147,
+            "avg_token_rank": 10.6329192188705,
+            "total_tokens": 451244,
+            "unique_tokens": 857
+          },
+          "srp_Cyrl": {
+            "unigram_entropy": 4.214717974928147,
+            "avg_token_rank": 10.6329192188705,
+            "total_tokens": 451244,
+            "unique_tokens": 857
+          }
+        }
+      },
+      "original_bpe_c": {
+        "per_language": {
+          "srp_Latn": {
+            "unigram_entropy": 9.157863482893893,
+            "avg_token_rank": 304.95707189453077,
+            "total_tokens": 116963,
+            "unique_tokens": 3938
+          },
+          "srp_Cyrl": {
+            "unigram_entropy": 9.157863482893893,
+            "avg_token_rank": 304.95707189453077,
+            "total_tokens": 116963,
+            "unique_tokens": 3938
+          }
+        }
+      },
+      "MiRe_bpe": {
+        "per_language": {
+          "srp_Latn": {
+            "unigram_entropy": 4.178232470586123,
+            "avg_token_rank": 10.04845437584875,
+            "total_tokens": 472754,
+            "unique_tokens": 358
+          },
+          "srp_Cyrl": {
+            "unigram_entropy": 4.178232470586123,
+            "avg_token_rank": 10.04845437584875,
+            "total_tokens": 472754,
+            "unique_tokens": 358
+          }
+        }
+      },
+      "MiRe_bpe_c": {
+        "per_language": {
+          "srp_Latn": {
+            "unigram_entropy": 4.227531523029498,
+            "avg_token_rank": 10.530344846752591,
+            "total_tokens": 467773,
+            "unique_tokens": 361
+          },
+          "srp_Cyrl": {
+            "unigram_entropy": 4.227531523029498,
+            "avg_token_rank": 10.530344846752591,
+            "total_tokens": 467773,
+            "unique_tokens": 361
+          }
+        }
+      }
+    },
+    "pairwise_comparisons": {
+      "global_unigram_entropy": {
+        "bpe_vs_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "bpe_c",
+          "value_1": 4.255852452441277,
+          "value_2": 9.150256707578274,
+          "difference": -4.894404255136997,
+          "ratio": 0.46510743779642444,
+          "percent_difference": 73.01752054553403
+        },
+        "bpe_vs_original_bpe": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "original_bpe",
+          "value_1": 4.255852452441277,
+          "value_2": 4.214717974928147,
+          "difference": 0.04113447751312993,
+          "ratio": 1.0097597224198214,
+          "percent_difference": 0.9712327609063853
+        },
+        "bpe_vs_original_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 4.255852452441277,
+          "value_2": 9.157863482893893,
+          "difference": -4.902011030452615,
+          "ratio": 0.46472110666323496,
+          "percent_difference": 73.08953095598902
+        },
+        "bpe_vs_MiRe_bpe": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 4.255852452441277,
+          "value_2": 4.178232470586123,
+          "difference": 0.07761998185515395,
+          "ratio": 1.0185772291038333,
+          "percent_difference": 1.8406260445215528
+        },
+        "bpe_vs_MiRe_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 4.255852452441277,
+          "value_2": 4.227531523029498,
+          "difference": 0.02832092941177944,
+          "ratio": 1.0066991645733452,
+          "percent_difference": 0.6676800082058717
+        },
+        "bpe_c_vs_original_bpe": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "original_bpe",
+          "value_1": 9.150256707578274,
+          "value_2": 4.214717974928147,
+          "difference": 4.9355387326501265,
+          "ratio": 2.171024671641112,
+          "percent_difference": 73.85780893562504
+        },
+        "bpe_c_vs_original_bpe_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 9.150256707578274,
+          "value_2": 9.157863482893893,
+          "difference": -0.007606775315618819,
+          "ratio": 0.9991693722744581,
+          "percent_difference": 0.08309728400819112
+        },
+        "bpe_c_vs_MiRe_bpe": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 9.150256707578274,
+          "value_2": 4.178232470586123,
+          "difference": 4.972024236992151,
+          "ratio": 2.189982671379382,
+          "percent_difference": 74.60746931674215
+        },
+        "bpe_c_vs_MiRe_bpe_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 9.150256707578274,
+          "value_2": 4.227531523029498,
+          "difference": 4.922725184548776,
+          "ratio": 2.164444347187527,
+          "percent_difference": 73.59550173302645
+        },
+        "original_bpe_vs_original_bpe_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 4.214717974928147,
+          "value_2": 9.157863482893893,
+          "difference": -4.943145507965745,
+          "ratio": 0.4602293955135803,
+          "percent_difference": 73.92956286797335
+        },
+        "original_bpe_vs_MiRe_bpe": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 4.214717974928147,
+          "value_2": 4.178232470586123,
+          "difference": 0.03648550434202402,
+          "ratio": 1.0087322820352564,
+          "percent_difference": 0.8694321401962813
+        },
+        "original_bpe_vs_MiRe_bpe_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 4.214717974928147,
+          "value_2": 4.227531523029498,
+          "difference": -0.012813548101350491,
+          "ratio": 0.9969690236414445,
+          "percent_difference": 0.303557673922107
+        },
+        "original_bpe_c_vs_MiRe_bpe": {
+          "tokenizer_1": "original_bpe_c",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 9.157863482893893,
+          "value_2": 4.178232470586123,
+          "difference": 4.979631012307769,
+          "ratio": 2.191803243922717,
+          "percent_difference": 74.67899195803776
+        },
+        "original_bpe_c_vs_MiRe_bpe_c": {
+          "tokenizer_1": "original_bpe_c",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 9.157863482893893,
+          "value_2": 4.227531523029498,
+          "difference": 4.930331959864395,
+          "ratio": 2.1662436892561034,
+          "percent_difference": 73.66733604324105
+        },
+        "MiRe_bpe_vs_MiRe_bpe_c": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 4.178232470586123,
+          "value_2": 4.227531523029498,
+          "difference": -0.049299052443374514,
+          "ratio": 0.9883385724802245,
+          "percent_difference": 1.172982074700606
+        }
+      },
+      "global_avg_token_rank": {
+        "bpe_vs_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "bpe_c",
+          "value_1": 9.35395249911379,
+          "value_2": 323.6192623266399,
+          "difference": -314.2653098275261,
+          "ratio": 0.028904189546271594,
+          "percent_difference": 188.76311717264252
+        },
+        "bpe_vs_original_bpe": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "original_bpe",
+          "value_1": 9.35395249911379,
+          "value_2": 10.6329192188705,
+          "difference": -1.2789667197567098,
+          "ratio": 0.879716313701801,
+          "percent_difference": 12.798068029884726
+        },
+        "bpe_vs_original_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 9.35395249911379,
+          "value_2": 304.95707189453077,
+          "difference": -295.60311939541697,
+          "ratio": 0.030673013880290825,
+          "percent_difference": 188.0959282072157
+        },
+        "bpe_vs_MiRe_bpe": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 9.35395249911379,
+          "value_2": 10.04845437584875,
+          "difference": -0.6945018767349609,
+          "ratio": 0.9308847061689227,
+          "percent_difference": 7.158924985035411
+        },
+        "bpe_vs_MiRe_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 9.35395249911379,
+          "value_2": 10.530344846752591,
+          "difference": -1.1763923476388012,
+          "ratio": 0.8882854868706808,
+          "percent_difference": 11.832375337953332
+        },
+        "bpe_c_vs_original_bpe": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "original_bpe",
+          "value_1": 323.6192623266399,
+          "value_2": 10.6329192188705,
+          "difference": 312.9863431077694,
+          "ratio": 30.43559869732716,
+          "percent_difference": 187.2755723900366
+        },
+        "bpe_c_vs_original_bpe_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 323.6192623266399,
+          "value_2": 304.95707189453077,
+          "difference": 18.662190432109128,
+          "ratio": 1.0611961228384414,
+          "percent_difference": 5.937923340760919
+        },
+        "bpe_c_vs_MiRe_bpe": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 323.6192623266399,
+          "value_2": 10.04845437584875,
+          "difference": 313.57080795079116,
+          "ratio": 32.20587467705003,
+          "percent_difference": 187.95393875661236
+        },
+        "bpe_c_vs_MiRe_bpe_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 323.6192623266399,
+          "value_2": 10.530344846752591,
+          "difference": 313.0889174798873,
+          "ratio": 30.732066901535468,
+          "percent_difference": 187.3944549139771
+        },
+        "original_bpe_vs_original_bpe_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 10.6329192188705,
+          "value_2": 304.95707189453077,
+          "difference": -294.3241526756603,
+          "ratio": 0.03486693767360112,
+          "percent_difference": 186.52312238248425
+        },
+        "original_bpe_vs_MiRe_bpe": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 10.6329192188705,
+          "value_2": 10.04845437584875,
+          "difference": 0.584464843021749,
+          "ratio": 1.0581646511155485,
+          "percent_difference": 5.65208921298134
+        },
+        "original_bpe_vs_MiRe_bpe_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 10.6329192188705,
+          "value_2": 10.530344846752591,
+          "difference": 0.10257437211790865,
+          "ratio": 1.009740836944152,
+          "percent_difference": 0.9693624934211078
+        },
+        "original_bpe_c_vs_MiRe_bpe": {
+          "tokenizer_1": "original_bpe_c",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 304.95707189453077,
+          "value_2": 10.04845437584875,
+          "difference": 294.90861751868204,
+          "ratio": 30.34865467742867,
+          "percent_difference": 187.24028178829622
+        },
+        "original_bpe_c_vs_MiRe_bpe_c": {
+          "tokenizer_1": "original_bpe_c",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 304.95707189453077,
+          "value_2": 10.530344846752591,
+          "difference": 294.4267270477782,
+          "ratio": 28.95983714992726,
+          "percent_difference": 186.64879258193926
+        },
+        "MiRe_bpe_vs_MiRe_bpe_c": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 10.04845437584875,
+          "value_2": 10.530344846752591,
+          "difference": -0.4818904709038403,
+          "ratio": 0.954237921177629,
+          "percent_difference": 4.6833682149402405
+        }
+      }
+    },
+    "per_language": {
+      "unigram_entropy": {
+        "srp_Latn": {
+          "bpe": 4.255852452441277,
+          "bpe_c": 9.150256707578274,
+          "original_bpe": 4.214717974928147,
+          "original_bpe_c": 9.157863482893893,
+          "MiRe_bpe": 4.178232470586123,
+          "MiRe_bpe_c": 4.227531523029498
+        },
+        "srp_Cyrl": {
+          "bpe": 4.255852452441277,
+          "bpe_c": 9.150256707578274,
+          "original_bpe": 4.214717974928147,
+          "original_bpe_c": 9.157863482893893,
+          "MiRe_bpe": 4.178232470586123,
+          "MiRe_bpe_c": 4.227531523029498
+        }
+      },
+      "avg_token_rank": {
+        "srp_Latn": {
+          "bpe": 9.35395249911379,
+          "bpe_c": 323.6192623266399,
+          "original_bpe": 10.6329192188705,
+          "original_bpe_c": 304.95707189453077,
+          "MiRe_bpe": 10.04845437584875,
+          "MiRe_bpe_c": 10.530344846752591
+        },
+        "srp_Cyrl": {
+          "bpe": 9.35395249911379,
+          "bpe_c": 323.6192623266399,
+          "original_bpe": 10.6329192188705,
+          "original_bpe_c": 304.95707189453077,
+          "MiRe_bpe": 10.04845437584875,
+          "MiRe_bpe_c": 10.530344846752591
+        }
+      }
+    }
+  },
+  "tokenizer_fairness_gini": {
+    "per_tokenizer": {
+      "bpe": {
+        "gini_coefficient": 0.0,
+        "mean_cost": 225.68,
+        "std_cost": 0.0,
+        "min_cost": 225.68,
+        "max_cost": 225.68,
+        "cost_ratio": 1.0,
+        "language_costs": {
+          "srp_Latn": 225.68,
+          "srp_Cyrl": 225.68
+        },
+        "most_efficient_language": [
+          "srp_Latn",
+          225.68
+        ],
+        "least_efficient_language": [
+          "srp_Cyrl",
+          225.68
+        ],
+        "num_languages": 2
+      },
+      "bpe_c": {
+        "gini_coefficient": 0.0,
+        "mean_cost": 58.4405,
+        "std_cost": 0.0,
+        "min_cost": 58.4405,
+        "max_cost": 58.4405,
+        "cost_ratio": 1.0,
+        "language_costs": {
+          "srp_Latn": 58.4405,
+          "srp_Cyrl": 58.4405
+        },
+        "most_efficient_language": [
+          "srp_Latn",
+          58.4405
+        ],
+        "least_efficient_language": [
+          "srp_Cyrl",
+          58.4405
+        ],
+        "num_languages": 2
+      },
+      "original_bpe": {
+        "gini_coefficient": 0.0,
+        "mean_cost": 225.622,
+        "std_cost": 0.0,
+        "min_cost": 225.622,
+        "max_cost": 225.622,
+        "cost_ratio": 1.0,
+        "language_costs": {
+          "srp_Latn": 225.622,
+          "srp_Cyrl": 225.622
+        },
+        "most_efficient_language": [
+          "srp_Latn",
+          225.622
+        ],
+        "least_efficient_language": [
+          "srp_Cyrl",
+          225.622
+        ],
+        "num_languages": 2
+      },
+      "original_bpe_c": {
+        "gini_coefficient": 0.0,
+        "mean_cost": 58.4815,
+        "std_cost": 0.0,
+        "min_cost": 58.4815,
+        "max_cost": 58.4815,
+        "cost_ratio": 1.0,
+        "language_costs": {
+          "srp_Latn": 58.4815,
+          "srp_Cyrl": 58.4815
+        },
+        "most_efficient_language": [
+          "srp_Latn",
+          58.4815
+        ],
+        "least_efficient_language": [
+          "srp_Cyrl",
+          58.4815
+        ],
+        "num_languages": 2
+      },
+      "MiRe_bpe": {
+        "gini_coefficient": 0.0,
+        "mean_cost": 236.377,
+        "std_cost": 0.0,
+        "min_cost": 236.377,
+        "max_cost": 236.377,
+        "cost_ratio": 1.0,
+        "language_costs": {
+          "srp_Latn": 236.377,
+          "srp_Cyrl": 236.377
+        },
+        "most_efficient_language": [
+          "srp_Latn",
+          236.377
+        ],
+        "least_efficient_language": [
+          "srp_Cyrl",
+          236.377
+        ],
+        "num_languages": 2
+      },
+      "MiRe_bpe_c": {
+        "gini_coefficient": 0.0,
+        "mean_cost": 233.8865,
+        "std_cost": 0.0,
+        "min_cost": 233.8865,
+        "max_cost": 233.8865,
+        "cost_ratio": 1.0,
+        "language_costs": {
+          "srp_Latn": 233.8865,
+          "srp_Cyrl": 233.8865
+        },
+        "most_efficient_language": [
+          "srp_Latn",
+          233.8865
+        ],
+        "least_efficient_language": [
+          "srp_Cyrl",
+          233.8865
+        ],
+        "num_languages": 2
+      }
+    },
+    "metadata": {
+      "description": "Tokenizer Fairness Gini coefficient measures equitable treatment across languages",
+      "formula": "TFG = \u03a3\u1d62 \u03a3\u2c7c |c_i - c_j| / (2 * n\u00b2 * \u03bc)",
+      "interpretation": "Lower values indicate more equitable treatment (0 = perfect equality)",
+      "normalization_method": "lines"
+    }
+  },
+  "lorenz_curve_data": {
+    "per_tokenizer": {
+      "bpe": {
+        "x_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "y_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "equality_line": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "sorted_languages": [
+          "srp_Latn",
+          "srp_Cyrl"
+        ],
+        "sorted_costs": [
+          225.68,
+          225.68
+        ],
+        "total_cost": 451.36,
+        "n_languages": 2
+      },
+      "bpe_c": {
+        "x_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "y_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "equality_line": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "sorted_languages": [
+          "srp_Latn",
+          "srp_Cyrl"
+        ],
+        "sorted_costs": [
+          58.4405,
+          58.4405
+        ],
+        "total_cost": 116.881,
+        "n_languages": 2
+      },
+      "original_bpe": {
+        "x_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "y_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "equality_line": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "sorted_languages": [
+          "srp_Latn",
+          "srp_Cyrl"
+        ],
+        "sorted_costs": [
+          225.622,
+          225.622
+        ],
+        "total_cost": 451.244,
+        "n_languages": 2
+      },
+      "original_bpe_c": {
+        "x_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "y_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "equality_line": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "sorted_languages": [
+          "srp_Latn",
+          "srp_Cyrl"
+        ],
+        "sorted_costs": [
+          58.4815,
+          58.4815
+        ],
+        "total_cost": 116.963,
+        "n_languages": 2
+      },
+      "MiRe_bpe": {
+        "x_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "y_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "equality_line": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "sorted_languages": [
+          "srp_Latn",
+          "srp_Cyrl"
+        ],
+        "sorted_costs": [
+          236.377,
+          236.377
+        ],
+        "total_cost": 472.754,
+        "n_languages": 2
+      },
+      "MiRe_bpe_c": {
+        "x_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "y_values": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "equality_line": [
+          0.0,
+          0.5,
+          1.0
+        ],
+        "sorted_languages": [
+          "srp_Latn",
+          "srp_Cyrl"
+        ],
+        "sorted_costs": [
+          233.8865,
+          233.8865
+        ],
+        "total_cost": 467.773,
+        "n_languages": 2
+      }
+    },
+    "metadata": {
+      "description": "Lorenz curve data for visualizing tokenizer fairness",
+      "x_axis": "Cumulative proportion of languages (sorted by efficiency)",
+      "y_axis": "Cumulative proportion of total token cost"
+    }
+  },
+  "morphscore": {
+    "per_tokenizer": {
+      "bpe": {
+        "per_language": {
+          "srp_Cyrl": {
+            "morphscore_recall": 0.785490931832383,
+            "morphscore_precision": 0.7235146966854125,
+            "morphscore_recall_std": 0.0001429838685445113,
+            "morphscore_precision_std": 0.00014348986296974117,
+            "mean_token_char_ratio": 0.2424145516990837,
+            "micro_precision": 0.01372443487621098,
+            "micro_recall": 0.01303680981595092,
+            "micro_f1": 0.013371788148925012,
+            "macro_precision": 0.009811965811965811,
+            "macro_recall": 0.013076923076923076,
+            "macro_f1": 0.011211581547653242,
+            "num_samples": 3900
+          },
+          "srp_Latn": {
+            "morphscore_recall": 0.785490931832383,
+            "morphscore_precision": 0.7235146966854125,
+            "morphscore_recall_std": 0.0001429838685445113,
+            "morphscore_precision_std": 0.00014348986296974117,
+            "mean_token_char_ratio": 0.2424145516990837,
+            "micro_precision": 0.01372443487621098,
+            "micro_recall": 0.01303680981595092,
+            "micro_f1": 0.013371788148925012,
+            "macro_precision": 0.009811965811965811,
+            "macro_recall": 0.013076923076923076,
+            "macro_f1": 0.011211581547653242,
+            "num_samples": 3900
+          }
+        }
+      },
+      "bpe_c": {
+        "per_language": {
+          "srp_Cyrl": {
+            "morphscore_recall": 0.741222192441695,
+            "morphscore_precision": 0.653369771923765,
+            "morphscore_recall_std": 0.00014290169467200112,
+            "morphscore_precision_std": 0.00014312796255296846,
+            "mean_token_char_ratio": 0.2742500160239503,
+            "micro_precision": 0.015297047314123088,
+            "micro_recall": 0.016487730061349692,
+            "micro_f1": 0.01587008673186935,
+            "macro_precision": 0.011739316239316238,
+            "macro_recall": 0.01653846153846154,
+            "macro_f1": 0.013731646923425675,
+            "num_samples": 3900
+          },
+          "srp_Latn": {
+            "morphscore_recall": 0.741222192441695,
+            "morphscore_precision": 0.653369771923765,
+            "morphscore_recall_std": 0.00014290169467200112,
+            "morphscore_precision_std": 0.00014312796255296846,
+            "mean_token_char_ratio": 0.2742500160239503,
+            "micro_precision": 0.015297047314123088,
+            "micro_recall": 0.016487730061349692,
+            "micro_f1": 0.01587008673186935,
+            "macro_precision": 0.011739316239316238,
+            "macro_recall": 0.01653846153846154,
+            "macro_f1": 0.013731646923425675,
+            "num_samples": 3900
+          }
+        }
+      },
+      "original_bpe": {
+        "per_language": {
+          "srp_Cyrl": {
+            "morphscore_recall": 0.7041007772714937,
+            "morphscore_precision": 0.6856859942225623,
+            "morphscore_recall_std": 0.00014460542298955594,
+            "morphscore_precision_std": 0.00014411935549252174,
+            "mean_token_char_ratio": 0.24336077952724772,
+            "micro_precision": 0.013808821557849578,
+            "micro_recall": 0.013164621676891615,
+            "micro_f1": 0.01347902898645554,
+            "macro_precision": 0.012042735042735044,
+            "macro_recall": 0.012692307692307692,
+            "macro_f1": 0.012358992079102654,
+            "num_samples": 3900
+          },
+          "srp_Latn": {
+            "morphscore_recall": 0.7041007772714937,
+            "morphscore_precision": 0.6856859942225623,
+            "morphscore_recall_std": 0.00014460542298955594,
+            "morphscore_precision_std": 0.00014411935549252174,
+            "mean_token_char_ratio": 0.24336077952724772,
+            "micro_precision": 0.013808821557849578,
+            "micro_recall": 0.013164621676891615,
+            "micro_f1": 0.01347902898645554,
+            "macro_precision": 0.012042735042735044,
+            "macro_recall": 0.012692307692307692,
+            "macro_f1": 0.012358992079102654,
+            "num_samples": 3900
+          }
+        }
+      },
+      "original_bpe_c": {
+        "per_language": {
+          "srp_Cyrl": {
+            "morphscore_recall": 0.6252568569641614,
+            "morphscore_precision": 0.5998883230590398,
+            "morphscore_recall_std": 0.00014295674019905918,
+            "morphscore_precision_std": 0.00014240200129977287,
+            "mean_token_char_ratio": 0.27409880947116,
+            "micro_precision": 0.014370546318289787,
+            "micro_recall": 0.015465235173824131,
+            "micro_f1": 0.014897808421571042,
+            "macro_precision": 0.01406837606837607,
+            "macro_recall": 0.014871794871794871,
+            "macro_f1": 0.014458933466612143,
+            "num_samples": 3900
+          },
+          "srp_Latn": {
+            "morphscore_recall": 0.6252568569641614,
+            "morphscore_precision": 0.5998883230590398,
+            "morphscore_recall_std": 0.00014295674019905918,
+            "morphscore_precision_std": 0.00014240200129977287,
+            "mean_token_char_ratio": 0.27409880947116,
+            "micro_precision": 0.014370546318289787,
+            "micro_recall": 0.015465235173824131,
+            "micro_f1": 0.014897808421571042,
+            "macro_precision": 0.01406837606837607,
+            "macro_recall": 0.014871794871794871,
+            "macro_f1": 0.014458933466612143,
+            "num_samples": 3900
+          }
+        }
+      },
+      "MiRe_bpe": {
+        "per_language": {
+          "srp_Cyrl": {
+            "morphscore_recall": 0.9787367104440269,
+            "morphscore_precision": 0.19470398731951283,
+            "morphscore_recall_std": 0.0001397931585842345,
+            "morphscore_precision_std": 5.4050133950479736e-05,
+            "mean_token_char_ratio": 0.9898932776360734,
+            "micro_precision": 0.029502131928768497,
+            "micro_recall": 0.12027096114519427,
+            "micro_f1": 0.04738167170191339,
+            "macro_precision": 0.030158180452863708,
+            "macro_recall": 0.12064102564102563,
+            "macro_f1": 0.04825375299436725,
+            "num_samples": 3900
+          },
+          "srp_Latn": {
+            "morphscore_recall": 0.9787367104440269,
+            "morphscore_precision": 0.19470398731951283,
+            "morphscore_recall_std": 0.0001397931585842345,
+            "morphscore_precision_std": 5.4050133950479736e-05,
+            "mean_token_char_ratio": 0.9898932776360734,
+            "micro_precision": 0.029502131928768497,
+            "micro_recall": 0.12027096114519427,
+            "micro_f1": 0.04738167170191339,
+            "macro_precision": 0.030158180452863708,
+            "macro_recall": 0.12064102564102563,
+            "macro_f1": 0.04825375299436725,
+            "num_samples": 3900
+          }
+        }
+      },
+      "MiRe_bpe_c": {
+        "per_language": {
+          "srp_Cyrl": {
+            "morphscore_recall": 0.9786473688912708,
+            "morphscore_precision": 0.17872022595247658,
+            "morphscore_recall_std": 0.00013979619851286096,
+            "morphscore_precision_std": 4.9379197948398025e-05,
+            "mean_token_char_ratio": 1.0044999949927909,
+            "micro_precision": 0.029759326857637814,
+            "micro_recall": 0.12295501022494887,
+            "micro_f1": 0.04792029887920298,
+            "macro_precision": 0.03077947582415908,
+            "macro_recall": 0.12333333333333334,
+            "macro_f1": 0.04926437163009473,
+            "num_samples": 3900
+          },
+          "srp_Latn": {
+            "morphscore_recall": 0.9786473688912708,
+            "morphscore_precision": 0.17872022595247658,
+            "morphscore_recall_std": 0.00013979619851286096,
+            "morphscore_precision_std": 4.9379197948398025e-05,
+            "mean_token_char_ratio": 1.0044999949927909,
+            "micro_precision": 0.029759326857637814,
+            "micro_recall": 0.12295501022494887,
+            "micro_f1": 0.04792029887920298,
+            "macro_precision": 0.03077947582415908,
+            "macro_recall": 0.12333333333333334,
+            "macro_f1": 0.04926437163009473,
+            "num_samples": 3900
+          }
+        }
+      }
+    }
+  }
+}
