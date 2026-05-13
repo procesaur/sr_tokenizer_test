@@ -1,0 +1,7 @@
+Vocabulary utilization → High is good
+
+Compression rate → High is good
+
+Gini coefficient → Low is good
+
+Fertility → Low is good

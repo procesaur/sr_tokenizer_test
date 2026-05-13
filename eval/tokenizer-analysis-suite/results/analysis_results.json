@@ -1,437 +1,626 @@
 {
   "fertility": {
     "per_tokenizer": {
-      "bpe": {
+      "qwen3.5": {
         "global": {
-          "mean": 0.883741536576644,
-          "median": 0.8863190730837789,
-          "std": 0.0207209091714486,
-          "count": 4000
+          "mean": 0.2845730893296819,
+          "median": 0.2747016328102,
+          "std": 0.10172251299029021,
+          "count": 86
         },
         "per_language": {
-          "srp_Latn": {
-            "mean": 0.883741536576644,
-            "median": 0.8863190730837789,
-            "std": 0.0207209091714486,
-            "std_err": 0.00046344949148886984,
-            "min": 0.7434782608695653,
-            "max": 0.9454545454545454,
-            "count": 2000,
-            "sum": 1767.4830731532877
-          },
           "srp_Cyrl": {
-            "mean": 0.883741536576644,
-            "median": 0.8863190730837789,
-            "std": 0.0207209091714486,
-            "std_err": 0.00046344949148886984,
-            "min": 0.7434782608695653,
-            "max": 0.9454545454545454,
-            "count": 2000,
-            "sum": 1767.4830731532877
+            "mean": 0.2845730893296819,
+            "median": 0.2747016328102,
+            "std": 0.10172251299029021,
+            "std_err": 0.011033355656723927,
+            "min": 0.16228070175438597,
+            "max": 0.6842105263157895,
+            "count": 86,
+            "sum": 24.47328568235264
           }
         }
       },
-      "bpe_c": {
+      "bpe": {
         "global": {
-          "mean": 0.2301838251871107,
-          "median": 0.22897873493159962,
-          "std": 0.021832434571654166,
-          "count": 4000
+          "mean": 0.562215976985126,
+          "median": 0.6140418478699037,
+          "std": 0.3064442369233989,
+          "count": 86
         },
         "per_language": {
-          "srp_Latn": {
-            "mean": 0.2301838251871107,
-            "median": 0.22897873493159962,
-            "std": 0.021832434571654166,
-            "std_err": 0.0004883101709716041,
-            "min": 0.16535433070866143,
-            "max": 0.3269230769230769,
-            "count": 2000,
-            "sum": 460.36765037422134
-          },
           "srp_Cyrl": {
-            "mean": 0.2301838251871107,
-            "median": 0.22897873493159962,
-            "std": 0.021832434571654166,
-            "std_err": 0.0004883101709716041,
-            "min": 0.16535433070866143,
-            "max": 0.3269230769230769,
-            "count": 2000,
-            "sum": 460.36765037422134
+            "mean": 0.562215976985126,
+            "median": 0.6140418478699037,
+            "std": 0.3064442369233989,
+            "std_err": 0.033238544305840834,
+            "min": 0.15671641791044777,
+            "max": 0.9491525423728814,
+            "count": 86,
+            "sum": 48.35057402072084
           }
         }
       },
       "original_bpe": {
         "global": {
-          "mean": 0.8835234288855197,
-          "median": 0.8858878027429239,
-          "std": 0.02081850018648251,
-          "count": 4000
+          "mean": 0.56119107762917,
+          "median": 0.6100612870275792,
+          "std": 0.3075871797776341,
+          "count": 86
         },
         "per_language": {
-          "srp_Latn": {
-            "mean": 0.8835234288855197,
-            "median": 0.8858878027429239,
-            "std": 0.02081850018648251,
-            "std_err": 0.0004656322386799857,
-            "min": 0.7347826086956522,
-            "max": 0.9454545454545454,
-            "count": 2000,
-            "sum": 1767.0468577710394
-          },
           "srp_Cyrl": {
-            "mean": 0.8835234288855197,
-            "median": 0.8858878027429239,
-            "std": 0.02081850018648251,
-            "std_err": 0.0004656322386799857,
-            "min": 0.7347826086956522,
-            "max": 0.9454545454545454,
-            "count": 2000,
-            "sum": 1767.0468577710394
-          }
-        }
-      },
-      "original_bpe_c": {
-        "global": {
-          "mean": 0.23023721503337066,
-          "median": 0.22900763358778625,
-          "std": 0.02154872800989969,
-          "count": 4000
-        },
-        "per_language": {
-          "srp_Latn": {
-            "mean": 0.23023721503337066,
-            "median": 0.22900763358778625,
-            "std": 0.02154872800989969,
-            "std_err": 0.0004819647128312662,
-            "min": 0.16751269035532995,
-            "max": 0.33653846153846156,
-            "count": 2000,
-            "sum": 460.4744300667413
-          },
-          "srp_Cyrl": {
-            "mean": 0.23023721503337066,
-            "median": 0.22900763358778625,
-            "std": 0.02154872800989969,
-            "std_err": 0.0004819647128312662,
-            "min": 0.16751269035532995,
-            "max": 0.33653846153846156,
-            "count": 2000,
-            "sum": 460.4744300667413
+            "mean": 0.56119107762917,
+            "median": 0.6100612870275792,
+            "std": 0.3075871797776341,
+            "std_err": 0.033362513864155736,
+            "min": 0.15671641791044777,
+            "max": 0.9491525423728814,
+            "count": 86,
+            "sum": 48.26243267610862
           }
         }
       },
       "MiRe_bpe": {
         "global": {
-          "mean": 0.9255656460182256,
-          "median": 0.9275085739572961,
-          "std": 0.01287300199880609,
-          "count": 4000
+          "mean": 0.7894863717207526,
+          "median": 0.840703153316419,
+          "std": 0.1402099141728518,
+          "count": 86
         },
         "per_language": {
-          "srp_Latn": {
-            "mean": 0.9255656460182256,
-            "median": 0.9275085739572961,
-            "std": 0.01287300199880609,
-            "std_err": 0.0002879210647041702,
-            "min": 0.8526315789473684,
-            "max": 0.9636363636363636,
-            "count": 2000,
-            "sum": 1851.1312920364512
-          },
           "srp_Cyrl": {
-            "mean": 0.9255656460182256,
-            "median": 0.9275085739572961,
-            "std": 0.01287300199880609,
-            "std_err": 0.0002879210647041702,
-            "min": 0.8526315789473684,
-            "max": 0.9636363636363636,
-            "count": 2000,
-            "sum": 1851.1312920364512
+            "mean": 0.7894863717207526,
+            "median": 0.840703153316419,
+            "std": 0.1402099141728518,
+            "std_err": 0.015207900436115614,
+            "min": 0.3902439024390244,
+            "max": 0.9491525423728814,
+            "count": 86,
+            "sum": 67.89582796798472
+          }
+        }
+      },
+      "srna": {
+        "global": {
+          "mean": 0.23087481419995626,
+          "median": 0.21696383087111565,
+          "std": 0.07796172381466825,
+          "count": 86
+        },
+        "per_language": {
+          "srp_Cyrl": {
+            "mean": 0.23087481419995626,
+            "median": 0.21696383087111565,
+            "std": 0.07796172381466825,
+            "std_err": 0.008456136219723806,
+            "min": 0.0970464135021097,
+            "max": 0.45454545454545453,
+            "count": 86,
+            "sum": 19.85523402119624
+          }
+        }
+      },
+      "bpe_c": {
+        "global": {
+          "mean": 0.22416430232456877,
+          "median": 0.216551216665398,
+          "std": 0.07336500575582783,
+          "count": 86
+        },
+        "per_language": {
+          "srp_Cyrl": {
+            "mean": 0.22416430232456877,
+            "median": 0.216551216665398,
+            "std": 0.07336500575582783,
+            "std_err": 0.007957552143240038,
+            "min": 0.10548523206751055,
+            "max": 0.42105263157894735,
+            "count": 86,
+            "sum": 19.27812999991291
+          }
+        }
+      },
+      "original_bpe_c": {
+        "global": {
+          "mean": 0.22324040747994223,
+          "median": 0.2177547828225198,
+          "std": 0.07195180873073183,
+          "count": 86
+        },
+        "per_language": {
+          "srp_Cyrl": {
+            "mean": 0.22324040747994223,
+            "median": 0.2177547828225198,
+            "std": 0.07195180873073183,
+            "std_err": 0.007804269404419018,
+            "min": 0.10126582278481013,
+            "max": 0.42105263157894735,
+            "count": 86,
+            "sum": 19.19867504327503
           }
         }
       },
       "MiRe_bpe_c": {
         "global": {
-          "mean": 0.9155920138067423,
-          "median": 0.9177560378218272,
-          "std": 0.01749904977304048,
-          "count": 4000
+          "mean": 0.8087334797252761,
+          "median": 0.8465239112072922,
+          "std": 0.11344010246210405,
+          "count": 86
         },
         "per_language": {
-          "srp_Latn": {
-            "mean": 0.9155920138067423,
-            "median": 0.9177560378218272,
-            "std": 0.01749904977304048,
-            "std_err": 0.00039138850770258305,
-            "min": 0.7926829268292683,
-            "max": 0.9636363636363636,
-            "count": 2000,
-            "sum": 1831.1840276134844
-          },
           "srp_Cyrl": {
-            "mean": 0.9155920138067423,
-            "median": 0.9177560378218272,
-            "std": 0.01749904977304048,
-            "std_err": 0.00039138850770258305,
-            "min": 0.7926829268292683,
-            "max": 0.9636363636363636,
-            "count": 2000,
-            "sum": 1831.1840276134844
+            "mean": 0.8087334797252761,
+            "median": 0.8465239112072922,
+            "std": 0.11344010246210405,
+            "std_err": 0.012304306681049749,
+            "min": 0.5,
+            "max": 0.9491525423728814,
+            "count": 86,
+            "sum": 69.55107925637373
+          }
+        }
+      },
+      "srna_c": {
+        "global": {
+          "mean": 0.5738374600991903,
+          "median": 0.6204062904595014,
+          "std": 0.3003173844919189,
+          "count": 86
+        },
+        "per_language": {
+          "srp_Cyrl": {
+            "mean": 0.5738374600991903,
+            "median": 0.6204062904595014,
+            "std": 0.3003173844919189,
+            "std_err": 0.03257399385436668,
+            "min": 0.15671641791044777,
+            "max": 0.9491525423728814,
+            "count": 86,
+            "sum": 49.35002156853037
           }
         }
       }
     },
     "pairwise_comparisons": {
-      "bpe_vs_bpe_c": {
-        "tokenizer_1": "bpe",
+      "qwen3.5_vs_bpe": {
+        "tokenizer_1": "qwen3.5",
+        "tokenizer_2": "bpe",
+        "value_1": 0.2845730893296819,
+        "value_2": 0.562215976985126,
+        "difference": -0.27764288765544415,
+        "ratio": 0.5061632912954562,
+        "percent_difference": 65.57545407706665
+      },
+      "qwen3.5_vs_original_bpe": {
+        "tokenizer_1": "qwen3.5",
+        "tokenizer_2": "original_bpe",
+        "value_1": 0.2845730893296819,
+        "value_2": 0.56119107762917,
+        "difference": -0.2766179882994881,
+        "ratio": 0.507087693788541,
+        "percent_difference": 65.41255804064967
+      },
+      "qwen3.5_vs_MiRe_bpe": {
+        "tokenizer_1": "qwen3.5",
+        "tokenizer_2": "MiRe_bpe",
+        "value_1": 0.2845730893296819,
+        "value_2": 0.7894863717207526,
+        "difference": -0.5049132823910707,
+        "ratio": 0.36045345369221593,
+        "percent_difference": 94.01961450016249
+      },
+      "qwen3.5_vs_srna": {
+        "tokenizer_1": "qwen3.5",
+        "tokenizer_2": "srna",
+        "value_1": 0.2845730893296819,
+        "value_2": 0.23087481419995626,
+        "difference": 0.05369827512972564,
+        "ratio": 1.2325861108575429,
+        "percent_difference": 20.835578052414366
+      },
+      "qwen3.5_vs_bpe_c": {
+        "tokenizer_1": "qwen3.5",
         "tokenizer_2": "bpe_c",
-        "value_1": 0.883741536576644,
-        "value_2": 0.2301838251871107,
-        "difference": 0.6535577113895333,
-        "ratio": 3.839285996130582,
-        "percent_difference": 117.34317824575075
+        "value_1": 0.2845730893296819,
+        "value_2": 0.22416430232456877,
+        "difference": 0.060408787005113124,
+        "ratio": 1.269484420037794,
+        "percent_difference": 23.74851465455808
+      },
+      "qwen3.5_vs_original_bpe_c": {
+        "tokenizer_1": "qwen3.5",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.2845730893296819,
+        "value_2": 0.22324040747994223,
+        "difference": 0.06133268184973967,
+        "ratio": 1.2747382633014155,
+        "percent_difference": 24.155593435411536
+      },
+      "qwen3.5_vs_MiRe_bpe_c": {
+        "tokenizer_1": "qwen3.5",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.2845730893296819,
+        "value_2": 0.8087334797252761,
+        "difference": -0.5241603903955943,
+        "ratio": 0.35187499524113974,
+        "percent_difference": 95.88534547060715
+      },
+      "qwen3.5_vs_srna_c": {
+        "tokenizer_1": "qwen3.5",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.2845730893296819,
+        "value_2": 0.5738374600991903,
+        "difference": -0.28926437076950845,
+        "ratio": 0.49591236041037157,
+        "percent_difference": 67.39534386243626
       },
       "bpe_vs_original_bpe": {
         "tokenizer_1": "bpe",
         "tokenizer_2": "original_bpe",
-        "value_1": 0.883741536576644,
-        "value_2": 0.8835234288855197,
-        "difference": 0.00021810769112429185,
-        "ratio": 1.0002468612421511,
-        "percent_difference": 0.024683077567517298
-      },
-      "bpe_vs_original_bpe_c": {
-        "tokenizer_1": "bpe",
-        "tokenizer_2": "original_bpe_c",
-        "value_1": 0.883741536576644,
-        "value_2": 0.23023721503337066,
-        "difference": 0.6535043215432733,
-        "ratio": 3.8383957017919723,
-        "percent_difference": 117.32796888608057
+        "value_1": 0.562215976985126,
+        "value_2": 0.56119107762917,
+        "difference": 0.001024899355956066,
+        "ratio": 1.0018262930342476,
+        "percent_difference": 0.1824626882564751
       },
       "bpe_vs_MiRe_bpe": {
         "tokenizer_1": "bpe",
         "tokenizer_2": "MiRe_bpe",
-        "value_1": 0.883741536576644,
-        "value_2": 0.9255656460182256,
-        "difference": -0.04182410944158155,
-        "ratio": 0.9548123791958912,
-        "percent_difference": 4.623218195773513
+        "value_1": 0.562215976985126,
+        "value_2": 0.7894863717207526,
+        "difference": -0.2272703947356266,
+        "ratio": 0.7121287930021243,
+        "percent_difference": 33.62728413592171
+      },
+      "bpe_vs_srna": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "srna",
+        "value_1": 0.562215976985126,
+        "value_2": 0.23087481419995626,
+        "difference": 0.3313411627851698,
+        "ratio": 2.4351550814815233,
+        "percent_difference": 83.55693105200744
+      },
+      "bpe_vs_bpe_c": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "bpe_c",
+        "value_1": 0.562215976985126,
+        "value_2": 0.22416430232456877,
+        "difference": 0.3380516746605573,
+        "ratio": 2.5080531161963973,
+        "percent_difference": 85.97664095984399
+      },
+      "bpe_vs_original_bpe_c": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.562215976985126,
+        "value_2": 0.22324040747994223,
+        "difference": 0.3389755695051838,
+        "ratio": 2.5184328560036344,
+        "percent_difference": 86.31302162908554
       },
       "bpe_vs_MiRe_bpe_c": {
         "tokenizer_1": "bpe",
         "tokenizer_2": "MiRe_bpe_c",
-        "value_1": 0.883741536576644,
-        "value_2": 0.9155920138067423,
-        "difference": -0.03185047723009826,
-        "ratio": 0.9652132426344852,
-        "percent_difference": 3.540252692260625
+        "value_1": 0.562215976985126,
+        "value_2": 0.8087334797252761,
+        "difference": -0.24651750274015005,
+        "ratio": 0.695180787094543,
+        "percent_difference": 35.96303299636875
       },
-      "bpe_c_vs_original_bpe": {
-        "tokenizer_1": "bpe_c",
-        "tokenizer_2": "original_bpe",
-        "value_1": 0.2301838251871107,
-        "value_2": 0.8835234288855197,
-        "difference": -0.653339603698409,
-        "ratio": 0.26052939589555146,
-        "percent_difference": 117.32699078851496
-      },
-      "bpe_c_vs_original_bpe_c": {
-        "tokenizer_1": "bpe_c",
-        "tokenizer_2": "original_bpe_c",
-        "value_1": 0.2301838251871107,
-        "value_2": 0.23023721503337066,
-        "difference": -5.338984625996579e-05,
-        "ratio": 0.9997681093985947,
-        "percent_difference": 0.023191749114853243
-      },
-      "bpe_c_vs_MiRe_bpe": {
-        "tokenizer_1": "bpe_c",
-        "tokenizer_2": "MiRe_bpe",
-        "value_1": 0.2301838251871107,
-        "value_2": 0.9255656460182256,
-        "difference": -0.6953818208311149,
-        "ratio": 0.2486952991150431,
-        "percent_difference": 120.33435241045763
-      },
-      "bpe_c_vs_MiRe_bpe_c": {
-        "tokenizer_1": "bpe_c",
-        "tokenizer_2": "MiRe_bpe_c",
-        "value_1": 0.2301838251871107,
-        "value_2": 0.9155920138067423,
-        "difference": -0.6854081886196316,
-        "ratio": 0.2514043610211049,
-        "percent_difference": 119.64088703799396
-      },
-      "original_bpe_vs_original_bpe_c": {
-        "tokenizer_1": "original_bpe",
-        "tokenizer_2": "original_bpe_c",
-        "value_1": 0.8835234288855197,
-        "value_2": 0.23023721503337066,
-        "difference": 0.653286213852149,
-        "ratio": 3.8374483845170797,
-        "percent_difference": 117.31177922636753
+      "bpe_vs_srna_c": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.562215976985126,
+        "value_2": 0.5738374600991903,
+        "difference": -0.011621483114064302,
+        "ratio": 0.9797477789057977,
+        "percent_difference": 2.045939519163969
       },
       "original_bpe_vs_MiRe_bpe": {
         "tokenizer_1": "original_bpe",
         "tokenizer_2": "MiRe_bpe",
-        "value_1": 0.8835234288855197,
-        "value_2": 0.9255656460182256,
-        "difference": -0.04204221713270584,
-        "ratio": 0.9545767311982991,
-        "percent_difference": 4.647888013468076
+        "value_1": 0.56119107762917,
+        "value_2": 0.7894863717207526,
+        "difference": -0.22829529409158267,
+        "ratio": 0.7108306080141781,
+        "percent_difference": 33.80456143714557
+      },
+      "original_bpe_vs_srna": {
+        "tokenizer_1": "original_bpe",
+        "tokenizer_2": "srna",
+        "value_1": 0.56119107762917,
+        "value_2": 0.23087481419995626,
+        "difference": 0.3303162634292137,
+        "ratio": 2.4307158819979953,
+        "percent_difference": 83.40625870567683
+      },
+      "original_bpe_vs_bpe_c": {
+        "tokenizer_1": "original_bpe",
+        "tokenizer_2": "bpe_c",
+        "value_1": 0.56119107762917,
+        "value_2": 0.22416430232456877,
+        "difference": 0.33702677530460123,
+        "ratio": 2.50348102623681,
+        "percent_difference": 85.82783893947573
+      },
+      "original_bpe_vs_original_bpe_c": {
+        "tokenizer_1": "original_bpe",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.56119107762917,
+        "value_2": 0.22324040747994223,
+        "difference": 0.33795067014922775,
+        "ratio": 2.513841844154455,
+        "percent_difference": 86.16448384965571
       },
       "original_bpe_vs_MiRe_bpe_c": {
         "tokenizer_1": "original_bpe",
         "tokenizer_2": "MiRe_bpe_c",
-        "value_1": 0.8835234288855197,
-        "value_2": 0.9155920138067423,
-        "difference": -0.032068584921222554,
-        "ratio": 0.9649750277005023,
-        "percent_difference": 3.564927981856901
+        "value_1": 0.56119107762917,
+        "value_2": 0.8087334797252761,
+        "difference": -0.24754240209610612,
+        "ratio": 0.6939134977073097,
+        "percent_difference": 36.13956706844528
       },
-      "original_bpe_c_vs_MiRe_bpe": {
-        "tokenizer_1": "original_bpe_c",
-        "tokenizer_2": "MiRe_bpe",
-        "value_1": 0.23023721503337066,
-        "value_2": 0.9255656460182256,
-        "difference": -0.6953284309848549,
-        "ratio": 0.24875298259377812,
-        "percent_difference": 120.31955524875875
+      "original_bpe_vs_srna_c": {
+        "tokenizer_1": "original_bpe",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.56119107762917,
+        "value_2": 0.5738374600991903,
+        "difference": -0.012646382470020368,
+        "ratio": 0.9779617342028623,
+        "percent_difference": 2.228381410626162
       },
-      "original_bpe_c_vs_MiRe_bpe_c": {
-        "tokenizer_1": "original_bpe_c",
-        "tokenizer_2": "MiRe_bpe_c",
-        "value_1": 0.23023721503337066,
-        "value_2": 0.9155920138067423,
-        "difference": -0.6853547987733716,
-        "ratio": 0.25146267285154345,
-        "percent_difference": 119.62599338945732
+      "MiRe_bpe_vs_srna": {
+        "tokenizer_1": "MiRe_bpe",
+        "tokenizer_2": "srna",
+        "value_1": 0.7894863717207526,
+        "value_2": 0.23087481419995626,
+        "difference": 0.5586115575207964,
+        "ratio": 3.4195430734033794,
+        "percent_difference": 109.49290608633666
+      },
+      "MiRe_bpe_vs_bpe_c": {
+        "tokenizer_1": "MiRe_bpe",
+        "tokenizer_2": "bpe_c",
+        "value_1": 0.7894863717207526,
+        "value_2": 0.22416430232456877,
+        "difference": 0.5653220693961839,
+        "ratio": 3.521909436666909,
+        "percent_difference": 111.54179321759277
+      },
+      "MiRe_bpe_vs_original_bpe_c": {
+        "tokenizer_1": "MiRe_bpe",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.7894863717207526,
+        "value_2": 0.22324040747994223,
+        "difference": 0.5662459642408104,
+        "ratio": 3.5364850863376365,
+        "percent_difference": 111.82600793626212
       },
       "MiRe_bpe_vs_MiRe_bpe_c": {
         "tokenizer_1": "MiRe_bpe",
         "tokenizer_2": "MiRe_bpe_c",
-        "value_1": 0.9255656460182256,
-        "value_2": 0.9155920138067423,
-        "difference": 0.009973632211483285,
-        "ratio": 1.0108930965551086,
-        "percent_difference": 1.083408817084295
+        "value_1": 0.7894863717207526,
+        "value_2": 0.8087334797252761,
+        "difference": -0.01924710800452345,
+        "ratio": 0.9762009259081723,
+        "percent_difference": 2.408568256377138
+      },
+      "MiRe_bpe_vs_srna_c": {
+        "tokenizer_1": "MiRe_bpe",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.7894863717207526,
+        "value_2": 0.5738374600991903,
+        "difference": 0.2156489116215623,
+        "ratio": 1.3758013838697223,
+        "percent_difference": 31.63575763708112
+      },
+      "srna_vs_bpe_c": {
+        "tokenizer_1": "srna",
+        "tokenizer_2": "bpe_c",
+        "value_1": 0.23087481419995626,
+        "value_2": 0.22416430232456877,
+        "difference": 0.006710511875387487,
+        "ratio": 1.0299356847000165,
+        "percent_difference": 2.9494219866813642
+      },
+      "srna_vs_original_bpe_c": {
+        "tokenizer_1": "srna",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.23087481419995626,
+        "value_2": 0.22324040747994223,
+        "difference": 0.007634406720014031,
+        "ratio": 1.0341981400508775,
+        "percent_difference": 3.362321435415548
+      },
+      "srna_vs_MiRe_bpe_c": {
+        "tokenizer_1": "srna",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.23087481419995626,
+        "value_2": 0.8087334797252761,
+        "difference": -0.5778586655253198,
+        "ratio": 0.2854770081713244,
+        "percent_difference": 111.16853701570773
+      },
+      "srna_vs_srna_c": {
+        "tokenizer_1": "srna",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.23087481419995626,
+        "value_2": 0.5738374600991903,
+        "difference": -0.3429626458992341,
+        "ratio": 0.4023348600491305,
+        "percent_difference": 85.23857703001556
+      },
+      "bpe_c_vs_original_bpe_c": {
+        "tokenizer_1": "bpe_c",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.22416430232456877,
+        "value_2": 0.22324040747994223,
+        "difference": 0.0009238948446265438,
+        "ratio": 1.004138564586295,
+        "percent_difference": 0.4130018412323958
+      },
+      "bpe_c_vs_MiRe_bpe_c": {
+        "tokenizer_1": "bpe_c",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.22416430232456877,
+        "value_2": 0.8087334797252761,
+        "difference": -0.5845691774007074,
+        "ratio": 0.2771794515057255,
+        "percent_difference": 113.19013121329323
+      },
+      "bpe_c_vs_srna_c": {
+        "tokenizer_1": "bpe_c",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.22416430232456877,
+        "value_2": 0.5738374600991903,
+        "difference": -0.3496731577746216,
+        "ratio": 0.390640761385325,
+        "percent_difference": 87.63718934969879
+      },
+      "original_bpe_c_vs_MiRe_bpe_c": {
+        "tokenizer_1": "original_bpe_c",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.22324040747994223,
+        "value_2": 0.8087334797252761,
+        "difference": -0.5854930722453339,
+        "ratio": 0.2760370543281777,
+        "percent_difference": 113.47052081539786
+      },
+      "original_bpe_c_vs_srna_c": {
+        "tokenizer_1": "original_bpe_c",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.22324040747994223,
+        "value_2": 0.5738374600991903,
+        "difference": -0.3505970526192481,
+        "ratio": 0.38903073257251997,
+        "percent_difference": 87.97059029730026
+      },
+      "MiRe_bpe_c_vs_srna_c": {
+        "tokenizer_1": "MiRe_bpe_c",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.8087334797252761,
+        "value_2": 0.5738374600991903,
+        "difference": 0.23489601962608575,
+        "ratio": 1.409342428752356,
+        "percent_difference": 33.97959740943326
       }
     },
     "per_language": {}
   },
   "token_length": {
     "per_tokenizer": {
+      "qwen3.5": {},
       "bpe": {},
-      "bpe_c": {},
       "original_bpe": {},
-      "original_bpe_c": {},
       "MiRe_bpe": {},
-      "MiRe_bpe_c": {}
+      "srna": {},
+      "bpe_c": {},
+      "original_bpe_c": {},
+      "MiRe_bpe_c": {},
+      "srna_c": {}
     }
   },
   "vocabulary_utilization": {
     "per_tokenizer": {
-      "bpe": {
-        "global_utilization": 0.027766666666666665,
+      "qwen3.5": {
+        "global_utilization": 0.0056917811808430445,
         "per_language": {
-          "srp_Latn": {
-            "utilization": 0.027766666666666665,
-            "used_tokens": 833,
-            "vocab_size": 30000,
-            "unused_tokens": 29167
-          },
           "srp_Cyrl": {
-            "utilization": 0.027766666666666665,
-            "used_tokens": 833,
-            "vocab_size": 30000,
-            "unused_tokens": 29167
+            "utilization": 0.0056917811808430445,
+            "used_tokens": 1412,
+            "vocab_size": 248077,
+            "unused_tokens": 246665
           }
         }
       },
-      "bpe_c": {
-        "global_utilization": 0.13793333333333332,
+      "bpe": {
+        "global_utilization": 0.027466666666666667,
         "per_language": {
-          "srp_Latn": {
-            "utilization": 0.13793333333333332,
-            "used_tokens": 4138,
-            "vocab_size": 30000,
-            "unused_tokens": 25862
-          },
           "srp_Cyrl": {
-            "utilization": 0.13793333333333332,
-            "used_tokens": 4138,
+            "utilization": 0.027466666666666667,
+            "used_tokens": 824,
             "vocab_size": 30000,
-            "unused_tokens": 25862
+            "unused_tokens": 29176
           }
         }
       },
       "original_bpe": {
-        "global_utilization": 0.028566666666666667,
+        "global_utilization": 0.027133333333333332,
         "per_language": {
-          "srp_Latn": {
-            "utilization": 0.028566666666666667,
-            "used_tokens": 857,
-            "vocab_size": 30000,
-            "unused_tokens": 29143
-          },
           "srp_Cyrl": {
-            "utilization": 0.028566666666666667,
-            "used_tokens": 857,
+            "utilization": 0.027133333333333332,
+            "used_tokens": 814,
             "vocab_size": 30000,
-            "unused_tokens": 29143
-          }
-        }
-      },
-      "original_bpe_c": {
-        "global_utilization": 0.13126666666666667,
-        "per_language": {
-          "srp_Latn": {
-            "utilization": 0.13126666666666667,
-            "used_tokens": 3938,
-            "vocab_size": 30000,
-            "unused_tokens": 26062
-          },
-          "srp_Cyrl": {
-            "utilization": 0.13126666666666667,
-            "used_tokens": 3938,
-            "vocab_size": 30000,
-            "unused_tokens": 26062
+            "unused_tokens": 29186
           }
         }
       },
       "MiRe_bpe": {
-        "global_utilization": 0.011996916993398344,
+        "global_utilization": 0.012432559230588787,
         "per_language": {
-          "srp_Latn": {
-            "utilization": 0.011996916993398344,
-            "used_tokens": 358,
-            "vocab_size": 29841,
-            "unused_tokens": 29483
-          },
           "srp_Cyrl": {
-            "utilization": 0.011996916993398344,
-            "used_tokens": 358,
+            "utilization": 0.012432559230588787,
+            "used_tokens": 371,
             "vocab_size": 29841,
-            "unused_tokens": 29483
+            "unused_tokens": 29470
+          }
+        }
+      },
+      "srna": {
+        "global_utilization": 0.025966666666666666,
+        "per_language": {
+          "srp_Cyrl": {
+            "utilization": 0.025966666666666666,
+            "used_tokens": 779,
+            "vocab_size": 30000,
+            "unused_tokens": 29221
+          }
+        }
+      },
+      "bpe_c": {
+        "global_utilization": 0.0467,
+        "per_language": {
+          "srp_Cyrl": {
+            "utilization": 0.0467,
+            "used_tokens": 1401,
+            "vocab_size": 30000,
+            "unused_tokens": 28599
+          }
+        }
+      },
+      "original_bpe_c": {
+        "global_utilization": 0.045033333333333335,
+        "per_language": {
+          "srp_Cyrl": {
+            "utilization": 0.045033333333333335,
+            "used_tokens": 1351,
+            "vocab_size": 30000,
+            "unused_tokens": 28649
           }
         }
       },
       "MiRe_bpe_c": {
-        "global_utilization": 0.012072367321004581,
+        "global_utilization": 0.01137009664582149,
         "per_language": {
-          "srp_Latn": {
-            "utilization": 0.012072367321004581,
-            "used_tokens": 361,
-            "vocab_size": 29903,
-            "unused_tokens": 29542
-          },
           "srp_Cyrl": {
-            "utilization": 0.012072367321004581,
-            "used_tokens": 361,
+            "utilization": 0.01137009664582149,
+            "used_tokens": 340,
             "vocab_size": 29903,
-            "unused_tokens": 29542
+            "unused_tokens": 29563
+          }
+        }
+      },
+      "srna_c": {
+        "global_utilization": 0.027266666666666668,
+        "per_language": {
+          "srp_Cyrl": {
+            "utilization": 0.027266666666666668,
+            "used_tokens": 818,
+            "vocab_size": 30000,
+            "unused_tokens": 29182
           }
         }
       }
@@ -439,1122 +628,1870 @@
   },
   "type_token_ratio": {
     "per_tokenizer": {
-      "bpe": {
-        "global_ttr": 0.0009227667493796526
+      "qwen3.5": {
+        "global_ttr": 0.14455364455364456
       },
-      "bpe_c": {
-        "global_ttr": 0.017701765043078
+      "bpe": {
+        "global_ttr": 0.03383149942519297
       },
       "original_bpe": {
-        "global_ttr": 0.0009495971137566372
-      },
-      "original_bpe_c": {
-        "global_ttr": 0.01683438352299445
+        "global_ttr": 0.033448389217619987
       },
       "MiRe_bpe": {
-        "global_ttr": 0.00037863243885826456
+        "global_ttr": 0.011733822506167373
+      },
+      "srna": {
+        "global_ttr": 0.09072909387374796
+      },
+      "bpe_c": {
+        "global_ttr": 0.1678648454349389
+      },
+      "original_bpe_c": {
+        "global_ttr": 0.1627710843373494
       },
       "MiRe_bpe_c": {
-        "global_ttr": 0.0003858709245723887
+        "global_ttr": 0.010602469751777473
+      },
+      "srna_c": {
+        "global_ttr": 0.03293340848699573
       }
     },
     "per_language": {
-      "srp_Latn": {
-        "bpe": 0.0018455334987593052,
-        "bpe_c": 0.035403530086156,
-        "original_bpe": 0.0018991942275132744,
-        "original_bpe_c": 0.0336687670459889,
-        "MiRe_bpe": 0.0007572648777165291,
-        "MiRe_bpe_c": 0.0007717418491447774
-      },
       "srp_Cyrl": {
-        "bpe": 0.0018455334987593052,
-        "bpe_c": 0.035403530086156,
-        "original_bpe": 0.0018991942275132744,
-        "original_bpe_c": 0.0336687670459889,
-        "MiRe_bpe": 0.0007572648777165291,
-        "MiRe_bpe_c": 0.0007717418491447774
+        "qwen3.5": 0.14455364455364456,
+        "bpe": 0.03383149942519297,
+        "original_bpe": 0.033448389217619987,
+        "MiRe_bpe": 0.011733822506167373,
+        "srna": 0.09072909387374796,
+        "bpe_c": 0.1678648454349389,
+        "original_bpe_c": 0.1627710843373494,
+        "MiRe_bpe_c": 0.010602469751777473,
+        "srna_c": 0.03293340848699573
       }
     }
   },
   "avg_tokens_per_line": {
     "per_tokenizer": {
-      "bpe": {
-        "global_avg": 225.68
+      "qwen3.5": {
+        "global_avg": 113.5813953488372
       },
-      "bpe_c": {
-        "global_avg": 58.4405
+      "bpe": {
+        "global_avg": 283.2093023255814
       },
       "original_bpe": {
-        "global_avg": 225.622
-      },
-      "original_bpe_c": {
-        "global_avg": 58.4815
+        "global_avg": 282.9767441860465
       },
       "MiRe_bpe": {
-        "global_avg": 236.377
+        "global_avg": 367.6511627906977
+      },
+      "srna": {
+        "global_avg": 99.83720930232558
+      },
+      "bpe_c": {
+        "global_avg": 97.04651162790698
+      },
+      "original_bpe_c": {
+        "global_avg": 96.51162790697674
       },
       "MiRe_bpe_c": {
-        "global_avg": 233.8865
+        "global_avg": 372.8837209302326
+      },
+      "srna_c": {
+        "global_avg": 288.8139534883721
       }
     }
   },
   "compression_ratio": {
     "per_tokenizer": {
-      "bpe": {
+      "qwen3.5": {
         "global": {
-          "mean": 0.00510833779345398,
-          "median": 0.004608294930875576,
-          "std": 0.0022152022665429677,
-          "count": 4000
+          "mean": 0.0329061782665698,
+          "median": 0.02353266888150609,
+          "std": 0.027613461113957592,
+          "count": 86
         },
         "per_language": {
-          "srp_Latn": 0.00510833779345398,
-          "srp_Cyrl": 0.00510833779345398
+          "srp_Cyrl": 0.0329061782665698
         }
       },
-      "bpe_c": {
+      "bpe": {
         "global": {
-          "mean": 0.019660326376130074,
-          "median": 0.017857142857142856,
-          "std": 0.00846937231814272,
-          "count": 4000
+          "mean": 0.028675897600249623,
+          "median": 0.016539092400218697,
+          "std": 0.03678496072398719,
+          "count": 86
         },
         "per_language": {
-          "srp_Latn": 0.019660326376130074,
-          "srp_Cyrl": 0.019660326376130074
+          "srp_Cyrl": 0.028675897600249623
         }
       },
       "original_bpe": {
         "global": {
-          "mean": 0.005109514687514569,
-          "median": 0.004608294930875576,
-          "std": 0.002215126437233247,
-          "count": 4000
+          "mean": 0.028868194185529234,
+          "median": 0.016539092400218697,
+          "std": 0.03697098320076715,
+          "count": 86
         },
         "per_language": {
-          "srp_Latn": 0.005109514687514569,
-          "srp_Cyrl": 0.005109514687514569
-        }
-      },
-      "original_bpe_c": {
-        "global": {
-          "mean": 0.01966749131856578,
-          "median": 0.017857142857142856,
-          "std": 0.008531036124512743,
-          "count": 4000
-        },
-        "per_language": {
-          "srp_Latn": 0.01966749131856578,
-          "srp_Cyrl": 0.01966749131856578
+          "srp_Cyrl": 0.028868194185529234
         }
       },
       "MiRe_bpe": {
         "global": {
-          "mean": 0.004876663496772453,
-          "median": 0.004395625627946518,
-          "std": 0.0021205471059267448,
-          "count": 4000
+          "mean": 0.014717827186305077,
+          "median": 0.00741106719367589,
+          "std": 0.020206205959659548,
+          "count": 86
         },
         "per_language": {
-          "srp_Latn": 0.004876663496772453,
-          "srp_Cyrl": 0.004876663496772453
+          "srp_Cyrl": 0.014717827186305077
+        }
+      },
+      "srna": {
+        "global": {
+          "mean": 0.04294080531663476,
+          "median": 0.030776515151515152,
+          "std": 0.037058180749905675,
+          "count": 86
+        },
+        "per_language": {
+          "srp_Cyrl": 0.04294080531663476
+        }
+      },
+      "bpe_c": {
+        "global": {
+          "mean": 0.04427606891443516,
+          "median": 0.031754032258064516,
+          "std": 0.03880728176208974,
+          "count": 86
+        },
+        "per_language": {
+          "srp_Cyrl": 0.04427606891443516
+        }
+      },
+      "original_bpe_c": {
+        "global": {
+          "mean": 0.04439249548240472,
+          "median": 0.030776515151515152,
+          "std": 0.03889361772999215,
+          "count": 86
+        },
+        "per_language": {
+          "srp_Cyrl": 0.04439249548240472
         }
       },
       "MiRe_bpe_c": {
         "global": {
-          "mean": 0.004932802380659719,
-          "median": 0.004424778761061947,
-          "std": 0.0021555064208070088,
-          "count": 4000
+          "mean": 0.01363979557396831,
+          "median": 0.007144315166360482,
+          "std": 0.01715646770304246,
+          "count": 86
         },
         "per_language": {
-          "srp_Latn": 0.004932802380659719,
-          "srp_Cyrl": 0.004932802380659719
+          "srp_Cyrl": 0.01363979557396831
+        }
+      },
+      "srna_c": {
+        "global": {
+          "mean": 0.02716073068192343,
+          "median": 0.015310892940626462,
+          "std": 0.033776195529140934,
+          "count": 86
+        },
+        "per_language": {
+          "srp_Cyrl": 0.02716073068192343
         }
       }
     },
     "pairwise_comparisons": {
-      "bpe_vs_bpe_c": {
-        "tokenizer_1": "bpe",
+      "qwen3.5_vs_bpe": {
+        "tokenizer_1": "qwen3.5",
+        "tokenizer_2": "bpe",
+        "value_1": 0.0329061782665698,
+        "value_2": 0.028675897600249623,
+        "difference": 0.004230280666320179,
+        "ratio": 1.1475204272693231,
+        "percent_difference": 13.73867511536572
+      },
+      "qwen3.5_vs_original_bpe": {
+        "tokenizer_1": "qwen3.5",
+        "tokenizer_2": "original_bpe",
+        "value_1": 0.0329061782665698,
+        "value_2": 0.028868194185529234,
+        "difference": 0.004037984081040568,
+        "ratio": 1.139876573334978,
+        "percent_difference": 13.0733309647838
+      },
+      "qwen3.5_vs_MiRe_bpe": {
+        "tokenizer_1": "qwen3.5",
+        "tokenizer_2": "MiRe_bpe",
+        "value_1": 0.0329061782665698,
+        "value_2": 0.014717827186305077,
+        "difference": 0.018188351080264724,
+        "ratio": 2.2358040932284466,
+        "percent_difference": 76.38312194576974
+      },
+      "qwen3.5_vs_srna": {
+        "tokenizer_1": "qwen3.5",
+        "tokenizer_2": "srna",
+        "value_1": 0.0329061782665698,
+        "value_2": 0.04294080531663476,
+        "difference": -0.010034627050064956,
+        "ratio": 0.7663148845003691,
+        "percent_difference": 26.460187540765983
+      },
+      "qwen3.5_vs_bpe_c": {
+        "tokenizer_1": "qwen3.5",
         "tokenizer_2": "bpe_c",
-        "value_1": 0.00510833779345398,
-        "value_2": 0.019660326376130074,
-        "difference": -0.014551988582676093,
-        "ratio": 0.2598297554030485,
-        "percent_difference": 117.50321683109539
+        "value_1": 0.0329061782665698,
+        "value_2": 0.04427606891443516,
+        "difference": -0.01136989064786536,
+        "ratio": 0.7432046040528572,
+        "percent_difference": 29.46245040313768
+      },
+      "qwen3.5_vs_original_bpe_c": {
+        "tokenizer_1": "qwen3.5",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.0329061782665698,
+        "value_2": 0.04439249548240472,
+        "difference": -0.011486317215834915,
+        "ratio": 0.7412554286255973,
+        "percent_difference": 29.719312528275555
+      },
+      "qwen3.5_vs_MiRe_bpe_c": {
+        "tokenizer_1": "qwen3.5",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.0329061782665698,
+        "value_2": 0.01363979557396831,
+        "difference": 0.019266382692601492,
+        "ratio": 2.4125125694238103,
+        "percent_difference": 82.78431453000084
+      },
+      "qwen3.5_vs_srna_c": {
+        "tokenizer_1": "qwen3.5",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.0329061782665698,
+        "value_2": 0.02716073068192343,
+        "difference": 0.005745447584646374,
+        "ratio": 1.2115350890935421,
+        "percent_difference": 19.130158968469768
       },
       "bpe_vs_original_bpe": {
         "tokenizer_1": "bpe",
         "tokenizer_2": "original_bpe",
-        "value_1": 0.00510833779345398,
-        "value_2": 0.005109514687514569,
-        "difference": -1.1768940605888858e-06,
-        "ratio": 0.9997696661752505,
-        "percent_difference": 0.023036035464025963
-      },
-      "bpe_vs_original_bpe_c": {
-        "tokenizer_1": "bpe",
-        "tokenizer_2": "original_bpe_c",
-        "value_1": 0.00510833779345398,
-        "value_2": 0.01966749131856578,
-        "difference": -0.0145591535251118,
-        "ratio": 0.25973509842771836,
-        "percent_difference": 117.52707414379574
+        "value_1": 0.028675897600249623,
+        "value_2": 0.028868194185529234,
+        "difference": -0.00019229658527961102,
+        "ratio": 0.9933388079613237,
+        "percent_difference": 0.6683451917026665
       },
       "bpe_vs_MiRe_bpe": {
         "tokenizer_1": "bpe",
         "tokenizer_2": "MiRe_bpe",
-        "value_1": 0.00510833779345398,
-        "value_2": 0.004876663496772453,
-        "difference": 0.00023167429668152686,
-        "ratio": 1.047506721928806,
-        "percent_difference": 4.640446003913798
+        "value_1": 0.028675897600249623,
+        "value_2": 0.014717827186305077,
+        "difference": 0.013958070413944547,
+        "ratio": 1.9483784689993178,
+        "percent_difference": 64.33220693822244
+      },
+      "bpe_vs_srna": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "srna",
+        "value_1": 0.028675897600249623,
+        "value_2": 0.04294080531663476,
+        "difference": -0.014264907716385136,
+        "ratio": 0.6678006476310988,
+        "percent_difference": 39.83681776844836
+      },
+      "bpe_vs_bpe_c": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "bpe_c",
+        "value_1": 0.028675897600249623,
+        "value_2": 0.04427606891443516,
+        "difference": -0.015600171314185538,
+        "ratio": 0.6476613281921361,
+        "percent_difference": 42.7683366453057
+      },
+      "bpe_vs_original_bpe_c": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.028675897600249623,
+        "value_2": 0.04439249548240472,
+        "difference": -0.015716597882155094,
+        "ratio": 0.645962730606472,
+        "percent_difference": 43.01886826600009
       },
       "bpe_vs_MiRe_bpe_c": {
         "tokenizer_1": "bpe",
         "tokenizer_2": "MiRe_bpe_c",
-        "value_1": 0.00510833779345398,
-        "value_2": 0.004932802380659719,
-        "difference": 0.00017553541279426068,
-        "ratio": 1.0355853324841253,
-        "percent_difference": 3.4963243167702247
+        "value_1": 0.028675897600249623,
+        "value_2": 0.01363979557396831,
+        "difference": 0.015036102026281313,
+        "ratio": 2.1023700424790728,
+        "percent_difference": 71.06631558356462
       },
-      "bpe_c_vs_original_bpe": {
-        "tokenizer_1": "bpe_c",
-        "tokenizer_2": "original_bpe",
-        "value_1": 0.019660326376130074,
-        "value_2": 0.005109514687514569,
-        "difference": 0.014550811688615505,
-        "ratio": 3.847787427673192,
-        "percent_difference": 117.48813124176336
-      },
-      "bpe_c_vs_original_bpe_c": {
-        "tokenizer_1": "bpe_c",
-        "tokenizer_2": "original_bpe_c",
-        "value_1": 0.019660326376130074,
-        "value_2": 0.01966749131856578,
-        "difference": -7.16494243570634e-06,
-        "ratio": 0.9996356961688885,
-        "percent_difference": 0.036437020184177035
-      },
-      "bpe_c_vs_MiRe_bpe": {
-        "tokenizer_1": "bpe_c",
-        "tokenizer_2": "MiRe_bpe",
-        "value_1": 0.019660326376130074,
-        "value_2": 0.004876663496772453,
-        "difference": 0.014783662879357621,
-        "ratio": 4.031511788570601,
-        "percent_difference": 120.50103094091413
-      },
-      "bpe_c_vs_MiRe_bpe_c": {
-        "tokenizer_1": "bpe_c",
-        "tokenizer_2": "MiRe_bpe_c",
-        "value_1": 0.019660326376130074,
-        "value_2": 0.004932802380659719,
-        "difference": 0.014727523995470355,
-        "ratio": 3.9856302480742554,
-        "percent_difference": 119.76942129743703
-      },
-      "original_bpe_vs_original_bpe_c": {
-        "tokenizer_1": "original_bpe",
-        "tokenizer_2": "original_bpe_c",
-        "value_1": 0.005109514687514569,
-        "value_2": 0.01966749131856578,
-        "difference": -0.014557976631051212,
-        "ratio": 0.25979493798943604,
-        "percent_difference": 117.51199178366136
+      "bpe_vs_srna_c": {
+        "tokenizer_1": "bpe",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.028675897600249623,
+        "value_2": 0.02716073068192343,
+        "difference": 0.0015151669183261947,
+        "ratio": 1.0557852046055078,
+        "percent_difference": 5.42714331054958
       },
       "original_bpe_vs_MiRe_bpe": {
         "tokenizer_1": "original_bpe",
         "tokenizer_2": "MiRe_bpe",
-        "value_1": 0.005109514687514569,
-        "value_2": 0.004876663496772453,
-        "difference": 0.00023285119074211574,
-        "ratio": 1.047748053745399,
-        "percent_difference": 4.66346957654933
+        "value_1": 0.028868194185529234,
+        "value_2": 0.014717827186305077,
+        "difference": 0.014150366999224158,
+        "ratio": 1.961444024318417,
+        "percent_difference": 64.93075786159392
+      },
+      "original_bpe_vs_srna": {
+        "tokenizer_1": "original_bpe",
+        "tokenizer_2": "srna",
+        "value_1": 0.028868194185529234,
+        "value_2": 0.04294080531663476,
+        "difference": -0.014072611131105525,
+        "ratio": 0.6722788259945847,
+        "percent_difference": 39.194561207279996
+      },
+      "original_bpe_vs_bpe_c": {
+        "tokenizer_1": "original_bpe",
+        "tokenizer_2": "bpe_c",
+        "value_1": 0.028868194185529234,
+        "value_2": 0.04427606891443516,
+        "difference": -0.015407874728905927,
+        "ratio": 0.6520044550774796,
+        "percent_difference": 42.13009763417365
+      },
+      "original_bpe_vs_original_bpe_c": {
+        "tokenizer_1": "original_bpe",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.028868194185529234,
+        "value_2": 0.04439249548240472,
+        "difference": -0.015524301296875483,
+        "ratio": 0.6502944669323973,
+        "percent_difference": 42.38098594824023
       },
       "original_bpe_vs_MiRe_bpe_c": {
         "tokenizer_1": "original_bpe",
         "tokenizer_2": "MiRe_bpe_c",
-        "value_1": 0.005109514687514569,
-        "value_2": 0.004932802380659719,
-        "difference": 0.00017671230685484957,
-        "ratio": 1.035823917768872,
-        "percent_difference": 3.5193532658887894
+        "value_1": 0.028868194185529234,
+        "value_2": 0.01363979557396831,
+        "difference": 0.015228398611560924,
+        "ratio": 2.11646824389542,
+        "percent_difference": 71.64958257363111
       },
-      "original_bpe_c_vs_MiRe_bpe": {
-        "tokenizer_1": "original_bpe_c",
-        "tokenizer_2": "MiRe_bpe",
-        "value_1": 0.01966749131856578,
-        "value_2": 0.004876663496772453,
-        "difference": 0.014790827821793327,
-        "ratio": 4.032981019006625,
-        "percent_difference": 120.52423832129826
+      "original_bpe_vs_srna_c": {
+        "tokenizer_1": "original_bpe",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.028868194185529234,
+        "value_2": 0.02716073068192343,
+        "difference": 0.0017074635036058057,
+        "ratio": 1.0628651535042168,
+        "percent_difference": 6.094935812690118
       },
-      "original_bpe_c_vs_MiRe_bpe_c": {
-        "tokenizer_1": "original_bpe_c",
-        "tokenizer_2": "MiRe_bpe_c",
-        "value_1": 0.01966749131856578,
-        "value_2": 0.004932802380659719,
-        "difference": 0.014734688937906061,
-        "ratio": 3.987082757597807,
-        "percent_difference": 119.79278880211059
+      "MiRe_bpe_vs_srna": {
+        "tokenizer_1": "MiRe_bpe",
+        "tokenizer_2": "srna",
+        "value_1": 0.014717827186305077,
+        "value_2": 0.04294080531663476,
+        "difference": -0.02822297813032968,
+        "ratio": 0.3427468832449578,
+        "percent_difference": 97.89680020208831
+      },
+      "MiRe_bpe_vs_bpe_c": {
+        "tokenizer_1": "MiRe_bpe",
+        "tokenizer_2": "bpe_c",
+        "value_1": 0.014717827186305077,
+        "value_2": 0.04427606891443516,
+        "difference": -0.029558241728130083,
+        "ratio": 0.33241043180115476,
+        "percent_difference": 100.20779667664361
+      },
+      "MiRe_bpe_vs_original_bpe_c": {
+        "tokenizer_1": "MiRe_bpe",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.014717827186305077,
+        "value_2": 0.04439249548240472,
+        "difference": -0.02967466829609964,
+        "ratio": 0.33153863116658067,
+        "percent_difference": 100.40435225642238
       },
       "MiRe_bpe_vs_MiRe_bpe_c": {
         "tokenizer_1": "MiRe_bpe",
         "tokenizer_2": "MiRe_bpe_c",
-        "value_1": 0.004876663496772453,
-        "value_2": 0.004932802380659719,
-        "difference": -5.613888388726618e-05,
-        "ratio": 0.9886192716522817,
-        "percent_difference": 1.144585945630746
+        "value_1": 0.014717827186305077,
+        "value_2": 0.01363979557396831,
+        "difference": 0.0010780316123367665,
+        "ratio": 1.079035760212873,
+        "percent_difference": 7.603116956947442
+      },
+      "MiRe_bpe_vs_srna_c": {
+        "tokenizer_1": "MiRe_bpe",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.014717827186305077,
+        "value_2": 0.02716073068192343,
+        "difference": -0.012442903495618352,
+        "ratio": 0.5418789118254609,
+        "percent_difference": 59.423743934880136
+      },
+      "srna_vs_bpe_c": {
+        "tokenizer_1": "srna",
+        "tokenizer_2": "bpe_c",
+        "value_1": 0.04294080531663476,
+        "value_2": 0.04427606891443516,
+        "difference": -0.0013352635978004027,
+        "ratio": 0.9698423181971995,
+        "percent_difference": 3.061938666278714
+      },
+      "srna_vs_original_bpe_c": {
+        "tokenizer_1": "srna",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.04294080531663476,
+        "value_2": 0.04439249548240472,
+        "difference": -0.0014516901657699588,
+        "ratio": 0.9672987483583718,
+        "percent_difference": 3.324482534126146
+      },
+      "srna_vs_MiRe_bpe_c": {
+        "tokenizer_1": "srna",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.04294080531663476,
+        "value_2": 0.01363979557396831,
+        "difference": 0.02930100974266645,
+        "ratio": 3.148200065299199,
+        "percent_difference": 103.5726354314232
+      },
+      "srna_vs_srna_c": {
+        "tokenizer_1": "srna",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.04294080531663476,
+        "value_2": 0.02716073068192343,
+        "difference": 0.01578007463471133,
+        "ratio": 1.5809885904584156,
+        "percent_difference": 45.020624469728844
+      },
+      "bpe_c_vs_original_bpe_c": {
+        "tokenizer_1": "bpe_c",
+        "tokenizer_2": "original_bpe_c",
+        "value_1": 0.04427606891443516,
+        "value_2": 0.04439249548240472,
+        "difference": -0.00011642656796955614,
+        "ratio": 0.9973773367163893,
+        "percent_difference": 0.2626106980789362
+      },
+      "bpe_c_vs_MiRe_bpe_c": {
+        "tokenizer_1": "bpe_c",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.04427606891443516,
+        "value_2": 0.01363979557396831,
+        "difference": 0.03063627334046685,
+        "ratio": 3.246094758116206,
+        "percent_difference": 105.79579053542807
+      },
+      "bpe_c_vs_srna_c": {
+        "tokenizer_1": "bpe_c",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.04427606891443516,
+        "value_2": 0.02716073068192343,
+        "difference": 0.017115338232511733,
+        "ratio": 1.630150139661106,
+        "percent_difference": 47.917427234195884
+      },
+      "original_bpe_c_vs_MiRe_bpe_c": {
+        "tokenizer_1": "original_bpe_c",
+        "tokenizer_2": "MiRe_bpe_c",
+        "value_1": 0.04439249548240472,
+        "value_2": 0.01363979557396831,
+        "difference": 0.030752699908436407,
+        "ratio": 3.25463055818287,
+        "percent_difference": 105.98478656843993
+      },
+      "original_bpe_c_vs_srna_c": {
+        "tokenizer_1": "original_bpe_c",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.04439249548240472,
+        "value_2": 0.02716073068192343,
+        "difference": 0.01723176480048129,
+        "ratio": 1.6344367168277152,
+        "percent_difference": 48.164885705941636
+      },
+      "MiRe_bpe_c_vs_srna_c": {
+        "tokenizer_1": "MiRe_bpe_c",
+        "tokenizer_2": "srna_c",
+        "value_1": 0.01363979557396831,
+        "value_2": 0.02716073068192343,
+        "difference": -0.013520935107955118,
+        "ratio": 0.5021880940429246,
+        "percent_difference": 66.2782387813081
       }
     },
     "per_language": {}
   },
   "renyi_efficiency": {
     "per_tokenizer": {
-      "bpe": {
+      "qwen3.5": {
         "renyi_1.0": {
-          "overall": 4.255852452441277
+          "overall": 9.388714473583937
         },
         "renyi_2.0": {
-          "overall": 3.1595056972947417
+          "overall": 8.205913007923701
         },
         "renyi_2.5": {
-          "overall": 2.8474592252855535
+          "overall": 7.785924664417772
         },
         "renyi_3.0": {
-          "overall": 2.6333505299324105
+          "overall": 7.476254095525089
         }
       },
-      "bpe_c": {
+      "bpe": {
         "renyi_1.0": {
-          "overall": 9.150256707578274
+          "overall": 5.674529050513276
         },
         "renyi_2.0": {
-          "overall": 7.3783351569877285
+          "overall": 3.7696733009136896
         },
         "renyi_2.5": {
-          "overall": 6.91121106898183
+          "overall": 3.3710565568208537
         },
         "renyi_3.0": {
-          "overall": 6.5887043193009065
+          "overall": 3.1114178707874554
         }
       },
       "original_bpe": {
         "renyi_1.0": {
-          "overall": 4.214717974928147
+          "overall": 5.602649283378735
         },
         "renyi_2.0": {
-          "overall": 2.754772376044468
+          "overall": 3.3889089176767
         },
         "renyi_2.5": {
-          "overall": 2.429640296282062
+          "overall": 2.9753445171515356
         },
         "renyi_3.0": {
-          "overall": 2.22809252745603
-        }
-      },
-      "original_bpe_c": {
-        "renyi_1.0": {
-          "overall": 9.157863482893893
-        },
-        "renyi_2.0": {
-          "overall": 7.59770770058714
-        },
-        "renyi_2.5": {
-          "overall": 7.18161107528738
-        },
-        "renyi_3.0": {
-          "overall": 6.880844781310735
+          "overall": 2.7273128484915485
         }
       },
       "MiRe_bpe": {
         "renyi_1.0": {
-          "overall": 4.178232470586123
+          "overall": 5.798921355049227
         },
         "renyi_2.0": {
-          "overall": 2.7539653438394804
+          "overall": 4.055997430775848
         },
         "renyi_2.5": {
-          "overall": 2.4504111561436943
+          "overall": 3.5867242654286855
         },
         "renyi_3.0": {
-          "overall": 2.262106421767475
+          "overall": 3.2897822030220185
+        }
+      },
+      "srna": {
+        "renyi_1.0": {
+          "overall": 8.220828204562325
+        },
+        "renyi_2.0": {
+          "overall": 6.8112856401284105
+        },
+        "renyi_2.5": {
+          "overall": 6.4308622396309705
+        },
+        "renyi_3.0": {
+          "overall": 6.179017973891647
+        }
+      },
+      "bpe_c": {
+        "renyi_1.0": {
+          "overall": 9.137300475183205
+        },
+        "renyi_2.0": {
+          "overall": 7.464277443600402
+        },
+        "renyi_2.5": {
+          "overall": 6.977688889724168
+        },
+        "renyi_3.0": {
+          "overall": 6.661519990519479
+        }
+      },
+      "original_bpe_c": {
+        "renyi_1.0": {
+          "overall": 9.062014889370454
+        },
+        "renyi_2.0": {
+          "overall": 7.396078143889352
+        },
+        "renyi_2.5": {
+          "overall": 6.9175687530759555
+        },
+        "renyi_3.0": {
+          "overall": 6.60601372476817
         }
       },
       "MiRe_bpe_c": {
         "renyi_1.0": {
-          "overall": 4.227531523029498
+          "overall": 5.8249972346646794
         },
         "renyi_2.0": {
-          "overall": 2.7845707695733557
+          "overall": 4.121004352781952
         },
         "renyi_2.5": {
-          "overall": 2.4791603832537286
+          "overall": 3.649887491914872
         },
         "renyi_3.0": {
-          "overall": 2.289557930401231
+          "overall": 3.34929870477027
+        }
+      },
+      "srna_c": {
+        "renyi_1.0": {
+          "overall": 5.7554511858832385
+        },
+        "renyi_2.0": {
+          "overall": 3.824751376111232
+        },
+        "renyi_2.5": {
+          "overall": 3.4180041566813024
+        },
+        "renyi_3.0": {
+          "overall": 3.153803405069133
         }
       }
     },
     "pairwise_comparisons": {
       "shannon": {
-        "bpe_vs_bpe_c": {
-          "tokenizer_1": "bpe",
+        "qwen3.5_vs_bpe": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "bpe",
+          "value_1": 9.388714473583937,
+          "value_2": 5.674529050513276,
+          "difference": 3.714185423070661,
+          "ratio": 1.6545363306818746,
+          "percent_difference": 49.31455057642724
+        },
+        "qwen3.5_vs_original_bpe": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "original_bpe",
+          "value_1": 9.388714473583937,
+          "value_2": 5.602649283378735,
+          "difference": 3.7860651902052016,
+          "ratio": 1.6757633752727024,
+          "percent_difference": 50.509950283165935
+        },
+        "qwen3.5_vs_MiRe_bpe": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 9.388714473583937,
+          "value_2": 5.798921355049227,
+          "difference": 3.5897931185347094,
+          "ratio": 1.6190449738396626,
+          "percent_difference": 47.272573019783536
+        },
+        "qwen3.5_vs_srna": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "srna",
+          "value_1": 9.388714473583937,
+          "value_2": 8.220828204562325,
+          "difference": 1.1678862690216114,
+          "ratio": 1.1420643078727113,
+          "percent_difference": 13.264243034215509
+        },
+        "qwen3.5_vs_bpe_c": {
+          "tokenizer_1": "qwen3.5",
           "tokenizer_2": "bpe_c",
-          "value_1": 4.255852452441277,
-          "value_2": 9.150256707578274,
-          "difference": -4.894404255136997,
-          "ratio": 0.46510743779642444,
-          "percent_difference": 73.01752054553403
+          "value_1": 9.388714473583937,
+          "value_2": 9.137300475183205,
+          "difference": 0.2514139984007322,
+          "ratio": 1.0275151286841853,
+          "percent_difference": 2.7141724660808735
+        },
+        "qwen3.5_vs_original_bpe_c": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 9.388714473583937,
+          "value_2": 9.062014889370454,
+          "difference": 0.32669958421348255,
+          "ratio": 1.0360515391115384,
+          "percent_difference": 3.5413189125133893
+        },
+        "qwen3.5_vs_MiRe_bpe_c": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 9.388714473583937,
+          "value_2": 5.8249972346646794,
+          "difference": 3.5637172389192573,
+          "ratio": 1.611797241329404,
+          "percent_difference": 46.848754692611536
+        },
+        "qwen3.5_vs_srna_c": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "srna_c",
+          "value_1": 9.388714473583937,
+          "value_2": 5.7554511858832385,
+          "difference": 3.6332632877006983,
+          "ratio": 1.6312734085230771,
+          "percent_difference": 47.98235002704704
         },
         "bpe_vs_original_bpe": {
           "tokenizer_1": "bpe",
           "tokenizer_2": "original_bpe",
-          "value_1": 4.255852452441277,
-          "value_2": 4.214717974928147,
-          "difference": 0.04113447751312993,
-          "ratio": 1.0097597224198214,
-          "percent_difference": 0.9712327609063853
-        },
-        "bpe_vs_original_bpe_c": {
-          "tokenizer_1": "bpe",
-          "tokenizer_2": "original_bpe_c",
-          "value_1": 4.255852452441277,
-          "value_2": 9.157863482893893,
-          "difference": -4.902011030452615,
-          "ratio": 0.46472110666323496,
-          "percent_difference": 73.08953095598902
+          "value_1": 5.674529050513276,
+          "value_2": 5.602649283378735,
+          "difference": 0.0718797671345408,
+          "ratio": 1.0128296031928654,
+          "percent_difference": 1.2747828402875574
         },
         "bpe_vs_MiRe_bpe": {
           "tokenizer_1": "bpe",
           "tokenizer_2": "MiRe_bpe",
-          "value_1": 4.255852452441277,
-          "value_2": 4.178232470586123,
-          "difference": 0.07761998185515395,
-          "ratio": 1.0185772291038333,
-          "percent_difference": 1.8406260445215528
+          "value_1": 5.674529050513276,
+          "value_2": 5.798921355049227,
+          "difference": -0.1243923045359514,
+          "ratio": 0.9785490616409824,
+          "percent_difference": 2.1683504114097034
+        },
+        "bpe_vs_srna": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "srna",
+          "value_1": 5.674529050513276,
+          "value_2": 8.220828204562325,
+          "difference": -2.5462991540490494,
+          "ratio": 0.6902624540145571,
+          "percent_difference": 36.64963926161675
+        },
+        "bpe_vs_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "bpe_c",
+          "value_1": 5.674529050513276,
+          "value_2": 9.137300475183205,
+          "difference": -3.4627714246699286,
+          "ratio": 0.6210290518436191,
+          "percent_difference": 46.75683606353284
+        },
+        "bpe_vs_original_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 5.674529050513276,
+          "value_2": 9.062014889370454,
+          "difference": -3.3874858388571782,
+          "ratio": 0.626188449234328,
+          "percent_difference": 45.973952273695794
         },
         "bpe_vs_MiRe_bpe_c": {
           "tokenizer_1": "bpe",
           "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 4.255852452441277,
-          "value_2": 4.227531523029498,
-          "difference": 0.02832092941177944,
-          "ratio": 1.0066991645733452,
-          "percent_difference": 0.6676800082058717
+          "value_1": 5.674529050513276,
+          "value_2": 5.8249972346646794,
+          "difference": -0.1504681841514035,
+          "ratio": 0.9741685398138965,
+          "percent_difference": 2.6169457840249635
         },
-        "bpe_c_vs_original_bpe": {
-          "tokenizer_1": "bpe_c",
-          "tokenizer_2": "original_bpe",
-          "value_1": 9.150256707578274,
-          "value_2": 4.214717974928147,
-          "difference": 4.9355387326501265,
-          "ratio": 2.171024671641112,
-          "percent_difference": 73.85780893562504
-        },
-        "bpe_c_vs_original_bpe_c": {
-          "tokenizer_1": "bpe_c",
-          "tokenizer_2": "original_bpe_c",
-          "value_1": 9.150256707578274,
-          "value_2": 9.157863482893893,
-          "difference": -0.007606775315618819,
-          "ratio": 0.9991693722744581,
-          "percent_difference": 0.08309728400819112
-        },
-        "bpe_c_vs_MiRe_bpe": {
-          "tokenizer_1": "bpe_c",
-          "tokenizer_2": "MiRe_bpe",
-          "value_1": 9.150256707578274,
-          "value_2": 4.178232470586123,
-          "difference": 4.972024236992151,
-          "ratio": 2.189982671379382,
-          "percent_difference": 74.60746931674215
-        },
-        "bpe_c_vs_MiRe_bpe_c": {
-          "tokenizer_1": "bpe_c",
-          "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 9.150256707578274,
-          "value_2": 4.227531523029498,
-          "difference": 4.922725184548776,
-          "ratio": 2.164444347187527,
-          "percent_difference": 73.59550173302645
-        },
-        "original_bpe_vs_original_bpe_c": {
-          "tokenizer_1": "original_bpe",
-          "tokenizer_2": "original_bpe_c",
-          "value_1": 4.214717974928147,
-          "value_2": 9.157863482893893,
-          "difference": -4.943145507965745,
-          "ratio": 0.4602293955135803,
-          "percent_difference": 73.92956286797335
+        "bpe_vs_srna_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "srna_c",
+          "value_1": 5.674529050513276,
+          "value_2": 5.7554511858832385,
+          "difference": -0.08092213536996251,
+          "ratio": 0.9859399145685667,
+          "percent_difference": 1.4159628222677405
         },
         "original_bpe_vs_MiRe_bpe": {
           "tokenizer_1": "original_bpe",
           "tokenizer_2": "MiRe_bpe",
-          "value_1": 4.214717974928147,
-          "value_2": 4.178232470586123,
-          "difference": 0.03648550434202402,
-          "ratio": 1.0087322820352564,
-          "percent_difference": 0.8694321401962813
+          "value_1": 5.602649283378735,
+          "value_2": 5.798921355049227,
+          "difference": -0.1962720716704922,
+          "ratio": 0.9661536931347423,
+          "percent_difference": 3.4428953324899805
+        },
+        "original_bpe_vs_srna": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "srna",
+          "value_1": 5.602649283378735,
+          "value_2": 8.220828204562325,
+          "difference": -2.61817892118359,
+          "ratio": 0.6815188377576634,
+          "percent_difference": 37.880177740623715
+        },
+        "original_bpe_vs_bpe_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "bpe_c",
+          "value_1": 5.602649283378735,
+          "value_2": 9.137300475183205,
+          "difference": -3.5346511918044694,
+          "ratio": 0.6131624212857464,
+          "percent_difference": 47.96015250664352
+        },
+        "original_bpe_vs_original_bpe_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 5.602649283378735,
+          "value_2": 9.062014889370454,
+          "difference": -3.459365605991719,
+          "ratio": 0.6182564641281401,
+          "percent_difference": 47.17960895988511
         },
         "original_bpe_vs_MiRe_bpe_c": {
           "tokenizer_1": "original_bpe",
           "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 4.214717974928147,
-          "value_2": 4.227531523029498,
-          "difference": -0.012813548101350491,
-          "ratio": 0.9969690236414445,
-          "percent_difference": 0.303557673922107
+          "value_1": 5.602649283378735,
+          "value_2": 5.8249972346646794,
+          "difference": -0.2223479512859443,
+          "ratio": 0.9618286597695279,
+          "percent_difference": 3.8914040775565337
         },
-        "original_bpe_c_vs_MiRe_bpe": {
-          "tokenizer_1": "original_bpe_c",
-          "tokenizer_2": "MiRe_bpe",
-          "value_1": 9.157863482893893,
-          "value_2": 4.178232470586123,
-          "difference": 4.979631012307769,
-          "ratio": 2.191803243922717,
-          "percent_difference": 74.67899195803776
+        "original_bpe_vs_srna_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "srna_c",
+          "value_1": 5.602649283378735,
+          "value_2": 5.7554511858832385,
+          "difference": -0.15280190250450332,
+          "ratio": 0.9734509254670962,
+          "percent_difference": 2.6906242451019997
         },
-        "original_bpe_c_vs_MiRe_bpe_c": {
-          "tokenizer_1": "original_bpe_c",
-          "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 9.157863482893893,
-          "value_2": 4.227531523029498,
-          "difference": 4.930331959864395,
-          "ratio": 2.1662436892561034,
-          "percent_difference": 73.66733604324105
+        "MiRe_bpe_vs_srna": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "srna",
+          "value_1": 5.798921355049227,
+          "value_2": 8.220828204562325,
+          "difference": -2.421906849513098,
+          "ratio": 0.7053938132207885,
+          "percent_difference": 34.549930285348154
+        },
+        "MiRe_bpe_vs_bpe_c": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "bpe_c",
+          "value_1": 5.798921355049227,
+          "value_2": 9.137300475183205,
+          "difference": -3.338379120133977,
+          "ratio": 0.634642734010885,
+          "percent_difference": 44.70178815069228
+        },
+        "MiRe_bpe_vs_original_bpe_c": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 5.798921355049227,
+          "value_2": 9.062014889370454,
+          "difference": -3.263093534321227,
+          "ratio": 0.6399152314184824,
+          "percent_difference": 43.91504654421119
         },
         "MiRe_bpe_vs_MiRe_bpe_c": {
           "tokenizer_1": "MiRe_bpe",
           "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 4.178232470586123,
-          "value_2": 4.227531523029498,
-          "difference": -0.049299052443374514,
-          "ratio": 0.9883385724802245,
-          "percent_difference": 1.172982074700606
+          "value_1": 5.798921355049227,
+          "value_2": 5.8249972346646794,
+          "difference": -0.026075879615452102,
+          "ratio": 0.995523452018093,
+          "percent_difference": 0.44865902000598745
+        },
+        "MiRe_bpe_vs_srna_c": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "srna_c",
+          "value_1": 5.798921355049227,
+          "value_2": 5.7554511858832385,
+          "difference": 0.04347016916598889,
+          "ratio": 1.0075528690561413,
+          "percent_difference": 0.7524453450326563
+        },
+        "srna_vs_bpe_c": {
+          "tokenizer_1": "srna",
+          "tokenizer_2": "bpe_c",
+          "value_1": 8.220828204562325,
+          "value_2": 9.137300475183205,
+          "difference": -0.9164722706208792,
+          "ratio": 0.899699886951293,
+          "percent_difference": 10.559574566240796
+        },
+        "srna_vs_original_bpe_c": {
+          "tokenizer_1": "srna",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 8.220828204562325,
+          "value_2": 9.062014889370454,
+          "difference": -0.8411866848081289,
+          "ratio": 0.9071744313955142,
+          "percent_difference": 9.734355397850383
+        },
+        "srna_vs_MiRe_bpe_c": {
+          "tokenizer_1": "srna",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 8.220828204562325,
+          "value_2": 5.8249972346646794,
+          "difference": 2.395830969897646,
+          "ratio": 1.4113016493192487,
+          "percent_difference": 34.11449160127818
+        },
+        "srna_vs_srna_c": {
+          "tokenizer_1": "srna",
+          "tokenizer_2": "srna_c",
+          "value_1": 8.220828204562325,
+          "value_2": 5.7554511858832385,
+          "difference": 2.465377018679087,
+          "ratio": 1.4283551261326086,
+          "percent_difference": 35.27944669401018
+        },
+        "bpe_c_vs_original_bpe_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 9.137300475183205,
+          "value_2": 9.062014889370454,
+          "difference": 0.07528558581275036,
+          "ratio": 1.0083078196992437,
+          "percent_difference": 0.8273452523316581
+        },
+        "bpe_c_vs_MiRe_bpe_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 9.137300475183205,
+          "value_2": 5.8249972346646794,
+          "difference": 3.312303240518525,
+          "ratio": 1.568636019397046,
+          "percent_difference": 44.27532862600954
+        },
+        "bpe_c_vs_srna_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "srna_c",
+          "value_1": 9.137300475183205,
+          "value_2": 5.7554511858832385,
+          "difference": 3.381849289299966,
+          "ratio": 1.5875906475577177,
+          "percent_difference": 45.4160435393683
+        },
+        "original_bpe_c_vs_MiRe_bpe_c": {
+          "tokenizer_1": "original_bpe_c",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 9.062014889370454,
+          "value_2": 5.8249972346646794,
+          "difference": 3.2370176547057747,
+          "ratio": 1.5557114491732658,
+          "percent_difference": 43.48780840286411
+        },
+        "original_bpe_c_vs_srna_c": {
+          "tokenizer_1": "original_bpe_c",
+          "tokenizer_2": "srna_c",
+          "value_1": 9.062014889370454,
+          "value_2": 5.7554511858832385,
+          "difference": 3.3065637034872157,
+          "ratio": 1.5745099031675285,
+          "percent_difference": 44.630622897250035
+        },
+        "MiRe_bpe_c_vs_srna_c": {
+          "tokenizer_1": "MiRe_bpe_c",
+          "tokenizer_2": "srna_c",
+          "value_1": 5.8249972346646794,
+          "value_2": 5.7554511858832385,
+          "difference": 0.069546048781441,
+          "ratio": 1.0120835094478815,
+          "percent_difference": 1.201094228061861
         }
       }
     },
     "per_language": {
       "renyi_1.0": {
-        "srp_Latn": {
-          "bpe": 4.255852452441277,
-          "bpe_c": 9.150256707578274,
-          "original_bpe": 4.214717974928147,
-          "original_bpe_c": 9.157863482893893,
-          "MiRe_bpe": 4.178232470586123,
-          "MiRe_bpe_c": 4.227531523029498
-        },
         "srp_Cyrl": {
-          "bpe": 4.255852452441277,
-          "bpe_c": 9.150256707578274,
-          "original_bpe": 4.214717974928147,
-          "original_bpe_c": 9.157863482893893,
-          "MiRe_bpe": 4.178232470586123,
-          "MiRe_bpe_c": 4.227531523029498
+          "qwen3.5": 9.388714473583937,
+          "bpe": 5.674529050513276,
+          "original_bpe": 5.602649283378735,
+          "MiRe_bpe": 5.798921355049227,
+          "srna": 8.220828204562325,
+          "bpe_c": 9.137300475183205,
+          "original_bpe_c": 9.062014889370454,
+          "MiRe_bpe_c": 5.8249972346646794,
+          "srna_c": 5.7554511858832385
         }
       },
       "renyi_2.0": {
-        "srp_Latn": {
-          "bpe": 3.1595056972947417,
-          "bpe_c": 7.3783351569877285,
-          "original_bpe": 2.754772376044468,
-          "original_bpe_c": 7.59770770058714,
-          "MiRe_bpe": 2.7539653438394804,
-          "MiRe_bpe_c": 2.7845707695733557
-        },
         "srp_Cyrl": {
-          "bpe": 3.1595056972947417,
-          "bpe_c": 7.3783351569877285,
-          "original_bpe": 2.754772376044468,
-          "original_bpe_c": 7.59770770058714,
-          "MiRe_bpe": 2.7539653438394804,
-          "MiRe_bpe_c": 2.7845707695733557
+          "qwen3.5": 8.205913007923701,
+          "bpe": 3.7696733009136896,
+          "original_bpe": 3.3889089176767,
+          "MiRe_bpe": 4.055997430775848,
+          "srna": 6.8112856401284105,
+          "bpe_c": 7.464277443600402,
+          "original_bpe_c": 7.396078143889352,
+          "MiRe_bpe_c": 4.121004352781952,
+          "srna_c": 3.824751376111232
         }
       },
       "renyi_2.5": {
-        "srp_Latn": {
-          "bpe": 2.8474592252855535,
-          "bpe_c": 6.91121106898183,
-          "original_bpe": 2.429640296282062,
-          "original_bpe_c": 7.18161107528738,
-          "MiRe_bpe": 2.4504111561436943,
-          "MiRe_bpe_c": 2.4791603832537286
-        },
         "srp_Cyrl": {
-          "bpe": 2.8474592252855535,
-          "bpe_c": 6.91121106898183,
-          "original_bpe": 2.429640296282062,
-          "original_bpe_c": 7.18161107528738,
-          "MiRe_bpe": 2.4504111561436943,
-          "MiRe_bpe_c": 2.4791603832537286
+          "qwen3.5": 7.785924664417772,
+          "bpe": 3.3710565568208537,
+          "original_bpe": 2.9753445171515356,
+          "MiRe_bpe": 3.5867242654286855,
+          "srna": 6.4308622396309705,
+          "bpe_c": 6.977688889724168,
+          "original_bpe_c": 6.9175687530759555,
+          "MiRe_bpe_c": 3.649887491914872,
+          "srna_c": 3.4180041566813024
         }
       },
       "renyi_3.0": {
-        "srp_Latn": {
-          "bpe": 2.6333505299324105,
-          "bpe_c": 6.5887043193009065,
-          "original_bpe": 2.22809252745603,
-          "original_bpe_c": 6.880844781310735,
-          "MiRe_bpe": 2.262106421767475,
-          "MiRe_bpe_c": 2.289557930401231
-        },
         "srp_Cyrl": {
-          "bpe": 2.6333505299324105,
-          "bpe_c": 6.5887043193009065,
-          "original_bpe": 2.22809252745603,
-          "original_bpe_c": 6.880844781310735,
-          "MiRe_bpe": 2.262106421767475,
-          "MiRe_bpe_c": 2.289557930401231
+          "qwen3.5": 7.476254095525089,
+          "bpe": 3.1114178707874554,
+          "original_bpe": 2.7273128484915485,
+          "MiRe_bpe": 3.2897822030220185,
+          "srna": 6.179017973891647,
+          "bpe_c": 6.661519990519479,
+          "original_bpe_c": 6.60601372476817,
+          "MiRe_bpe_c": 3.34929870477027,
+          "srna_c": 3.153803405069133
         }
       }
     }
   },
   "unigram_distribution_metrics": {
     "per_tokenizer": {
-      "bpe": {
+      "qwen3.5": {
         "per_language": {
-          "srp_Latn": {
-            "unigram_entropy": 4.255852452441277,
-            "avg_token_rank": 9.35395249911379,
-            "total_tokens": 451360,
-            "unique_tokens": 833
-          },
           "srp_Cyrl": {
-            "unigram_entropy": 4.255852452441277,
-            "avg_token_rank": 9.35395249911379,
-            "total_tokens": 451360,
-            "unique_tokens": 833
+            "unigram_entropy": 9.388714473583937,
+            "avg_token_rank": 301.2599303849304,
+            "total_tokens": 9768,
+            "unique_tokens": 1412
           }
         }
       },
-      "bpe_c": {
+      "bpe": {
         "per_language": {
-          "srp_Latn": {
-            "unigram_entropy": 9.150256707578274,
-            "avg_token_rank": 323.6192623266399,
-            "total_tokens": 116881,
-            "unique_tokens": 4138
-          },
           "srp_Cyrl": {
-            "unigram_entropy": 9.150256707578274,
-            "avg_token_rank": 323.6192623266399,
-            "total_tokens": 116881,
-            "unique_tokens": 4138
+            "unigram_entropy": 5.674529050513276,
+            "avg_token_rank": 48.39784857940548,
+            "total_tokens": 24356,
+            "unique_tokens": 824
           }
         }
       },
       "original_bpe": {
         "per_language": {
-          "srp_Latn": {
-            "unigram_entropy": 4.214717974928147,
-            "avg_token_rank": 10.6329192188705,
-            "total_tokens": 451244,
-            "unique_tokens": 857
-          },
           "srp_Cyrl": {
-            "unigram_entropy": 4.214717974928147,
-            "avg_token_rank": 10.6329192188705,
-            "total_tokens": 451244,
-            "unique_tokens": 857
-          }
-        }
-      },
-      "original_bpe_c": {
-        "per_language": {
-          "srp_Latn": {
-            "unigram_entropy": 9.157863482893893,
-            "avg_token_rank": 304.95707189453077,
-            "total_tokens": 116963,
-            "unique_tokens": 3938
-          },
-          "srp_Cyrl": {
-            "unigram_entropy": 9.157863482893893,
-            "avg_token_rank": 304.95707189453077,
-            "total_tokens": 116963,
-            "unique_tokens": 3938
+            "unigram_entropy": 5.602649283378735,
+            "avg_token_rank": 49.18852728468113,
+            "total_tokens": 24336,
+            "unique_tokens": 814
           }
         }
       },
       "MiRe_bpe": {
         "per_language": {
-          "srp_Latn": {
-            "unigram_entropy": 4.178232470586123,
-            "avg_token_rank": 10.04845437584875,
-            "total_tokens": 472754,
-            "unique_tokens": 358
-          },
           "srp_Cyrl": {
-            "unigram_entropy": 4.178232470586123,
-            "avg_token_rank": 10.04845437584875,
-            "total_tokens": 472754,
-            "unique_tokens": 358
+            "unigram_entropy": 5.798921355049227,
+            "avg_token_rank": 28.902776899234613,
+            "total_tokens": 31618,
+            "unique_tokens": 371
+          }
+        }
+      },
+      "srna": {
+        "per_language": {
+          "srp_Cyrl": {
+            "unigram_entropy": 8.220828204562325,
+            "avg_token_rank": 157.3148148148148,
+            "total_tokens": 8586,
+            "unique_tokens": 779
+          }
+        }
+      },
+      "bpe_c": {
+        "per_language": {
+          "srp_Cyrl": {
+            "unigram_entropy": 9.137300475183205,
+            "avg_token_rank": 305.3632878025401,
+            "total_tokens": 8346,
+            "unique_tokens": 1401
+          }
+        }
+      },
+      "original_bpe_c": {
+        "per_language": {
+          "srp_Cyrl": {
+            "unigram_entropy": 9.062014889370454,
+            "avg_token_rank": 290.22409638554217,
+            "total_tokens": 8300,
+            "unique_tokens": 1351
           }
         }
       },
       "MiRe_bpe_c": {
         "per_language": {
-          "srp_Latn": {
-            "unigram_entropy": 4.227531523029498,
-            "avg_token_rank": 10.530344846752591,
-            "total_tokens": 467773,
-            "unique_tokens": 361
-          },
           "srp_Cyrl": {
-            "unigram_entropy": 4.227531523029498,
-            "avg_token_rank": 10.530344846752591,
-            "total_tokens": 467773,
-            "unique_tokens": 361
+            "unigram_entropy": 5.8249972346646794,
+            "avg_token_rank": 28.689908943495073,
+            "total_tokens": 32068,
+            "unique_tokens": 340
+          }
+        }
+      },
+      "srna_c": {
+        "per_language": {
+          "srp_Cyrl": {
+            "unigram_entropy": 5.7554511858832385,
+            "avg_token_rank": 49.217489330864,
+            "total_tokens": 24838,
+            "unique_tokens": 818
           }
         }
       }
     },
     "pairwise_comparisons": {
       "global_unigram_entropy": {
-        "bpe_vs_bpe_c": {
-          "tokenizer_1": "bpe",
+        "qwen3.5_vs_bpe": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "bpe",
+          "value_1": 9.388714473583937,
+          "value_2": 5.674529050513276,
+          "difference": 3.714185423070661,
+          "ratio": 1.6545363306818746,
+          "percent_difference": 49.31455057642724
+        },
+        "qwen3.5_vs_original_bpe": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "original_bpe",
+          "value_1": 9.388714473583937,
+          "value_2": 5.602649283378735,
+          "difference": 3.7860651902052016,
+          "ratio": 1.6757633752727024,
+          "percent_difference": 50.509950283165935
+        },
+        "qwen3.5_vs_MiRe_bpe": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 9.388714473583937,
+          "value_2": 5.798921355049227,
+          "difference": 3.5897931185347094,
+          "ratio": 1.6190449738396626,
+          "percent_difference": 47.272573019783536
+        },
+        "qwen3.5_vs_srna": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "srna",
+          "value_1": 9.388714473583937,
+          "value_2": 8.220828204562325,
+          "difference": 1.1678862690216114,
+          "ratio": 1.1420643078727113,
+          "percent_difference": 13.264243034215509
+        },
+        "qwen3.5_vs_bpe_c": {
+          "tokenizer_1": "qwen3.5",
           "tokenizer_2": "bpe_c",
-          "value_1": 4.255852452441277,
-          "value_2": 9.150256707578274,
-          "difference": -4.894404255136997,
-          "ratio": 0.46510743779642444,
-          "percent_difference": 73.01752054553403
+          "value_1": 9.388714473583937,
+          "value_2": 9.137300475183205,
+          "difference": 0.2514139984007322,
+          "ratio": 1.0275151286841853,
+          "percent_difference": 2.7141724660808735
+        },
+        "qwen3.5_vs_original_bpe_c": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 9.388714473583937,
+          "value_2": 9.062014889370454,
+          "difference": 0.32669958421348255,
+          "ratio": 1.0360515391115384,
+          "percent_difference": 3.5413189125133893
+        },
+        "qwen3.5_vs_MiRe_bpe_c": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 9.388714473583937,
+          "value_2": 5.8249972346646794,
+          "difference": 3.5637172389192573,
+          "ratio": 1.611797241329404,
+          "percent_difference": 46.848754692611536
+        },
+        "qwen3.5_vs_srna_c": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "srna_c",
+          "value_1": 9.388714473583937,
+          "value_2": 5.7554511858832385,
+          "difference": 3.6332632877006983,
+          "ratio": 1.6312734085230771,
+          "percent_difference": 47.98235002704704
         },
         "bpe_vs_original_bpe": {
           "tokenizer_1": "bpe",
           "tokenizer_2": "original_bpe",
-          "value_1": 4.255852452441277,
-          "value_2": 4.214717974928147,
-          "difference": 0.04113447751312993,
-          "ratio": 1.0097597224198214,
-          "percent_difference": 0.9712327609063853
-        },
-        "bpe_vs_original_bpe_c": {
-          "tokenizer_1": "bpe",
-          "tokenizer_2": "original_bpe_c",
-          "value_1": 4.255852452441277,
-          "value_2": 9.157863482893893,
-          "difference": -4.902011030452615,
-          "ratio": 0.46472110666323496,
-          "percent_difference": 73.08953095598902
+          "value_1": 5.674529050513276,
+          "value_2": 5.602649283378735,
+          "difference": 0.0718797671345408,
+          "ratio": 1.0128296031928654,
+          "percent_difference": 1.2747828402875574
         },
         "bpe_vs_MiRe_bpe": {
           "tokenizer_1": "bpe",
           "tokenizer_2": "MiRe_bpe",
-          "value_1": 4.255852452441277,
-          "value_2": 4.178232470586123,
-          "difference": 0.07761998185515395,
-          "ratio": 1.0185772291038333,
-          "percent_difference": 1.8406260445215528
+          "value_1": 5.674529050513276,
+          "value_2": 5.798921355049227,
+          "difference": -0.1243923045359514,
+          "ratio": 0.9785490616409824,
+          "percent_difference": 2.1683504114097034
+        },
+        "bpe_vs_srna": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "srna",
+          "value_1": 5.674529050513276,
+          "value_2": 8.220828204562325,
+          "difference": -2.5462991540490494,
+          "ratio": 0.6902624540145571,
+          "percent_difference": 36.64963926161675
+        },
+        "bpe_vs_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "bpe_c",
+          "value_1": 5.674529050513276,
+          "value_2": 9.137300475183205,
+          "difference": -3.4627714246699286,
+          "ratio": 0.6210290518436191,
+          "percent_difference": 46.75683606353284
+        },
+        "bpe_vs_original_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 5.674529050513276,
+          "value_2": 9.062014889370454,
+          "difference": -3.3874858388571782,
+          "ratio": 0.626188449234328,
+          "percent_difference": 45.973952273695794
         },
         "bpe_vs_MiRe_bpe_c": {
           "tokenizer_1": "bpe",
           "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 4.255852452441277,
-          "value_2": 4.227531523029498,
-          "difference": 0.02832092941177944,
-          "ratio": 1.0066991645733452,
-          "percent_difference": 0.6676800082058717
+          "value_1": 5.674529050513276,
+          "value_2": 5.8249972346646794,
+          "difference": -0.1504681841514035,
+          "ratio": 0.9741685398138965,
+          "percent_difference": 2.6169457840249635
         },
-        "bpe_c_vs_original_bpe": {
-          "tokenizer_1": "bpe_c",
-          "tokenizer_2": "original_bpe",
-          "value_1": 9.150256707578274,
-          "value_2": 4.214717974928147,
-          "difference": 4.9355387326501265,
-          "ratio": 2.171024671641112,
-          "percent_difference": 73.85780893562504
-        },
-        "bpe_c_vs_original_bpe_c": {
-          "tokenizer_1": "bpe_c",
-          "tokenizer_2": "original_bpe_c",
-          "value_1": 9.150256707578274,
-          "value_2": 9.157863482893893,
-          "difference": -0.007606775315618819,
-          "ratio": 0.9991693722744581,
-          "percent_difference": 0.08309728400819112
-        },
-        "bpe_c_vs_MiRe_bpe": {
-          "tokenizer_1": "bpe_c",
-          "tokenizer_2": "MiRe_bpe",
-          "value_1": 9.150256707578274,
-          "value_2": 4.178232470586123,
-          "difference": 4.972024236992151,
-          "ratio": 2.189982671379382,
-          "percent_difference": 74.60746931674215
-        },
-        "bpe_c_vs_MiRe_bpe_c": {
-          "tokenizer_1": "bpe_c",
-          "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 9.150256707578274,
-          "value_2": 4.227531523029498,
-          "difference": 4.922725184548776,
-          "ratio": 2.164444347187527,
-          "percent_difference": 73.59550173302645
-        },
-        "original_bpe_vs_original_bpe_c": {
-          "tokenizer_1": "original_bpe",
-          "tokenizer_2": "original_bpe_c",
-          "value_1": 4.214717974928147,
-          "value_2": 9.157863482893893,
-          "difference": -4.943145507965745,
-          "ratio": 0.4602293955135803,
-          "percent_difference": 73.92956286797335
+        "bpe_vs_srna_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "srna_c",
+          "value_1": 5.674529050513276,
+          "value_2": 5.7554511858832385,
+          "difference": -0.08092213536996251,
+          "ratio": 0.9859399145685667,
+          "percent_difference": 1.4159628222677405
         },
         "original_bpe_vs_MiRe_bpe": {
           "tokenizer_1": "original_bpe",
           "tokenizer_2": "MiRe_bpe",
-          "value_1": 4.214717974928147,
-          "value_2": 4.178232470586123,
-          "difference": 0.03648550434202402,
-          "ratio": 1.0087322820352564,
-          "percent_difference": 0.8694321401962813
+          "value_1": 5.602649283378735,
+          "value_2": 5.798921355049227,
+          "difference": -0.1962720716704922,
+          "ratio": 0.9661536931347423,
+          "percent_difference": 3.4428953324899805
+        },
+        "original_bpe_vs_srna": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "srna",
+          "value_1": 5.602649283378735,
+          "value_2": 8.220828204562325,
+          "difference": -2.61817892118359,
+          "ratio": 0.6815188377576634,
+          "percent_difference": 37.880177740623715
+        },
+        "original_bpe_vs_bpe_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "bpe_c",
+          "value_1": 5.602649283378735,
+          "value_2": 9.137300475183205,
+          "difference": -3.5346511918044694,
+          "ratio": 0.6131624212857464,
+          "percent_difference": 47.96015250664352
+        },
+        "original_bpe_vs_original_bpe_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 5.602649283378735,
+          "value_2": 9.062014889370454,
+          "difference": -3.459365605991719,
+          "ratio": 0.6182564641281401,
+          "percent_difference": 47.17960895988511
         },
         "original_bpe_vs_MiRe_bpe_c": {
           "tokenizer_1": "original_bpe",
           "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 4.214717974928147,
-          "value_2": 4.227531523029498,
-          "difference": -0.012813548101350491,
-          "ratio": 0.9969690236414445,
-          "percent_difference": 0.303557673922107
+          "value_1": 5.602649283378735,
+          "value_2": 5.8249972346646794,
+          "difference": -0.2223479512859443,
+          "ratio": 0.9618286597695279,
+          "percent_difference": 3.8914040775565337
         },
-        "original_bpe_c_vs_MiRe_bpe": {
-          "tokenizer_1": "original_bpe_c",
-          "tokenizer_2": "MiRe_bpe",
-          "value_1": 9.157863482893893,
-          "value_2": 4.178232470586123,
-          "difference": 4.979631012307769,
-          "ratio": 2.191803243922717,
-          "percent_difference": 74.67899195803776
+        "original_bpe_vs_srna_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "srna_c",
+          "value_1": 5.602649283378735,
+          "value_2": 5.7554511858832385,
+          "difference": -0.15280190250450332,
+          "ratio": 0.9734509254670962,
+          "percent_difference": 2.6906242451019997
         },
-        "original_bpe_c_vs_MiRe_bpe_c": {
-          "tokenizer_1": "original_bpe_c",
-          "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 9.157863482893893,
-          "value_2": 4.227531523029498,
-          "difference": 4.930331959864395,
-          "ratio": 2.1662436892561034,
-          "percent_difference": 73.66733604324105
+        "MiRe_bpe_vs_srna": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "srna",
+          "value_1": 5.798921355049227,
+          "value_2": 8.220828204562325,
+          "difference": -2.421906849513098,
+          "ratio": 0.7053938132207885,
+          "percent_difference": 34.549930285348154
+        },
+        "MiRe_bpe_vs_bpe_c": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "bpe_c",
+          "value_1": 5.798921355049227,
+          "value_2": 9.137300475183205,
+          "difference": -3.338379120133977,
+          "ratio": 0.634642734010885,
+          "percent_difference": 44.70178815069228
+        },
+        "MiRe_bpe_vs_original_bpe_c": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 5.798921355049227,
+          "value_2": 9.062014889370454,
+          "difference": -3.263093534321227,
+          "ratio": 0.6399152314184824,
+          "percent_difference": 43.91504654421119
         },
         "MiRe_bpe_vs_MiRe_bpe_c": {
           "tokenizer_1": "MiRe_bpe",
           "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 4.178232470586123,
-          "value_2": 4.227531523029498,
-          "difference": -0.049299052443374514,
-          "ratio": 0.9883385724802245,
-          "percent_difference": 1.172982074700606
+          "value_1": 5.798921355049227,
+          "value_2": 5.8249972346646794,
+          "difference": -0.026075879615452102,
+          "ratio": 0.995523452018093,
+          "percent_difference": 0.44865902000598745
+        },
+        "MiRe_bpe_vs_srna_c": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "srna_c",
+          "value_1": 5.798921355049227,
+          "value_2": 5.7554511858832385,
+          "difference": 0.04347016916598889,
+          "ratio": 1.0075528690561413,
+          "percent_difference": 0.7524453450326563
+        },
+        "srna_vs_bpe_c": {
+          "tokenizer_1": "srna",
+          "tokenizer_2": "bpe_c",
+          "value_1": 8.220828204562325,
+          "value_2": 9.137300475183205,
+          "difference": -0.9164722706208792,
+          "ratio": 0.899699886951293,
+          "percent_difference": 10.559574566240796
+        },
+        "srna_vs_original_bpe_c": {
+          "tokenizer_1": "srna",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 8.220828204562325,
+          "value_2": 9.062014889370454,
+          "difference": -0.8411866848081289,
+          "ratio": 0.9071744313955142,
+          "percent_difference": 9.734355397850383
+        },
+        "srna_vs_MiRe_bpe_c": {
+          "tokenizer_1": "srna",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 8.220828204562325,
+          "value_2": 5.8249972346646794,
+          "difference": 2.395830969897646,
+          "ratio": 1.4113016493192487,
+          "percent_difference": 34.11449160127818
+        },
+        "srna_vs_srna_c": {
+          "tokenizer_1": "srna",
+          "tokenizer_2": "srna_c",
+          "value_1": 8.220828204562325,
+          "value_2": 5.7554511858832385,
+          "difference": 2.465377018679087,
+          "ratio": 1.4283551261326086,
+          "percent_difference": 35.27944669401018
+        },
+        "bpe_c_vs_original_bpe_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 9.137300475183205,
+          "value_2": 9.062014889370454,
+          "difference": 0.07528558581275036,
+          "ratio": 1.0083078196992437,
+          "percent_difference": 0.8273452523316581
+        },
+        "bpe_c_vs_MiRe_bpe_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 9.137300475183205,
+          "value_2": 5.8249972346646794,
+          "difference": 3.312303240518525,
+          "ratio": 1.568636019397046,
+          "percent_difference": 44.27532862600954
+        },
+        "bpe_c_vs_srna_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "srna_c",
+          "value_1": 9.137300475183205,
+          "value_2": 5.7554511858832385,
+          "difference": 3.381849289299966,
+          "ratio": 1.5875906475577177,
+          "percent_difference": 45.4160435393683
+        },
+        "original_bpe_c_vs_MiRe_bpe_c": {
+          "tokenizer_1": "original_bpe_c",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 9.062014889370454,
+          "value_2": 5.8249972346646794,
+          "difference": 3.2370176547057747,
+          "ratio": 1.5557114491732658,
+          "percent_difference": 43.48780840286411
+        },
+        "original_bpe_c_vs_srna_c": {
+          "tokenizer_1": "original_bpe_c",
+          "tokenizer_2": "srna_c",
+          "value_1": 9.062014889370454,
+          "value_2": 5.7554511858832385,
+          "difference": 3.3065637034872157,
+          "ratio": 1.5745099031675285,
+          "percent_difference": 44.630622897250035
+        },
+        "MiRe_bpe_c_vs_srna_c": {
+          "tokenizer_1": "MiRe_bpe_c",
+          "tokenizer_2": "srna_c",
+          "value_1": 5.8249972346646794,
+          "value_2": 5.7554511858832385,
+          "difference": 0.069546048781441,
+          "ratio": 1.0120835094478815,
+          "percent_difference": 1.201094228061861
         }
       },
       "global_avg_token_rank": {
-        "bpe_vs_bpe_c": {
-          "tokenizer_1": "bpe",
+        "qwen3.5_vs_bpe": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "bpe",
+          "value_1": 301.2599303849304,
+          "value_2": 48.39784857940548,
+          "difference": 252.8620818055249,
+          "ratio": 6.2246554181155105,
+          "percent_difference": 144.63403763215925
+        },
+        "qwen3.5_vs_original_bpe": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "original_bpe",
+          "value_1": 301.2599303849304,
+          "value_2": 49.18852728468113,
+          "difference": 252.07140310024926,
+          "ratio": 6.124597482688861,
+          "percent_difference": 143.85647736985726
+        },
+        "qwen3.5_vs_MiRe_bpe": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "MiRe_bpe",
+          "value_1": 301.2599303849304,
+          "value_2": 28.902776899234613,
+          "difference": 272.3571534856958,
+          "ratio": 10.42321751419353,
+          "percent_difference": 164.9835959524544
+        },
+        "qwen3.5_vs_srna": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "srna",
+          "value_1": 301.2599303849304,
+          "value_2": 157.3148148148148,
+          "difference": 143.94511557011558,
+          "ratio": 1.915013094854178,
+          "percent_difference": 62.77934713016794
+        },
+        "qwen3.5_vs_bpe_c": {
+          "tokenizer_1": "qwen3.5",
           "tokenizer_2": "bpe_c",
-          "value_1": 9.35395249911379,
-          "value_2": 323.6192623266399,
-          "difference": -314.2653098275261,
-          "ratio": 0.028904189546271594,
-          "percent_difference": 188.76311717264252
+          "value_1": 301.2599303849304,
+          "value_2": 305.3632878025401,
+          "difference": -4.103357417609743,
+          "ratio": 0.9865623747794361,
+          "percent_difference": 1.3528520816826513
+        },
+        "qwen3.5_vs_original_bpe_c": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 301.2599303849304,
+          "value_2": 290.22409638554217,
+          "difference": 11.035833999388217,
+          "ratio": 1.0380252161582335,
+          "percent_difference": 3.7315746494945365
+        },
+        "qwen3.5_vs_MiRe_bpe_c": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 301.2599303849304,
+          "value_2": 28.689908943495073,
+          "difference": 272.5700214414353,
+          "ratio": 10.500553730521188,
+          "percent_difference": 165.21906602301726
+        },
+        "qwen3.5_vs_srna_c": {
+          "tokenizer_1": "qwen3.5",
+          "tokenizer_2": "srna_c",
+          "value_1": 301.2599303849304,
+          "value_2": 49.217489330864,
+          "difference": 252.0424410540664,
+          "ratio": 6.120993461485083,
+          "percent_difference": 143.82806245175516
         },
         "bpe_vs_original_bpe": {
           "tokenizer_1": "bpe",
           "tokenizer_2": "original_bpe",
-          "value_1": 9.35395249911379,
-          "value_2": 10.6329192188705,
-          "difference": -1.2789667197567098,
-          "ratio": 0.879716313701801,
-          "percent_difference": 12.798068029884726
-        },
-        "bpe_vs_original_bpe_c": {
-          "tokenizer_1": "bpe",
-          "tokenizer_2": "original_bpe_c",
-          "value_1": 9.35395249911379,
-          "value_2": 304.95707189453077,
-          "difference": -295.60311939541697,
-          "ratio": 0.030673013880290825,
-          "percent_difference": 188.0959282072157
+          "value_1": 48.39784857940548,
+          "value_2": 49.18852728468113,
+          "difference": -0.7906787052756457,
+          "ratio": 0.9839255462823769,
+          "percent_difference": 1.6204694523687673
         },
         "bpe_vs_MiRe_bpe": {
           "tokenizer_1": "bpe",
           "tokenizer_2": "MiRe_bpe",
-          "value_1": 9.35395249911379,
-          "value_2": 10.04845437584875,
-          "difference": -0.6945018767349609,
-          "ratio": 0.9308847061689227,
-          "percent_difference": 7.158924985035411
+          "value_1": 48.39784857940548,
+          "value_2": 28.902776899234613,
+          "difference": 19.49507168017087,
+          "ratio": 1.674505143507063,
+          "percent_difference": 50.43962208444949
+        },
+        "bpe_vs_srna": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "srna",
+          "value_1": 48.39784857940548,
+          "value_2": 157.3148148148148,
+          "difference": -108.91696623540932,
+          "ratio": 0.3076496554782691,
+          "percent_difference": 105.89233004745535
+        },
+        "bpe_vs_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "bpe_c",
+          "value_1": 48.39784857940548,
+          "value_2": 305.3632878025401,
+          "difference": -256.96543922313464,
+          "ratio": 0.15849268891387308,
+          "percent_difference": 145.27624026269325
+        },
+        "bpe_vs_original_bpe_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 48.39784857940548,
+          "value_2": 290.22409638554217,
+          "difference": -241.82624780613668,
+          "ratio": 0.16676026967489416,
+          "percent_difference": 142.829637241124
         },
         "bpe_vs_MiRe_bpe_c": {
           "tokenizer_1": "bpe",
           "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 9.35395249911379,
-          "value_2": 10.530344846752591,
-          "difference": -1.1763923476388012,
-          "ratio": 0.8882854868706808,
-          "percent_difference": 11.832375337953332
+          "value_1": 48.39784857940548,
+          "value_2": 28.689908943495073,
+          "difference": 19.70793963591041,
+          "ratio": 1.6869293198080657,
+          "percent_difference": 51.131178981450454
         },
-        "bpe_c_vs_original_bpe": {
-          "tokenizer_1": "bpe_c",
-          "tokenizer_2": "original_bpe",
-          "value_1": 323.6192623266399,
-          "value_2": 10.6329192188705,
-          "difference": 312.9863431077694,
-          "ratio": 30.43559869732716,
-          "percent_difference": 187.2755723900366
-        },
-        "bpe_c_vs_original_bpe_c": {
-          "tokenizer_1": "bpe_c",
-          "tokenizer_2": "original_bpe_c",
-          "value_1": 323.6192623266399,
-          "value_2": 304.95707189453077,
-          "difference": 18.662190432109128,
-          "ratio": 1.0611961228384414,
-          "percent_difference": 5.937923340760919
-        },
-        "bpe_c_vs_MiRe_bpe": {
-          "tokenizer_1": "bpe_c",
-          "tokenizer_2": "MiRe_bpe",
-          "value_1": 323.6192623266399,
-          "value_2": 10.04845437584875,
-          "difference": 313.57080795079116,
-          "ratio": 32.20587467705003,
-          "percent_difference": 187.95393875661236
-        },
-        "bpe_c_vs_MiRe_bpe_c": {
-          "tokenizer_1": "bpe_c",
-          "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 323.6192623266399,
-          "value_2": 10.530344846752591,
-          "difference": 313.0889174798873,
-          "ratio": 30.732066901535468,
-          "percent_difference": 187.3944549139771
-        },
-        "original_bpe_vs_original_bpe_c": {
-          "tokenizer_1": "original_bpe",
-          "tokenizer_2": "original_bpe_c",
-          "value_1": 10.6329192188705,
-          "value_2": 304.95707189453077,
-          "difference": -294.3241526756603,
-          "ratio": 0.03486693767360112,
-          "percent_difference": 186.52312238248425
+        "bpe_vs_srna_c": {
+          "tokenizer_1": "bpe",
+          "tokenizer_2": "srna_c",
+          "value_1": 48.39784857940548,
+          "value_2": 49.217489330864,
+          "difference": -0.8196407514585147,
+          "ratio": 0.9833465550030703,
+          "percent_difference": 1.6793277962361803
         },
         "original_bpe_vs_MiRe_bpe": {
           "tokenizer_1": "original_bpe",
           "tokenizer_2": "MiRe_bpe",
-          "value_1": 10.6329192188705,
-          "value_2": 10.04845437584875,
-          "difference": 0.584464843021749,
-          "ratio": 1.0581646511155485,
-          "percent_difference": 5.65208921298134
+          "value_1": 49.18852728468113,
+          "value_2": 28.902776899234613,
+          "difference": 20.285750385446516,
+          "ratio": 1.7018616396676995,
+          "percent_difference": 51.9539290512316
+        },
+        "original_bpe_vs_srna": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "srna",
+          "value_1": 49.18852728468113,
+          "value_2": 157.3148148148148,
+          "difference": -108.12628753013368,
+          "ratio": 0.31267574730697834,
+          "percent_difference": 104.72110178055816
+        },
+        "original_bpe_vs_bpe_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "bpe_c",
+          "value_1": 49.18852728468113,
+          "value_2": 305.3632878025401,
+          "difference": -256.174760517859,
+          "ratio": 0.16108199397069747,
+          "percent_difference": 144.5062468259196
+        },
+        "original_bpe_vs_original_bpe_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 49.18852728468113,
+          "value_2": 290.22409638554217,
+          "difference": -241.03556910086104,
+          "ratio": 0.16948464272014702,
+          "percent_difference": 142.03099843160436
         },
         "original_bpe_vs_MiRe_bpe_c": {
           "tokenizer_1": "original_bpe",
           "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 10.6329192188705,
-          "value_2": 10.530344846752591,
-          "difference": 0.10257437211790865,
-          "ratio": 1.009740836944152,
-          "percent_difference": 0.9693624934211078
+          "value_1": 49.18852728468113,
+          "value_2": 28.689908943495073,
+          "difference": 20.498618341186056,
+          "ratio": 1.7144887905206738,
+          "percent_difference": 52.64260386823153
         },
-        "original_bpe_c_vs_MiRe_bpe": {
-          "tokenizer_1": "original_bpe_c",
-          "tokenizer_2": "MiRe_bpe",
-          "value_1": 304.95707189453077,
-          "value_2": 10.04845437584875,
-          "difference": 294.90861751868204,
-          "ratio": 30.34865467742867,
-          "percent_difference": 187.24028178829622
+        "original_bpe_vs_srna_c": {
+          "tokenizer_1": "original_bpe",
+          "tokenizer_2": "srna_c",
+          "value_1": 49.18852728468113,
+          "value_2": 49.217489330864,
+          "difference": -0.028962046182869017,
+          "ratio": 0.9994115497036394,
+          "percent_difference": 0.05886234841924067
         },
-        "original_bpe_c_vs_MiRe_bpe_c": {
-          "tokenizer_1": "original_bpe_c",
-          "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 304.95707189453077,
-          "value_2": 10.530344846752591,
-          "difference": 294.4267270477782,
-          "ratio": 28.95983714992726,
-          "percent_difference": 186.64879258193926
+        "MiRe_bpe_vs_srna": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "srna",
+          "value_1": 28.902776899234613,
+          "value_2": 157.3148148148148,
+          "difference": -128.41203791558019,
+          "ratio": 0.1837257154277421,
+          "percent_difference": 137.91611923836513
+        },
+        "MiRe_bpe_vs_bpe_c": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "bpe_c",
+          "value_1": 28.902776899234613,
+          "value_2": 305.3632878025401,
+          "difference": -276.46051090330553,
+          "ratio": 0.09465046406601531,
+          "percent_difference": 165.41344760794541
+        },
+        "MiRe_bpe_vs_original_bpe_c": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 28.902776899234613,
+          "value_2": 290.22409638554217,
+          "difference": -261.3213194863076,
+          "ratio": 0.09958779184495874,
+          "percent_difference": 163.7726818782286
         },
         "MiRe_bpe_vs_MiRe_bpe_c": {
           "tokenizer_1": "MiRe_bpe",
           "tokenizer_2": "MiRe_bpe_c",
-          "value_1": 10.04845437584875,
-          "value_2": 10.530344846752591,
-          "difference": -0.4818904709038403,
-          "ratio": 0.954237921177629,
-          "percent_difference": 4.6833682149402405
+          "value_1": 28.902776899234613,
+          "value_2": 28.689908943495073,
+          "difference": 0.2128679557395401,
+          "ratio": 1.0074196107125604,
+          "percent_difference": 0.7392187137124526
+        },
+        "MiRe_bpe_vs_srna_c": {
+          "tokenizer_1": "MiRe_bpe",
+          "tokenizer_2": "srna_c",
+          "value_1": 28.902776899234613,
+          "value_2": 49.217489330864,
+          "difference": -20.314712431629385,
+          "ratio": 0.5872460641975463,
+          "percent_difference": 52.00881515634779
+        },
+        "srna_vs_bpe_c": {
+          "tokenizer_1": "srna",
+          "tokenizer_2": "bpe_c",
+          "value_1": 157.3148148148148,
+          "value_2": 305.3632878025401,
+          "difference": -148.04847298772532,
+          "ratio": 0.5151726520463087,
+          "percent_difference": 63.996317158828106
+        },
+        "srna_vs_original_bpe_c": {
+          "tokenizer_1": "srna",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 157.3148148148148,
+          "value_2": 290.22409638554217,
+          "difference": -132.90928157072736,
+          "ratio": 0.5420460146969782,
+          "percent_difference": 59.3956316398266
+        },
+        "srna_vs_MiRe_bpe_c": {
+          "tokenizer_1": "srna",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 157.3148148148148,
+          "value_2": 28.689908943495073,
+          "difference": 128.62490587131973,
+          "ratio": 5.483280380033522,
+          "percent_difference": 138.30283798432114
+        },
+        "srna_vs_srna_c": {
+          "tokenizer_1": "srna",
+          "tokenizer_2": "srna_c",
+          "value_1": 157.3148148148148,
+          "value_2": 49.217489330864,
+          "difference": 108.09732548395081,
+          "ratio": 3.1963193765790816,
+          "percent_difference": 104.67837070921719
+        },
+        "bpe_c_vs_original_bpe_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "original_bpe_c",
+          "value_1": 305.3632878025401,
+          "value_2": 290.22409638554217,
+          "difference": 15.13919141699796,
+          "ratio": 1.0521637989592931,
+          "percent_difference": 5.083785123365579
+        },
+        "bpe_c_vs_MiRe_bpe_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 305.3632878025401,
+          "value_2": 28.689908943495073,
+          "difference": 276.67337885904504,
+          "ratio": 10.643578144634573,
+          "percent_difference": 165.64629918472934
+        },
+        "bpe_c_vs_srna_c": {
+          "tokenizer_1": "bpe_c",
+          "tokenizer_2": "srna_c",
+          "value_1": 305.3632878025401,
+          "value_2": 49.217489330864,
+          "difference": 256.14579847167613,
+          "ratio": 6.204365398440765,
+          "percent_difference": 144.47810766419875
+        },
+        "original_bpe_c_vs_MiRe_bpe_c": {
+          "tokenizer_1": "original_bpe_c",
+          "tokenizer_2": "MiRe_bpe_c",
+          "value_1": 290.22409638554217,
+          "value_2": 28.689908943495073,
+          "difference": 261.5341874420471,
+          "ratio": 10.115894649827577,
+          "percent_difference": 164.01549199585077
+        },
+        "original_bpe_c_vs_srna_c": {
+          "tokenizer_1": "original_bpe_c",
+          "tokenizer_2": "srna_c",
+          "value_1": 290.22409638554217,
+          "value_2": 49.217489330864,
+          "difference": 241.00660705467817,
+          "ratio": 5.8967675989019686,
+          "percent_difference": 142.00181544993865
+        },
+        "MiRe_bpe_c_vs_srna_c": {
+          "tokenizer_1": "MiRe_bpe_c",
+          "tokenizer_2": "srna_c",
+          "value_1": 28.689908943495073,
+          "value_2": 49.217489330864,
+          "difference": -20.527580387368925,
+          "ratio": 0.582921017173946,
+          "percent_difference": 52.697383925154064
         }
       }
     },
     "per_language": {
       "unigram_entropy": {
-        "srp_Latn": {
-          "bpe": 4.255852452441277,
-          "bpe_c": 9.150256707578274,
-          "original_bpe": 4.214717974928147,
-          "original_bpe_c": 9.157863482893893,
-          "MiRe_bpe": 4.178232470586123,
-          "MiRe_bpe_c": 4.227531523029498
-        },
         "srp_Cyrl": {
-          "bpe": 4.255852452441277,
-          "bpe_c": 9.150256707578274,
-          "original_bpe": 4.214717974928147,
-          "original_bpe_c": 9.157863482893893,
-          "MiRe_bpe": 4.178232470586123,
-          "MiRe_bpe_c": 4.227531523029498
+          "qwen3.5": 9.388714473583937,
+          "bpe": 5.674529050513276,
+          "original_bpe": 5.602649283378735,
+          "MiRe_bpe": 5.798921355049227,
+          "srna": 8.220828204562325,
+          "bpe_c": 9.137300475183205,
+          "original_bpe_c": 9.062014889370454,
+          "MiRe_bpe_c": 5.8249972346646794,
+          "srna_c": 5.7554511858832385
         }
       },
       "avg_token_rank": {
-        "srp_Latn": {
-          "bpe": 9.35395249911379,
-          "bpe_c": 323.6192623266399,
-          "original_bpe": 10.6329192188705,
-          "original_bpe_c": 304.95707189453077,
-          "MiRe_bpe": 10.04845437584875,
-          "MiRe_bpe_c": 10.530344846752591
-        },
         "srp_Cyrl": {
-          "bpe": 9.35395249911379,
-          "bpe_c": 323.6192623266399,
-          "original_bpe": 10.6329192188705,
-          "original_bpe_c": 304.95707189453077,
-          "MiRe_bpe": 10.04845437584875,
-          "MiRe_bpe_c": 10.530344846752591
+          "qwen3.5": 301.2599303849304,
+          "bpe": 48.39784857940548,
+          "original_bpe": 49.18852728468113,
+          "MiRe_bpe": 28.902776899234613,
+          "srna": 157.3148148148148,
+          "bpe_c": 305.3632878025401,
+          "original_bpe_c": 290.22409638554217,
+          "MiRe_bpe_c": 28.689908943495073,
+          "srna_c": 49.217489330864
         }
       }
     }
   },
   "tokenizer_fairness_gini": {
     "per_tokenizer": {
+      "qwen3.5": {
+        "gini_coefficient": 0.0,
+        "mean_cost": 0.0,
+        "language_costs": {
+          "srp_Cyrl": 113.5813953488372
+        },
+        "warning": "Insufficient language data for meaningful TFG calculation"
+      },
       "bpe": {
         "gini_coefficient": 0.0,
-        "mean_cost": 225.68,
-        "std_cost": 0.0,
-        "min_cost": 225.68,
-        "max_cost": 225.68,
-        "cost_ratio": 1.0,
+        "mean_cost": 0.0,
         "language_costs": {
-          "srp_Latn": 225.68,
-          "srp_Cyrl": 225.68
+          "srp_Cyrl": 283.2093023255814
         },
-        "most_efficient_language": [
-          "srp_Latn",
-          225.68
-        ],
-        "least_efficient_language": [
-          "srp_Cyrl",
-          225.68
-        ],
-        "num_languages": 2
-      },
-      "bpe_c": {
-        "gini_coefficient": 0.0,
-        "mean_cost": 58.4405,
-        "std_cost": 0.0,
-        "min_cost": 58.4405,
-        "max_cost": 58.4405,
-        "cost_ratio": 1.0,
-        "language_costs": {
-          "srp_Latn": 58.4405,
-          "srp_Cyrl": 58.4405
-        },
-        "most_efficient_language": [
-          "srp_Latn",
-          58.4405
-        ],
-        "least_efficient_language": [
-          "srp_Cyrl",
-          58.4405
-        ],
-        "num_languages": 2
+        "warning": "Insufficient language data for meaningful TFG calculation"
       },
       "original_bpe": {
         "gini_coefficient": 0.0,
-        "mean_cost": 225.622,
-        "std_cost": 0.0,
-        "min_cost": 225.622,
-        "max_cost": 225.622,
-        "cost_ratio": 1.0,
+        "mean_cost": 0.0,
         "language_costs": {
-          "srp_Latn": 225.622,
-          "srp_Cyrl": 225.622
+          "srp_Cyrl": 282.9767441860465
         },
-        "most_efficient_language": [
-          "srp_Latn",
-          225.622
-        ],
-        "least_efficient_language": [
-          "srp_Cyrl",
-          225.622
-        ],
-        "num_languages": 2
-      },
-      "original_bpe_c": {
-        "gini_coefficient": 0.0,
-        "mean_cost": 58.4815,
-        "std_cost": 0.0,
-        "min_cost": 58.4815,
-        "max_cost": 58.4815,
-        "cost_ratio": 1.0,
-        "language_costs": {
-          "srp_Latn": 58.4815,
-          "srp_Cyrl": 58.4815
-        },
-        "most_efficient_language": [
-          "srp_Latn",
-          58.4815
-        ],
-        "least_efficient_language": [
-          "srp_Cyrl",
-          58.4815
-        ],
-        "num_languages": 2
+        "warning": "Insufficient language data for meaningful TFG calculation"
       },
       "MiRe_bpe": {
         "gini_coefficient": 0.0,
-        "mean_cost": 236.377,
-        "std_cost": 0.0,
-        "min_cost": 236.377,
-        "max_cost": 236.377,
-        "cost_ratio": 1.0,
+        "mean_cost": 0.0,
         "language_costs": {
-          "srp_Latn": 236.377,
-          "srp_Cyrl": 236.377
+          "srp_Cyrl": 367.6511627906977
         },
-        "most_efficient_language": [
-          "srp_Latn",
-          236.377
-        ],
-        "least_efficient_language": [
-          "srp_Cyrl",
-          236.377
-        ],
-        "num_languages": 2
+        "warning": "Insufficient language data for meaningful TFG calculation"
+      },
+      "srna": {
+        "gini_coefficient": 0.0,
+        "mean_cost": 0.0,
+        "language_costs": {
+          "srp_Cyrl": 99.83720930232558
+        },
+        "warning": "Insufficient language data for meaningful TFG calculation"
+      },
+      "bpe_c": {
+        "gini_coefficient": 0.0,
+        "mean_cost": 0.0,
+        "language_costs": {
+          "srp_Cyrl": 97.04651162790698
+        },
+        "warning": "Insufficient language data for meaningful TFG calculation"
+      },
+      "original_bpe_c": {
+        "gini_coefficient": 0.0,
+        "mean_cost": 0.0,
+        "language_costs": {
+          "srp_Cyrl": 96.51162790697674
+        },
+        "warning": "Insufficient language data for meaningful TFG calculation"
       },
       "MiRe_bpe_c": {
         "gini_coefficient": 0.0,
-        "mean_cost": 233.8865,
-        "std_cost": 0.0,
-        "min_cost": 233.8865,
-        "max_cost": 233.8865,
-        "cost_ratio": 1.0,
+        "mean_cost": 0.0,
         "language_costs": {
-          "srp_Latn": 233.8865,
-          "srp_Cyrl": 233.8865
+          "srp_Cyrl": 372.8837209302326
         },
-        "most_efficient_language": [
-          "srp_Latn",
-          233.8865
-        ],
-        "least_efficient_language": [
-          "srp_Cyrl",
-          233.8865
-        ],
-        "num_languages": 2
+        "warning": "Insufficient language data for meaningful TFG calculation"
+      },
+      "srna_c": {
+        "gini_coefficient": 0.0,
+        "mean_cost": 0.0,
+        "language_costs": {
+          "srp_Cyrl": 288.8139534883721
+        },
+        "warning": "Insufficient language data for meaningful TFG calculation"
       }
     },
     "metadata": {
@@ -1566,167 +2503,32 @@
   },
   "lorenz_curve_data": {
     "per_tokenizer": {
-      "bpe": {
-        "x_values": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "y_values": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "equality_line": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "sorted_languages": [
-          "srp_Latn",
-          "srp_Cyrl"
-        ],
-        "sorted_costs": [
-          225.68,
-          225.68
-        ],
-        "total_cost": 451.36,
-        "n_languages": 2
+      "qwen3.5": {
+        "warning": "Insufficient data for Lorenz curve"
       },
-      "bpe_c": {
-        "x_values": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "y_values": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "equality_line": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "sorted_languages": [
-          "srp_Latn",
-          "srp_Cyrl"
-        ],
-        "sorted_costs": [
-          58.4405,
-          58.4405
-        ],
-        "total_cost": 116.881,
-        "n_languages": 2
+      "bpe": {
+        "warning": "Insufficient data for Lorenz curve"
       },
       "original_bpe": {
-        "x_values": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "y_values": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "equality_line": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "sorted_languages": [
-          "srp_Latn",
-          "srp_Cyrl"
-        ],
-        "sorted_costs": [
-          225.622,
-          225.622
-        ],
-        "total_cost": 451.244,
-        "n_languages": 2
-      },
-      "original_bpe_c": {
-        "x_values": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "y_values": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "equality_line": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "sorted_languages": [
-          "srp_Latn",
-          "srp_Cyrl"
-        ],
-        "sorted_costs": [
-          58.4815,
-          58.4815
-        ],
-        "total_cost": 116.963,
-        "n_languages": 2
+        "warning": "Insufficient data for Lorenz curve"
       },
       "MiRe_bpe": {
-        "x_values": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "y_values": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "equality_line": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "sorted_languages": [
-          "srp_Latn",
-          "srp_Cyrl"
-        ],
-        "sorted_costs": [
-          236.377,
-          236.377
-        ],
-        "total_cost": 472.754,
-        "n_languages": 2
+        "warning": "Insufficient data for Lorenz curve"
+      },
+      "srna": {
+        "warning": "Insufficient data for Lorenz curve"
+      },
+      "bpe_c": {
+        "warning": "Insufficient data for Lorenz curve"
+      },
+      "original_bpe_c": {
+        "warning": "Insufficient data for Lorenz curve"
       },
       "MiRe_bpe_c": {
-        "x_values": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "y_values": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "equality_line": [
-          0.0,
-          0.5,
-          1.0
-        ],
-        "sorted_languages": [
-          "srp_Latn",
-          "srp_Cyrl"
-        ],
-        "sorted_costs": [
-          233.8865,
-          233.8865
-        ],
-        "total_cost": 467.773,
-        "n_languages": 2
+        "warning": "Insufficient data for Lorenz curve"
+      },
+      "srna_c": {
+        "warning": "Insufficient data for Lorenz curve"
       }
     },
     "metadata": {
@@ -1737,6 +2539,24 @@
   },
   "morphscore": {
     "per_tokenizer": {
+      "qwen3.5": {
+        "per_language": {
+          "srp_Cyrl": {
+            "morphscore_recall": 0.3122487268828751,
+            "morphscore_precision": 0.1257102653444123,
+            "morphscore_recall_std": 8.559653763598109e-05,
+            "morphscore_precision_std": 4.517075787228104e-05,
+            "mean_token_char_ratio": 0.39149213830170604,
+            "micro_precision": 0.12244232493682237,
+            "micro_recall": 0.19197341513292435,
+            "micro_f1": 0.14951968543128766,
+            "macro_precision": 0.14079700854700855,
+            "macro_recall": 0.19076923076923077,
+            "macro_f1": 0.1620173216097765,
+            "num_samples": 3900
+          }
+        }
+      },
       "bpe": {
         "per_language": {
           "srp_Cyrl": {
@@ -1751,52 +2571,6 @@
             "macro_precision": 0.009811965811965811,
             "macro_recall": 0.013076923076923076,
             "macro_f1": 0.011211581547653242,
-            "num_samples": 3900
-          },
-          "srp_Latn": {
-            "morphscore_recall": 0.785490931832383,
-            "morphscore_precision": 0.7235146966854125,
-            "morphscore_recall_std": 0.0001429838685445113,
-            "morphscore_precision_std": 0.00014348986296974117,
-            "mean_token_char_ratio": 0.2424145516990837,
-            "micro_precision": 0.01372443487621098,
-            "micro_recall": 0.01303680981595092,
-            "micro_f1": 0.013371788148925012,
-            "macro_precision": 0.009811965811965811,
-            "macro_recall": 0.013076923076923076,
-            "macro_f1": 0.011211581547653242,
-            "num_samples": 3900
-          }
-        }
-      },
-      "bpe_c": {
-        "per_language": {
-          "srp_Cyrl": {
-            "morphscore_recall": 0.741222192441695,
-            "morphscore_precision": 0.653369771923765,
-            "morphscore_recall_std": 0.00014290169467200112,
-            "morphscore_precision_std": 0.00014312796255296846,
-            "mean_token_char_ratio": 0.2742500160239503,
-            "micro_precision": 0.015297047314123088,
-            "micro_recall": 0.016487730061349692,
-            "micro_f1": 0.01587008673186935,
-            "macro_precision": 0.011739316239316238,
-            "macro_recall": 0.01653846153846154,
-            "macro_f1": 0.013731646923425675,
-            "num_samples": 3900
-          },
-          "srp_Latn": {
-            "morphscore_recall": 0.741222192441695,
-            "morphscore_precision": 0.653369771923765,
-            "morphscore_recall_std": 0.00014290169467200112,
-            "morphscore_precision_std": 0.00014312796255296846,
-            "mean_token_char_ratio": 0.2742500160239503,
-            "micro_precision": 0.015297047314123088,
-            "micro_recall": 0.016487730061349692,
-            "micro_f1": 0.01587008673186935,
-            "macro_precision": 0.011739316239316238,
-            "macro_recall": 0.01653846153846154,
-            "macro_f1": 0.013731646923425675,
             "num_samples": 3900
           }
         }
@@ -1816,19 +2590,59 @@
             "macro_recall": 0.012692307692307692,
             "macro_f1": 0.012358992079102654,
             "num_samples": 3900
-          },
-          "srp_Latn": {
-            "morphscore_recall": 0.7041007772714937,
-            "morphscore_precision": 0.6856859942225623,
-            "morphscore_recall_std": 0.00014460542298955594,
-            "morphscore_precision_std": 0.00014411935549252174,
-            "mean_token_char_ratio": 0.24336077952724772,
-            "micro_precision": 0.013808821557849578,
-            "micro_recall": 0.013164621676891615,
-            "micro_f1": 0.01347902898645554,
-            "macro_precision": 0.012042735042735044,
-            "macro_recall": 0.012692307692307692,
-            "macro_f1": 0.012358992079102654,
+          }
+        }
+      },
+      "MiRe_bpe": {
+        "per_language": {
+          "srp_Cyrl": {
+            "morphscore_recall": 0.9787367104440269,
+            "morphscore_precision": 0.19470398731951283,
+            "morphscore_recall_std": 0.0001397931585842345,
+            "morphscore_precision_std": 5.4050133950479736e-05,
+            "mean_token_char_ratio": 0.9898932776360734,
+            "micro_precision": 0.029502131928768497,
+            "micro_recall": 0.12027096114519427,
+            "micro_f1": 0.04738167170191339,
+            "macro_precision": 0.030158180452863708,
+            "macro_recall": 0.12064102564102563,
+            "macro_f1": 0.04825375299436725,
+            "num_samples": 3900
+          }
+        }
+      },
+      "srna": {
+        "per_language": {
+          "srp_Cyrl": {
+            "morphscore_recall": 0.8010363620119605,
+            "morphscore_precision": 0.7147244451251265,
+            "morphscore_recall_std": 0.00014443608564327956,
+            "morphscore_precision_std": 0.00014102062222188385,
+            "mean_token_char_ratio": 0.2648138665621995,
+            "micro_precision": 0.0175307720999627,
+            "micro_recall": 0.018021472392638037,
+            "micro_f1": 0.017772735866893555,
+            "macro_precision": 0.012271367521367522,
+            "macro_recall": 0.018076923076923077,
+            "macro_f1": 0.014618850838663556,
+            "num_samples": 3900
+          }
+        }
+      },
+      "bpe_c": {
+        "per_language": {
+          "srp_Cyrl": {
+            "morphscore_recall": 0.741222192441695,
+            "morphscore_precision": 0.653369771923765,
+            "morphscore_recall_std": 0.00014290169467200112,
+            "morphscore_precision_std": 0.00014312796255296846,
+            "mean_token_char_ratio": 0.2742500160239503,
+            "micro_precision": 0.015297047314123088,
+            "micro_recall": 0.016487730061349692,
+            "micro_f1": 0.01587008673186935,
+            "macro_precision": 0.011739316239316238,
+            "macro_recall": 0.01653846153846154,
+            "macro_f1": 0.013731646923425675,
             "num_samples": 3900
           }
         }
@@ -1848,52 +2662,6 @@
             "macro_recall": 0.014871794871794871,
             "macro_f1": 0.014458933466612143,
             "num_samples": 3900
-          },
-          "srp_Latn": {
-            "morphscore_recall": 0.6252568569641614,
-            "morphscore_precision": 0.5998883230590398,
-            "morphscore_recall_std": 0.00014295674019905918,
-            "morphscore_precision_std": 0.00014240200129977287,
-            "mean_token_char_ratio": 0.27409880947116,
-            "micro_precision": 0.014370546318289787,
-            "micro_recall": 0.015465235173824131,
-            "micro_f1": 0.014897808421571042,
-            "macro_precision": 0.01406837606837607,
-            "macro_recall": 0.014871794871794871,
-            "macro_f1": 0.014458933466612143,
-            "num_samples": 3900
-          }
-        }
-      },
-      "MiRe_bpe": {
-        "per_language": {
-          "srp_Cyrl": {
-            "morphscore_recall": 0.9787367104440269,
-            "morphscore_precision": 0.19470398731951283,
-            "morphscore_recall_std": 0.0001397931585842345,
-            "morphscore_precision_std": 5.4050133950479736e-05,
-            "mean_token_char_ratio": 0.9898932776360734,
-            "micro_precision": 0.029502131928768497,
-            "micro_recall": 0.12027096114519427,
-            "micro_f1": 0.04738167170191339,
-            "macro_precision": 0.030158180452863708,
-            "macro_recall": 0.12064102564102563,
-            "macro_f1": 0.04825375299436725,
-            "num_samples": 3900
-          },
-          "srp_Latn": {
-            "morphscore_recall": 0.9787367104440269,
-            "morphscore_precision": 0.19470398731951283,
-            "morphscore_recall_std": 0.0001397931585842345,
-            "morphscore_precision_std": 5.4050133950479736e-05,
-            "mean_token_char_ratio": 0.9898932776360734,
-            "micro_precision": 0.029502131928768497,
-            "micro_recall": 0.12027096114519427,
-            "micro_f1": 0.04738167170191339,
-            "macro_precision": 0.030158180452863708,
-            "macro_recall": 0.12064102564102563,
-            "macro_f1": 0.04825375299436725,
-            "num_samples": 3900
           }
         }
       },
@@ -1912,19 +2680,23 @@
             "macro_recall": 0.12333333333333334,
             "macro_f1": 0.04926437163009473,
             "num_samples": 3900
-          },
-          "srp_Latn": {
-            "morphscore_recall": 0.9786473688912708,
-            "morphscore_precision": 0.17872022595247658,
-            "morphscore_recall_std": 0.00013979619851286096,
-            "morphscore_precision_std": 4.9379197948398025e-05,
-            "mean_token_char_ratio": 1.0044999949927909,
-            "micro_precision": 0.029759326857637814,
-            "micro_recall": 0.12295501022494887,
-            "micro_f1": 0.04792029887920298,
-            "macro_precision": 0.03077947582415908,
-            "macro_recall": 0.12333333333333334,
-            "macro_f1": 0.04926437163009473,
+          }
+        }
+      },
+      "srna_c": {
+        "per_language": {
+          "srp_Cyrl": {
+            "morphscore_recall": 0.8039846332529147,
+            "morphscore_precision": 0.7168784274184811,
+            "morphscore_recall_std": 0.00014456281893907323,
+            "morphscore_precision_std": 0.00014110253076223857,
+            "mean_token_char_ratio": 0.2651376158186411,
+            "micro_precision": 0.016875542871323986,
+            "micro_recall": 0.017382413087934562,
+            "micro_f1": 0.017125228231442424,
+            "macro_precision": 0.011673076923076923,
+            "macro_recall": 0.017435897435897435,
+            "macro_f1": 0.013984042823505495,
             "num_samples": 3900
           }
         }

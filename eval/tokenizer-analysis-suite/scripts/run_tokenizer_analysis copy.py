@@ -75,6 +75,22 @@ def create_sample_configs() -> Dict[str, Dict]:
         "srna": {
             "class": "srna",
             "path": "sample_tokenizers/srna.json"
+        },
+        "bpe_c": {
+            "class": "huggingface",
+            "path": "sample_tokenizers/bpe_c.json"
+        },
+        "original_bpe_c": {
+            "class": "huggingface",
+            "path": "sample_tokenizers/original_bpe_c.json"
+        },
+        "MiRe_bpe_c": {
+            "class": "huggingface",
+            "path": "sample_tokenizers/MiRe_bpe_c.json"
+        },
+        "srna_c": {
+            "class": "srna",
+            "path": "sample_tokenizers/srna_c.json"
         }
     }
 
@@ -85,10 +101,15 @@ def create_sample_language_metadata() -> str:
     
     sample_metadata = {
         "languages": {
-            "srp_Latn": {
+            #"srp_Latn": {
+            #    "name": "Serbian",
+            #    "iso_code": "srl",
+            #    "data_path": "parallel/srl/eval.txt"
+            #},            
+            "srp_Cyrl": {
                 "name": "Serbian",
-                "iso_code": "srl",
-                "data_path": "parallel/srl/eval.txt"
+                "iso_code": "sr",
+                "data_path": "parallel/sr/eval.txt"
             },
         }
     }

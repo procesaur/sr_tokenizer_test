@@ -35,7 +35,10 @@ def encode_text(tokenizer, text, add_special_tokens=False):
     elif isinstance(tokens_raw, list):
         return tokens_raw
     else:
-        raise ValueError(f"Unexpected token format: {type(tokens_raw)} - {tokens_raw}")
+        try:
+            return tokens_raw["input_ids"]
+        except:
+            raise ValueError(f"Unexpected token format: {type(tokens_raw)} - {tokens_raw}")
 
 class MorphScore:
     FLORES_TO_MS_FILES = {
