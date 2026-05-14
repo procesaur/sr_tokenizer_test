@@ -42,10 +42,10 @@ class SrnaTokenizer():
 
     def __init__(
         self,
-        boc_token = "<|cyr_start|>",
-        eoc_token = "<|cyr_end|>",
-        cap_token = "<|cap|>",
-        up_token = "<|up|>",
+        boc_token = "<csta>",
+        eoc_token = "<cend>",
+        cap_token = "<capi>",
+        up_token = "<uppe>",
         **kwargs,
     ):
 

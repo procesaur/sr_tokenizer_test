@@ -27,6 +27,8 @@ from tokenizer_analysis.constants import (
     MIN_TOKENIZERS_FOR_PLOTS
 )
 from tokenizer_analysis.visualization.visualization_config import LaTeXFormatting
+from datasets import load_dataset
+from conversion import convert
 
 # Setup environment
 setup_environment()
@@ -51,6 +53,7 @@ def load_config_from_file(config_path: str) -> Dict:
 
 def create_sample_configs() -> Dict[str, Dict]:
     """Create sample tokenizer configurations for testing."""
+
     return {
         "qwen3.5": {
             "class": "huggingface",
@@ -60,6 +63,10 @@ def create_sample_configs() -> Dict[str, Dict]:
          #   "class": "huggingface",
           #  "path": "mistralai/Leanstral-2603"
         #},
+        "modernbertic": {
+            "class": "huggingface",
+            "path": "sample_tokenizers/modernbertic.json"
+        },
         "bpe": {
             "class": "huggingface",
             "path": "sample_tokenizers/bpe.json"
@@ -75,20 +82,42 @@ def create_sample_configs() -> Dict[str, Dict]:
         "srna": {
             "class": "srna",
             "path": "sample_tokenizers/srna.json"
+        },
+        "srna2": {
+            "class": "srna",
+            "path": "sample_tokenizers/srna2.json"
         }
     }
+
+
+def download_data(file_path="parallel/sr/test.txt", dataset_name="procesaur/sr-tokenizer-test", split="test", lat_file_path="parallel/srl/test.txt"):
+    print("Downloading testing data")
+    dataset = load_dataset(dataset_name, split=split, streaming=True)
+    with open(file_path, "w", encoding="utf-8") as f1, open(lat_file_path, "w", encoding="utf-8") as f2:  
+        for i, item in enumerate(dataset):
+            text = item.get("text", "")
+            f2.write(convert(text))
+            f1.write(text)
 
 
 def create_sample_language_metadata() -> str:
     """Create sample LanguageMetadata configuration and return path to temp file."""
     import tempfile
+
+    if not os.listdir("parallel/sr/") and not os.listdir("parallel/srl/"):
+        download_data()
     
     sample_metadata = {
         "languages": {
             "srp_Latn": {
                 "name": "Serbian",
                 "iso_code": "srl",
-                "data_path": "parallel/srl/eval.txt"
+                "data_path": "parallel/srl/"
+            },
+            "srp_Cyrl": {
+                "name": "Serbian",
+                "iso_code": "sr",
+                "data_path": "parallel/sr/"
             },
         }
     }
