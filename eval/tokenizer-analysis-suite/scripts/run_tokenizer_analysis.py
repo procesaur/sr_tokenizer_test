@@ -53,7 +53,12 @@ def load_config_from_file(config_path: str) -> Dict:
 
 def create_sample_configs() -> Dict[str, Dict]:
     """Create sample tokenizer configurations for testing."""
-
+    #return {
+     #   "MiRe_bpe": {
+      #      "class": "huggingface",
+       #     "path": "sample_tokenizers/MiRe_bpe.json"
+        #},
+    #}
     return {
         "qwen3.5": {
             "class": "huggingface",
@@ -78,6 +83,10 @@ def create_sample_configs() -> Dict[str, Dict]:
         "MiRe_bpe": {
             "class": "huggingface",
             "path": "sample_tokenizers/MiRe_bpe.json"
+        },       
+        "MiRe_bpe_old": {
+            "class": "huggingface",
+            "path": "sample_tokenizers/MiRe_bpe_old.json"
         },
         "srna": {
             "class": "srna",
@@ -112,12 +121,12 @@ def create_sample_language_metadata() -> str:
             "srp_Latn": {
                 "name": "Serbian",
                 "iso_code": "srl",
-                "data_path": "parallel/srl/"
+                "data_path": "parallel/srl/test.txt"
             },
             "srp_Cyrl": {
                 "name": "Serbian",
                 "iso_code": "sr",
-                "data_path": "parallel/sr/"
+                "data_path": "parallel/sr/test.txt"
             },
         }
     }

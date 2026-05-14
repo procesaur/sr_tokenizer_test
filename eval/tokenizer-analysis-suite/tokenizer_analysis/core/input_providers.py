@@ -16,7 +16,8 @@ if TYPE_CHECKING:
 logger = logging.getLogger(__name__)
 
 _CUSTOM_TOKENIZER_REGISTRY: Dict[str, type] = {
-    'srna': SrnaTokenizer().prepare_for_tokenization
+    'srna': SrnaTokenizer().prepare_for_tokenization,
+    'srna2': SrnaTokenizer().prepare_for_tokenization
 }
 
 class RawTokenizationProvider(InputProvider):
